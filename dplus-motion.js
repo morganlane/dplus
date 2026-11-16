@@ -64,8 +64,10 @@
     const titles = Array.from(section.querySelectorAll(".dplus-services__titles h3"));
     const details = Array.from(section.querySelectorAll(".dplus-services__detail"));
     const figures = Array.from(section.querySelectorAll(".dplus-services__figure"));
+    const videos = Array.from(section.querySelectorAll("[data-service-video]"));
     const count = section.querySelector("[data-service-count]");
     let activeIndex = 0;
+    let frameRequested = false;
 
     function setActive(nextIndex) {
       if (nextIndex === activeIndex || nextIndex < 0 || nextIndex >= figures.length) return;
@@ -82,9 +84,52 @@
       if (count) count.textContent = String(activeIndex + 1).padStart(2, "0") + " / " + String(figures.length).padStart(2, "0");
     }
 
+    function scrubActiveVideo() {
+      frameRequested = false;
+      if (window.innerWidth <= 991 || !scenes.length) return;
+
+      const viewportCenter = window.innerHeight * 0.5;
+      let closestIndex = 0;
+      let closestDistance = Infinity;
+
+      scenes.forEach((scene, index) => {
+        const bounds = scene.getBoundingClientRect();
+        const distance = Math.abs(bounds.top + bounds.height * 0.5 - viewportCenter);
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestIndex = index;
+        }
+      });
+
+      setActive(closestIndex);
+      const sceneBounds = scenes[closestIndex].getBoundingClientRect();
+      const progress = Math.max(0, Math.min(1, (viewportCenter - sceneBounds.top) / Math.max(sceneBounds.height, 1)));
+      const video = videos[closestIndex];
+
+      if (video && Number.isFinite(video.duration)) {
+        const targetTime = progress * Math.max(video.duration - 0.04, 0);
+        if (Math.abs(video.currentTime - targetTime) > 0.035) video.currentTime = targetTime;
+      }
+    }
+
+    function requestScrub() {
+      if (frameRequested) return;
+      frameRequested = true;
+      window.requestAnimationFrame(scrubActiveVideo);
+    }
+
     controls.forEach((control, index) => control.addEventListener("click", () => {
       setActive(index);
-      if (window.innerWidth > 991 && scenes[index]) scenes[index].scrollIntoView({ behavior: "smooth", block: "center" });
+      if (window.innerWidth > 991 && scenes[index]) {
+        scenes[index].scrollIntoView({ behavior: "smooth", block: "center" });
+      } else if (videos[index]) {
+        videos.forEach((video, videoIndex) => {
+          video.pause();
+          if (videoIndex !== index) video.currentTime = 0;
+        });
+        videos[index].currentTime = 0;
+        videos[index].play().catch(() => {});
+      }
     }));
 
     if (window.innerWidth <= 991 || !("IntersectionObserver" in window)) return;
@@ -96,6 +141,10 @@
     }, { rootMargin: "-44% 0px -44% 0px", threshold: 0 });
 
     scenes.forEach((scene) => observer.observe(scene));
+    videos.forEach((video) => video.addEventListener("loadedmetadata", requestScrub, { once: true }));
+    window.addEventListener("scroll", requestScrub, { passive: true });
+    window.addEventListener("resize", requestScrub);
+    requestScrub();
   }
 
   if (document.readyState === "loading") {

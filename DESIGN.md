@@ -308,21 +308,21 @@ Use the larger value for wide screens and large display text; use the smaller va
 
 ## Color and Contrast
 
-The redesigned palette removes orange entirely.
+The redesigned palette restores the original construction orange selectively while reducing large navy fields.
 
 | Token | Value | Role |
 | --- | --- | --- |
 | Navy | `#0F172A` | Primary text, dark sections, buttons |
-| Slate grey | `#68717D` | Accent fields, labels, active states, graphic marks |
-| Deep slate | `#4F5968` | Hover and pressed states for grey controls |
-| Soft slate | `rgba(104, 113, 125, 0.72)` | Secondary rules and quiet interaction states |
+| Construction orange | `#FF5E14` | Accent fields, labels, active states, graphic marks |
+| Deep orange | `#E54E0A` | Hover and pressed states for orange controls |
+| Soft orange | `rgba(255, 94, 20, 0.72)` | Secondary rules and quiet interaction states |
 | Cream | `#F4F2EE` | Warm page surface |
 | White | `#FFFFFF` | Content surface and text on dark colors |
 
 - Body text uses navy on cream or white.
-- White may be used on navy and slate grey.
-- Slate grey should support navy, never replace primary navy brand surfaces.
-- Use deep slate for hover states instead of introducing a second accent hue.
+- White may be used on navy and orange.
+- Orange is an accent, never a large page background or long-form text color.
+- Use deep orange for hover states instead of introducing a second accent hue.
 - Muted text must retain at least WCAG AA contrast; opacity should not be the only way hierarchy is created.
 - Links are identified by color plus underline or motion, never color alone.
 
