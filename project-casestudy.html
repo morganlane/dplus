@@ -1,0 +1,1173 @@
+<!--
+====================================================================
+DIVERSIFIED PLUS SITE LINK UPDATE
+====================================================================
+Navigation, mega menus, mobile menus, footer links, service cards,
+project cards, blog links, and CTA links were updated to use the
+matching local pages included in this zip package.
+====================================================================
+-->
+
+<!--
+====================================================================
+DIVERSIFIED PLUS / BUILDCO BRANDED CASE STUDY PAGE
+====================================================================
+
+SOURCE TRANSFORMATION:
+This file restyles the uploaded project/case-study page into the same
+Diversified Plus brand guideline system used across the homepage,
+service page, and news center.
+
+BRAND SYSTEM:
+- Font: Plus Jakarta Sans
+- Dark navy: #0f172a
+- Slate grey accent: #68717d
+- Cream contrast: #f4f2ee
+- White: #ffffff
+- Style: premium, construction-led, editorial, spacious, no corner radius.
+
+WHAT WAS CHANGED:
+- Removed Tailwind dependency.
+- Removed global body/html styling.
+- Replaced Inter with Plus Jakarta Sans.
+- Replaced old blue/navy palette with #0f172a and #68717d.
+- Removed rounded badges/buttons.
+- Rebuilt navigation, hero, project visuals, article layout, sticky project blueprint, CTA, and footer.
+- Scoped everything with unique dp-case-* classes.
+- Removed broken navbar scroll script and duplicate closing HTML/body tags.
+
+IMPLEMENTATION NOTES:
+- Paste-safe.
+- No :root variables.
+- No body/html/global resets.
+- No Tailwind.
+- No required JavaScript.
+====================================================================
+-->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&amp;display=swap" rel="stylesheet"/>
+<div class="dp-case-page">
+<!--
+  ====================================================================
+  01. NAVIGATION
+  ====================================================================
+  -->
+<header class="dp-case-nav-wrap">
+<nav aria-label="Case study navigation" class="dp-case-nav">
+<a aria-label="Diversified Plus home" class="dp-case-brand" href="home.html">
+<span aria-hidden="true" class="dp-case-brand-mark">
+<i></i>
+<i></i>
+<i></i>
+</span>
+        Diversified Plus
+      </a>
+<div class="dp-case-menu">
+<a href="#project">Project</a>
+<a href="#details">Details</a>
+<a href="#areas">Areas</a>
+<a href="contact.html">Contact</a>
+</div>
+<a class="dp-case-nav-cta" href="tel:9148790442">Call 914.879.0442</a>
+</nav>
+</header>
+<!--
+  ====================================================================
+  02. HERO
+  ====================================================================
+  -->
+<section aria-labelledby="dp-case-title" class="dp-case-hero" id="top">
+<div aria-hidden="true" class="dp-case-hero-media"></div>
+<div class="dp-case-hero-shell">
+<div class="dp-case-hero-inner">
+<div class="dp-case-eyebrow">Case Study / Structural Addition</div>
+<h1 class="dp-case-hero-title" id="dp-case-title">
+          Engineering a seamless home addition in
+          <span>Scarsdale.</span>
+</h1>
+<p class="dp-case-hero-text">
+          A 2,500 sq. ft. extension designed for luxury living in Westchester County — blending structural steel, open-plan flow, custom millwork, and architectural continuity with the original home.
+        </p>
+<div aria-label="Project highlights" class="dp-case-hero-meta">
+<div>
+<strong>2,500</strong>
+<span>Sq. ft. addition</span>
+</div>
+<div>
+<strong>40 ft</strong>
+<span>Clear structural span</span>
+</div>
+<div>
+<strong>Scarsdale</strong>
+<span>Westchester County, NY</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--
+  ====================================================================
+  03. BEFORE / AFTER VISUAL STACK
+  ====================================================================
+  -->
+<section aria-label="Before and after project images" class="dp-case-visual-section" id="project">
+<div class="dp-case-visual-container">
+<div class="dp-case-visual-grid">
+<figure class="dp-case-image-card">
+<img alt="Original renovation site before construction" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&amp;w=1400"/>
+<figcaption>Before</figcaption>
+</figure>
+<figure class="dp-case-image-card dp-case-image-card-after">
+<img alt="Completed luxury home addition" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&amp;w=1400"/>
+<figcaption>After Completion</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<!--
+  ====================================================================
+  04. ARTICLE BODY + STICKY BLUEPRINT
+  ====================================================================
+  -->
+<main class="dp-case-main" id="details">
+<article class="dp-case-content">
+<div class="dp-case-section-label">Project Narrative</div>
+<h2>The challenge: architectural continuity.</h2>
+<p>
+        In historic Lower Westchester neighborhoods such as Scarsdale and Bronxville, a large-scale home addition has to do more than create extra square footage. It has to respect the original architecture, preserve the home’s character, and still deliver modern function for daily life.
+      </p>
+<p>
+        The client wanted a modern kitchen extension and primary suite addition that looked as though it had always belonged to the home. That required careful planning around structure, rooflines, exterior proportions, trim details, interior transitions, and the relationship between old and new spaces.
+      </p>
+<div class="dp-case-inline-gallery">
+<img alt="Structural steel framing during construction" src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&amp;w=900"/>
+<img alt="Construction planning and custom building detail" src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?q=80&amp;w=900"/>
+</div>
+<h2>Structural steel made the open plan possible.</h2>
+<p>
+        Creating a wide open-concept kitchen and dining connection required complex structural steel installation. By coordinating industrial-grade I-beams, we opened a 40-foot span without relying on intrusive vertical columns that would interrupt the finished living space.
+      </p>
+<p>
+        This kind of work demands early coordination between framing, mechanical systems, electrical routing, ceiling planes, trim transitions, and finish sequencing. When the structural decisions are handled early, the finished space feels calm instead of compromised.
+      </p>
+<aside class="dp-case-pullout">
+<span>Field Note</span>
+<p>
+          The most expensive renovation mistakes often happen when structure, materials, utilities, and finish expectations are planned separately. The smoother approach is to coordinate those decisions before the build gains momentum.
+        </p>
+</aside>
+<h2>Regional permitting across Westchester, Putnam, and Fairfield.</h2>
+<p>
+        Navigating wetland permits in Mahopac, historic board reviews in Greenwich, CT, or zoning review in Westchester can add significant time when the process is not managed clearly. For this case study, municipal requirements were coordinated early to keep the project moving.
+      </p>
+<p>
+        Whether the project involves a lakefront addition in Putnam County, a coastal renovation in Darien, or a structural remodel in Scarsdale, familiarity with regional building expectations helps reduce delays, avoid stop-work issues, and protect the project schedule.
+      </p>
+<div class="dp-case-info-band">
+<div>
+<strong>Planning Priority</strong>
+<p>Clarify scope, structural needs, material timelines, and permit requirements before demolition begins.</p>
+</div>
+<div>
+<strong>Construction Priority</strong>
+<p>Protect the original home while coordinating steel, framing, MEP, finish work, and site access.</p>
+</div>
+</div>
+</article>
+<aside aria-label="Project blueprint" class="dp-case-sidebar">
+<div class="dp-case-specs">
+<div class="dp-case-specs-head">
+<span>Blueprint</span>
+<h3>Project Details</h3>
+</div>
+<div class="dp-case-spec-item">
+<span>Location</span>
+<p>Scarsdale, NY · Westchester County</p>
+</div>
+<div class="dp-case-spec-item">
+<span>Service Type</span>
+<p>Structural Steel &amp; Home Addition</p>
+</div>
+<div class="dp-case-spec-item">
+<span>Scope</span>
+<p>Open-concept kitchen, second-story suite, quartz waterfall island, custom millwork, finish coordination.</p>
+</div>
+<div class="dp-case-spec-item">
+<span>Zoning Compliance</span>
+<p>FAR optimized with municipal review coordination.</p>
+</div>
+<a class="dp-case-spec-cta" href="#contact">
+          Request a Consultation
+          <svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="5" x2="19" y1="12" y2="12"></line>
+<polyline points="12 5 19 12 12 19"></polyline>
+</svg>
+</a>
+</div>
+<div class="dp-case-areas" id="areas">
+<h4>Areas We Serve</h4>
+<div>
+<span>White Plains</span>
+<span>Greenwich, CT</span>
+<span>Brewster, NY</span>
+<span>Mahopac</span>
+<span>Stamford</span>
+<span>Scarsdale</span>
+<span>Bronxville</span>
+<span>Darien</span>
+</div>
+</div>
+</aside>
+</main>
+<!--
+  ====================================================================
+  05. RELATED PROJECTS
+  ====================================================================
+  -->
+<section aria-labelledby="dp-case-related-title" class="dp-case-related">
+<div class="dp-case-related-container">
+<div class="dp-case-related-head">
+<div>
+<div class="dp-case-eyebrow">More Project Thinking</div>
+<h2 id="dp-case-related-title">See how planning shapes better finished work.</h2>
+</div>
+<p>
+          From kitchens and additions to exterior renovations and outdoor spaces, every project benefits from careful sequencing and a clear standard for finish quality.
+        </p>
+</div>
+<div class="dp-case-related-grid">
+<article>
+<img alt="Kitchen renovation project" src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?q=80&amp;w=900"/>
+<div>
+<span>Kitchen Renovation</span>
+<h3>Open-plan kitchen with custom cabinetry and lighting coordination.</h3>
+</div>
+</article>
+<article>
+<img alt="Exterior renovation project" src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&amp;w=900"/>
+<div>
+<span>Exterior Renovation</span>
+<h3>Siding, trim, and curb appeal upgrades built for long-term value.</h3>
+</div>
+</article>
+<article>
+<img alt="Outdoor living project" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&amp;w=900"/>
+<div>
+<span>Outdoor Living</span>
+<h3>Deck and pergola planning that connects the home to the outdoors.</h3>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!--
+  ====================================================================
+  06. CTA
+  ====================================================================
+  -->
+<section aria-labelledby="dp-case-cta-title" class="dp-case-cta" id="contact">
+<div class="dp-case-cta-container">
+<div>
+<div class="dp-case-cta-eyebrow">Inspired by this case study?</div>
+<h2 id="dp-case-cta-title">Let’s discuss how this level of planning can support your home.</h2>
+<p>
+          Bring us your addition, kitchen, bath, exterior, or full-home renovation idea. We will help you turn the early vision into a clear construction path.
+        </p>
+</div>
+<div class="dp-case-cta-actions">
+<a class="dp-case-cta-primary" href="tel:9148790442">Call 914.879.0442</a>
+<a class="dp-case-cta-secondary" href="mailto:info@diversifiedplus.com">Email The Team</a>
+</div>
+</div>
+</section>
+<!--
+  ====================================================================
+  07. FOOTER
+  ====================================================================
+  -->
+<footer aria-label="Footer" class="dp-case-footer">
+<div class="dp-case-footer-container">
+<a class="dp-case-footer-brand" href="home.html">
+<span aria-hidden="true"><i></i><i></i><i></i></span>
+        Diversified Plus
+      </a>
+<p>© 2026 Licensed &amp; Insured · Westchester, Putnam &amp; Southern CT</p>
+<a href="tel:9148790442">914.879.0442</a>
+</div>
+</footer>
+</div>
+<style>
+.dp-case-page,
+.dp-case-page *,
+.dp-case-page *::before,
+.dp-case-page *::after {
+  box-sizing: border-box;
+}
+
+.dp-case-page {
+  position: relative;
+  overflow: hidden;
+  background: #f4f2ee;
+  color: #0f172a;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Navigation */
+.dp-case-nav-wrap {
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  padding: 24px 0;
+}
+
+.dp-case-nav {
+  width: min(1320px, calc(100% - 84px));
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.dp-case-brand,
+.dp-case-footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: -.045em;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.dp-case-brand-mark,
+.dp-case-footer-brand span {
+  display: grid;
+  gap: 4px;
+  transform: skewY(25deg);
+  flex: 0 0 auto;
+}
+
+.dp-case-brand-mark i,
+.dp-case-footer-brand i {
+  display: block;
+  width: 32px;
+  height: 6px;
+  background: #ffffff;
+}
+
+.dp-case-brand-mark i:last-child,
+.dp-case-footer-brand i:last-child {
+  background: #68717d;
+}
+
+.dp-case-menu {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.dp-case-menu a,
+.dp-case-nav-cta,
+.dp-case-footer a {
+  color: rgba(255,255,255,.72);
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: color .25s ease, border-color .25s ease, background .25s ease, transform .25s ease;
+}
+
+.dp-case-menu a:hover,
+.dp-case-footer a:hover {
+  color: #68717d;
+}
+
+.dp-case-nav-cta {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  border: 1px solid rgba(255,255,255,.22);
+  background: rgba(255,255,255,.045);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.dp-case-nav-cta:hover {
+  color: #ffffff;
+  border-color: rgba(15,23,42,.75);
+  background: rgba(15,23,42,.14);
+  transform: translateY(-2px);
+}
+
+/* Hero */
+.dp-case-hero {
+  position: relative;
+  min-height: 88svh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 132px 0 96px;
+  background: #0f172a;
+  color: #ffffff;
+  text-align: center;
+}
+
+.dp-case-hero-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    linear-gradient(to bottom, rgba(15,23,42,.48), rgba(15,23,42,.86)),
+    linear-gradient(90deg, rgba(15,23,42,.92), rgba(15,23,42,.28), rgba(15,23,42,.92)),
+    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2600&auto=format&fit=crop') center / cover no-repeat;
+  transform: scale(1.025);
+}
+
+.dp-case-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(to right, rgba(255,255,255,.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,.03) 1px, transparent 1px);
+  background-size: calc(100% / 7) 100%, 100% 118px;
+  opacity: .42;
+  pointer-events: none;
+}
+
+.dp-case-hero::after {
+  content: 'CASE STUDY';
+  position: absolute;
+  left: 50%;
+  bottom: -4vw;
+  z-index: 1;
+  transform: translateX(-50%);
+  color: rgba(255,255,255,.035);
+  font-size: clamp(70px, 14vw, 220px);
+  line-height: .8;
+  letter-spacing: -.1em;
+  text-transform: uppercase;
+  font-weight: 800;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.dp-case-hero-shell {
+  position: relative;
+  z-index: 2;
+  width: min(1320px, calc(100% - 84px));
+  margin: 0 auto;
+}
+
+.dp-case-hero-inner {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+}
+
+.dp-case-eyebrow,
+.dp-case-cta-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #68717d;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.dp-case-eyebrow::before,
+.dp-case-eyebrow::after,
+.dp-case-cta-eyebrow::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: currentColor;
+  display: block;
+}
+
+.dp-case-hero-title {
+  max-width: 960px;
+  margin: 24px 0 0;
+  color: #ffffff;
+  font-size: clamp(38px, 5.8vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -.064em;
+  font-weight: 400;
+}
+
+.dp-case-hero-title span {
+  color: #68717d;
+}
+
+.dp-case-hero-text {
+  max-width: 720px;
+  margin: 24px auto 0;
+  color: rgba(255,255,255,.72);
+  font-size: clamp(15px, 1.2vw, 17px);
+  line-height: 1.82;
+  font-weight: 400;
+}
+
+.dp-case-hero-meta {
+  width: min(860px, 100%);
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(130px, 1fr));
+  border-top: 1px solid rgba(255,255,255,.13);
+  border-bottom: 1px solid rgba(255,255,255,.13);
+}
+
+.dp-case-hero-meta div {
+  padding: 20px 16px;
+  border-right: 1px solid rgba(255,255,255,.13);
+}
+
+.dp-case-hero-meta div:last-child {
+  border-right: 0;
+}
+
+.dp-case-hero-meta strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #68717d;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.dp-case-hero-meta span {
+  display: block;
+  color: rgba(255,255,255,.52);
+  font-size: 9px;
+  letter-spacing: .13em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/* Visual Stack */
+.dp-case-visual-section {
+  position: relative;
+  z-index: 5;
+  margin-top: -70px;
+}
+
+.dp-case-visual-container,
+.dp-case-main,
+.dp-case-related-container,
+.dp-case-cta-container,
+.dp-case-footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.dp-case-visual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.dp-case-image-card {
+  position: relative;
+  min-height: 420px;
+  margin: 0;
+  overflow: hidden;
+  background: #0f172a;
+  box-shadow: 0 24px 80px rgba(15,23,42,.20);
+}
+
+.dp-case-image-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  display: block;
+  object-fit: cover;
+  filter: saturate(.92) contrast(1.02);
+  transition: transform .55s ease;
+}
+
+.dp-case-image-card:hover img {
+  transform: scale(1.035);
+}
+
+.dp-case-image-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15,23,42,.60), transparent 56%);
+  pointer-events: none;
+}
+
+.dp-case-image-card figcaption {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+  z-index: 2;
+  padding: 8px 12px;
+  background: #68717d;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* Main Article */
+.dp-case-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 80px;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.dp-case-content {
+  max-width: 820px;
+}
+
+.dp-case-section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 16px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.dp-case-section-label::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: #68717d;
+}
+
+.dp-case-content h2 {
+  margin: 44px 0 18px;
+  color: #0f172a;
+  font-size: clamp(28px, 3.4vw, 46px);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -.04em;
+}
+
+.dp-case-content p {
+  margin: 0 0 24px;
+  color: rgba(15,23,42,.68);
+  font-size: 16px;
+  line-height: 1.78;
+  font-weight: 400;
+}
+
+.dp-case-inline-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 42px 0;
+}
+
+.dp-case-inline-gallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.dp-case-pullout {
+  margin: 42px 0;
+  padding: 30px;
+  background: #0f172a;
+  color: #ffffff;
+  border-left: 4px solid #68717d;
+}
+
+.dp-case-pullout span {
+  display: block;
+  margin-bottom: 12px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.dp-case-pullout p {
+  margin: 0;
+  color: rgba(255,255,255,.72);
+  font-size: 15px;
+}
+
+.dp-case-info-band {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  margin-top: 42px;
+  background: rgba(15,23,42,.10);
+}
+
+.dp-case-info-band div {
+  background: #ffffff;
+  padding: 28px;
+}
+
+.dp-case-info-band strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #0f172a;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.dp-case-info-band p {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+/* Sidebar */
+.dp-case-sidebar {
+  display: grid;
+  gap: 32px;
+  align-content: start;
+}
+
+.dp-case-specs {
+  position: sticky;
+  top: 40px;
+  padding: 34px;
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,.10);
+  border-left: 4px solid #68717d;
+  box-shadow: 0 14px 46px rgba(15,23,42,.08);
+}
+
+.dp-case-specs-head span {
+  display: block;
+  margin-bottom: 10px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.dp-case-specs-head h3 {
+  margin: 0 0 24px;
+  color: #0f172a;
+  font-size: 24px;
+  line-height: 1.15;
+  letter-spacing: -.03em;
+  font-weight: 800;
+}
+
+.dp-case-spec-item {
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(15,23,42,.10);
+}
+
+.dp-case-spec-item span {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(15,23,42,.42);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.dp-case-spec-item p {
+  margin: 0;
+  color: rgba(15,23,42,.74);
+  font-size: 13.5px;
+  line-height: 1.55;
+  font-weight: 700;
+}
+
+.dp-case-spec-cta,
+.dp-case-cta-primary,
+.dp-case-cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 24px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  transition: transform .18s ease, background .2s ease, box-shadow .2s ease;
+}
+
+.dp-case-spec-cta {
+  width: 100%;
+  background: #0f172a;
+}
+
+.dp-case-spec-cta:hover,
+.dp-case-cta-primary:hover,
+.dp-case-cta-secondary:hover {
+  transform: translateY(-2px);
+}
+
+.dp-case-spec-cta svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.dp-case-areas {
+  padding: 26px;
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,.10);
+}
+
+.dp-case-areas h4 {
+  margin: 0 0 18px;
+  color: #0f172a;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.dp-case-areas div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.dp-case-areas span {
+  display: inline-flex;
+  padding: 7px 9px;
+  background: #f4f2ee;
+  color: rgba(15,23,42,.68);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+/* Related */
+.dp-case-related {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.dp-case-related::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,.026) 1px, transparent 1px);
+  background-size: 80px 80px;
+  opacity: .55;
+  pointer-events: none;
+}
+
+.dp-case-related-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: end;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.dp-case-related h2 {
+  margin: 18px 0 0;
+  color: #ffffff;
+  font-size: clamp(30px, 3.8vw, 46px);
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -.02em;
+}
+
+.dp-case-related-head p {
+  margin: 0;
+  color: rgba(255,255,255,.66);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.dp-case-related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.dp-case-related-grid article {
+  overflow: hidden;
+  background: rgba(255,255,255,.045);
+  border: 1px solid rgba(255,255,255,.09);
+}
+
+.dp-case-related-grid img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.dp-case-related-grid div {
+  padding: 24px;
+}
+
+.dp-case-related-grid span {
+  display: block;
+  margin-bottom: 12px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.dp-case-related-grid h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -.02em;
+}
+
+/* CTA + Footer */
+.dp-case-cta {
+  position: relative;
+  overflow: hidden;
+  background: #68717d;
+  color: #ffffff;
+  padding: 90px 0;
+}
+
+.dp-case-cta::before {
+  content: '';
+  position: absolute;
+  right: -90px;
+  top: 50%;
+  width: 520px;
+  height: 520px;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,.08);
+}
+
+.dp-case-cta-container {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.dp-case-cta-eyebrow {
+  color: rgba(255,255,255,.78);
+  margin-bottom: 16px;
+}
+
+.dp-case-cta-eyebrow::before {
+  background: rgba(255,255,255,.48);
+}
+
+.dp-case-cta h2 {
+  max-width: 720px;
+  margin: 0 0 16px;
+  color: #ffffff;
+  font-size: clamp(32px, 4.2vw, 56px);
+  line-height: 1.06;
+  font-weight: 800;
+  letter-spacing: -.035em;
+}
+
+.dp-case-cta p {
+  max-width: 580px;
+  margin: 0;
+  color: rgba(255,255,255,.82);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.dp-case-cta-actions {
+  display: grid;
+  gap: 12px;
+  justify-items: end;
+}
+
+.dp-case-cta-primary,
+.dp-case-cta-secondary {
+  min-width: 240px;
+}
+
+.dp-case-cta-primary {
+  background: #0f172a;
+}
+
+.dp-case-cta-secondary {
+  background: rgba(255,255,255,.14);
+  border: 1px solid rgba(255,255,255,.28);
+}
+
+.dp-case-footer {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 34px 0;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.dp-case-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.dp-case-footer p {
+  margin: 0;
+  color: rgba(255,255,255,.45);
+  font-size: 11px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+@media (max-width: 1100px) {
+  .dp-case-menu,
+  .dp-case-nav-cta {
+    display: none;
+  }
+
+  .dp-case-visual-grid,
+  .dp-case-main,
+  .dp-case-related-head,
+  .dp-case-related-grid,
+  .dp-case-cta-container {
+    grid-template-columns: 1fr;
+  }
+
+  .dp-case-main {
+    gap: 52px;
+  }
+
+  .dp-case-specs {
+    position: relative;
+    top: auto;
+  }
+
+  .dp-case-cta-actions {
+    justify-items: start;
+  }
+}
+
+@media (max-width: 720px) {
+  .dp-case-nav,
+  .dp-case-hero-shell {
+    width: min(100% - 44px, 1320px);
+  }
+
+  .dp-case-nav-wrap {
+    padding: 18px 0;
+  }
+
+  .dp-case-hero {
+    min-height: auto;
+    padding: 126px 0 90px;
+  }
+
+  .dp-case-hero-title {
+    font-size: 39px;
+  }
+
+  .dp-case-hero-meta,
+  .dp-case-inline-gallery,
+  .dp-case-info-band {
+    grid-template-columns: 1fr;
+  }
+
+  .dp-case-hero-meta div {
+    border-right: 0;
+    border-bottom: 1px solid rgba(255,255,255,.13);
+  }
+
+  .dp-case-hero-meta div:last-child {
+    border-bottom: 0;
+  }
+
+  .dp-case-visual-container,
+  .dp-case-main,
+  .dp-case-related-container,
+  .dp-case-cta-container,
+  .dp-case-footer-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .dp-case-image-card,
+  .dp-case-image-card img {
+    min-height: 300px;
+  }
+
+  .dp-case-main,
+  .dp-case-related {
+    padding-top: 76px;
+    padding-bottom: 76px;
+  }
+
+  .dp-case-content h2 {
+    font-size: 31px;
+  }
+
+  .dp-case-inline-gallery img {
+    height: 240px;
+  }
+
+  .dp-case-cta-actions,
+  .dp-case-cta-primary,
+  .dp-case-cta-secondary,
+  .dp-case-spec-cta {
+    width: 100%;
+  }
+
+  .dp-case-footer-container {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+</style>
+<link rel="stylesheet" href="dplus-motion.css">
+<script src="dplus-motion.js" defer></script>

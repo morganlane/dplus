@@ -1,0 +1,2974 @@
+<!--
+====================================================================
+DIVERSIFIED PLUS SITE LINK UPDATE
+====================================================================
+Navigation, mega menus, mobile menus, footer links, service cards,
+project cards, blog links, and CTA links were updated to use the
+matching local pages included in this zip package.
+====================================================================
+-->
+
+
+<!--
+====================================================================
+DIVERSIFIED PLUS / BRAND-ALIGNED MISSION HERO
+====================================================================
+
+Purpose:
+A responsive hero section inspired by the reference layout, rebuilt to feel
+more aligned with Diversified Plus brand guidelines instead of copying the
+Brentor styling too closely.
+
+Brand System Applied:
+- Dark navy: #0f172a
+- Slate grey accent: #68717d
+- White: #ffffff
+- Light contrast band: #f4f2ee
+- Font: Plus Jakarta Sans
+- Slimmer, more elegant headline typography
+- Custom right-side construction ribbon mark aligned with the Diversified Plus brand
+- Paste-safe classes
+- No :root
+- No body/html styling
+- No external JavaScript
+
+Edit Guide:
+- Brand text: .dp-mission-brand-text
+- Navigation links: .dp-mission-nav-menu
+- Main headline: .dp-mission-title
+- Paragraph: .dp-mission-copy
+- CTA button: .dp-mission-cta
+- Right graphic: .dp-mission-mark-system
+- Right-side logo mark rotated and made more subtle.
+- Right-side graphic updated to a clean 4-ribbon brand-colored mark based on the uploaded reference.
+- Right-side ribbons resized and refined to more closely match the uploaded reference image.
+- Right-side ribbons updated so they attach together and sit flush on the far right edge, matching the uploaded reference more closely.
+- Added services mega menu with image-based service cards.
+- Mega menu cleaned: body text no longer cuts off, hover/focus state is stable, and harsh black border removed.
+- Mega menu dividers removed and service descriptions expanded to fit below images.
+- Added News mega menu and Projects mega menu with brand-aligned image/editorial layouts.
+- Added a light / contrast version of the hero opposite from the navy version.
+- Added a branded mobile menu for the light contrast hero and refined contrast colors.
+- Cleaned contrast-version design details and smoothed mega-menu switching between Services, Projects, and News.
+- Fixed mega-menu image drift by tightening card/image containment and alignment.
+- Added a dark navy contrast version of the cleaned/aligned hero with mobile menu and mega menus.
+- Updated the dark version to use the exact brand-guideline dark navy (#0f172a) consistently.
+- Enlarged the hero and added two branded hero CTA buttons.
+- Added simple 3x3 tabbed portfolio section, CTA, and footer beneath the hero.
+- Added more detail and polish to the portfolio cards while keeping the section simple.
+- Created a highly rich SEO blog post page for “The kitchen details homeowners notice without knowing why” using the same hero, navigation, mega menus, mobile menu, CTA, and footer system.
+- Made the blog page slightly wider and refined the article details sidebar so it sticks/scrolls smoothly as the reader scrolls.
+- Fixed the article details sidebar sticky behavior by removing overflow conflicts and applying sticky positioning to both the sidebar and card.
+====================================================================
+-->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!--
+====================================================================
+SEO META / BLOG STRUCTURED DATA
+====================================================================
+Recommended page title:
+The Kitchen Details Homeowners Notice Without Knowing Why | Diversified Plus
+
+Recommended meta description:
+Explore the subtle kitchen renovation details homeowners notice without knowing why, from cabinet layout and lighting to countertops, storage, flooring transitions, and local kitchen remodeling across Westchester, Putnam, and Southern Connecticut.
+====================================================================
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The kitchen details homeowners notice without knowing why",
+  "description": "A detailed kitchen renovation guide covering cabinet layout, lighting, islands, countertops, backsplash, storage, flooring transitions, hardware, appliance placement, finish carpentry, and local kitchen remodeling SEO for Westchester County, Putnam County, and Southern Connecticut.",
+  "author": {
+    "@type": "Organization",
+    "name": "Diversified Plus Construction"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Diversified Plus Construction"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "name": "The kitchen details homeowners notice without knowing why"
+  },
+  "about": [
+    "Kitchen renovation",
+    "Kitchen remodeling",
+    "Cabinet layout",
+    "Kitchen lighting",
+    "Countertops",
+    "Backsplash installation",
+    "Kitchen storage",
+    "Kitchen island design",
+    "Finish carpentry",
+    "Westchester County kitchen remodeling",
+    "Putnam County kitchen renovation",
+    "Southern Connecticut kitchen remodeling"
+  ],
+  "areaServed": [
+    "Westchester County NY",
+    "Putnam County NY",
+    "Southern Connecticut",
+    "New Rochelle NY",
+    "Mamaroneck NY",
+    "Bedford NY",
+    "Thornwood NY",
+    "Larchmont NY",
+    "White Plains NY",
+    "Scarsdale NY",
+    "Chappaqua NY",
+    "Armonk NY",
+    "Mount Kisco NY",
+    "Rye NY",
+    "North Salem NY",
+    "Lake Waccabuc NY",
+    "Greenwich CT",
+    "Stamford CT",
+    "Darien CT",
+    "New Canaan CT",
+    "Norwalk CT",
+    "Westport CT",
+    "Fairfield CT",
+    "Wilton CT",
+    "Ridgefield CT"
+  ]
+}
+</script>
+<section aria-labelledby="dp-mission-title" class="dp-mission-hero">
+<div class="dp-mission-shell">
+<!-- HEADER -->
+<header aria-label="Main navigation" class="dp-mission-header">
+<a aria-label="Diversified Plus home" class="dp-mission-brand" href="home.html">
+<span aria-hidden="true" class="dp-mission-brand-mark">
+<i></i>
+<i></i>
+<i></i>
+</span>
+<span class="dp-mission-brand-text">Diversified Plus</span>
+</a>
+<nav aria-label="Desktop navigation" class="dp-mission-nav-menu">
+<a href="company.html">About Us</a>
+<!-- Services Mega Menu -->
+<div class="dp-mission-mega-wrap">
+<button aria-expanded="false" aria-haspopup="true" class="dp-mission-mega-trigger" type="button">
+            Services
+            <span aria-hidden="true">∨</span>
+</button>
+<div aria-label="Services mega menu" class="dp-mission-mega">
+<div class="dp-mission-mega-panel">
+<div class="dp-mission-mega-intro">
+<span>Construction Services</span>
+<h3>Built around the way real properties are improved.</h3>
+<p>
+                  Explore Diversified Plus service categories for kitchens, baths, additions, exterior upgrades, decks, outdoor living, and full-scope renovations.
+                </p>
+<a href="services.html">View All Services →</a>
+</div>
+<div class="dp-mission-mega-grid">
+<a class="dp-mission-mega-card" href="kitchen-services.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1556912173-3bb406ef7e77?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Kitchen Renovations</strong>
+<small>Cabinetry, layouts, lighting, surfaces, and finish coordination.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="bathroom-services.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Bath Renovations</strong>
+<small>Tile, waterproofing, ventilation, fixtures, and refined private spaces.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="additions-renovations.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Additions &amp; Remodeling</strong>
+<small>Home expansions, structural changes, basement finishing, and new living space.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="outdoor-living.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Decks &amp; Outdoor Living</strong>
+<small>Decks, screened porches, pergolas, pool decks, and outdoor gathering areas.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="sididng.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Siding &amp; Exteriors</strong>
+<small>Hardie siding, trim, exterior renovation, curb appeal, and weather protection.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="full-renovation.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Full Renovations</strong>
+<small>Whole-home planning, project coordination, carpentry, interiors, and finishing.</small>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Projects Mega Menu -->
+<div class="dp-mission-mega-wrap dp-mission-projects-mega-wrap">
+<button aria-expanded="false" aria-haspopup="true" class="dp-mission-mega-trigger" type="button">
+            Projects
+            <span aria-hidden="true">∨</span>
+</button>
+<div aria-label="Projects mega menu" class="dp-mission-mega dp-mission-projects-mega">
+<div class="dp-mission-mega-panel">
+<div class="dp-mission-mega-intro">
+<span>Project Portfolio</span>
+<h3>Browse work by the kind of transformation you are planning.</h3>
+<p>
+                  See additions, kitchens, baths, decks, siding, outdoor structures, and full-property renovations organized by project type.
+                </p>
+<a href="Projects.html">View Portfolio →</a>
+</div>
+<div class="dp-mission-mega-grid">
+<a class="dp-mission-mega-card" href="additions-renovations.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Home Additions</strong>
+<small>Expanded living space, roofline integration, structural planning, and finish continuity.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="kitchen-services.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Kitchen Projects</strong>
+<small>Open-plan kitchens, custom cabinetry, lighting, surfaces, and better daily movement.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="bathroom-services.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Bath Projects</strong>
+<small>Primary suites, powder rooms, tile, waterproofing, fixtures, and glass coordination.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="outdoor-living.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1563298723-dcfebaa392e3?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Decks &amp; Porches</strong>
+<small>Low-maintenance decks, screened porches, railings, access, and outdoor circulation.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="sididng.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Siding &amp; Exterior Work</strong>
+<small>Exterior upgrades, trim, siding, curb appeal, protection, and architectural detail.</small>
+</span>
+</a>
+<a class="dp-mission-mega-card" href="outdoor-living.html">
+<span class="dp-mission-mega-img" style="background-image:url('https://images.unsplash.com/photo-1615874959474-d609969a20ed?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dp-mission-mega-copy">
+<strong>Outdoor Structures</strong>
+<small>Pool decks, pergolas, gazebos, shaded spaces, and outdoor entertaining areas.</small>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<a href="careers.html">Careers</a>
+<!-- News Mega Menu -->
+<div class="dp-mission-mega-wrap dp-mission-news-mega-wrap">
+<button aria-expanded="false" aria-haspopup="true" class="dp-mission-mega-trigger" type="button">
+            News
+            <span aria-hidden="true">∨</span>
+</button>
+<div aria-label="News mega menu" class="dp-mission-mega dp-mission-news-mega">
+<div class="dp-mission-news-panel">
+<div class="dp-mission-news-feature">
+<span class="dp-mission-news-feature-img" style="background-image:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&amp;w=900&amp;auto=format&amp;fit=crop')"></span>
+<div class="dp-mission-news-feature-copy">
+<small>Featured Insight</small>
+<h3>What to clarify before starting a renovation.</h3>
+<p>Scope, materials, access, schedule, and communication decisions shape the experience before demolition begins.</p>
+<a href="blog-post.html">Read Featured Article →</a>
+</div>
+</div>
+<div class="dp-mission-news-list">
+<a href="how to define renovation scope before pricing pressure starts.html">
+<span>Planning</span>
+<strong>How to define renovation scope before pricing pressure starts.</strong>
+</a>
+<a href="k-blogpost.html">
+<span>Kitchens</span>
+<strong>The kitchen details homeowners notice without knowing why.</strong>
+</a>
+<a href="sididng.html">
+<span>Exteriors</span>
+<strong>When siding becomes more than curb appeal.</strong>
+</a>
+<a href="outdoor-living.html">
+<span>Outdoor Living</span>
+<strong>Planning a deck that feels connected to the home.</strong>
+</a>
+</div>
+</div>
+</div>
+</div>
+<a href="#">All Pages <span aria-hidden="true">∨</span></a>
+</nav>
+<a class="dp-mission-cta" href="contact.html">
+        Contact Us
+        <span aria-hidden="true">→</span>
+</a>
+<button aria-expanded="false" aria-label="Open mobile menu" class="dp-mission-mobile-toggle" type="button">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</header>
+<!-- MOBILE MENU -->
+<div aria-label="Mobile navigation" class="dp-mission-mobile-menu">
+<div class="dp-mission-mobile-menu-inner">
+<div class="dp-mission-mobile-menu-head">
+<span>Navigation</span>
+<strong>Explore Diversified Plus</strong>
+</div>
+<nav aria-label="Mobile primary navigation" class="dp-mission-mobile-links">
+<a href="company.html">About Us</a>
+<a href="services.html">Services</a>
+<a href="Projects.html">Projects</a>
+<a href="careers.html">Careers</a>
+<a href="news.html">News</a>
+<a href="#">All Pages</a>
+</nav>
+<div class="dp-mission-mobile-feature-grid">
+<a href="kitchen-services.html">
+<span class="dp-mission-mobile-feature-img" style="background-image:url('https://images.unsplash.com/photo-1556912173-3bb406ef7e77?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span>
+<strong>Kitchens</strong>
+<small>Layout, cabinetry, lighting, and surfaces.</small>
+</span>
+</a>
+<a href="additions-renovations.html">
+<span class="dp-mission-mobile-feature-img" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span>
+<strong>Additions</strong>
+<small>Home expansions and structural planning.</small>
+</span>
+</a>
+</div>
+<div class="dp-mission-mobile-actions">
+<a class="dp-mission-mobile-primary" href="contact.html">Contact Us</a>
+<a class="dp-mission-mobile-secondary" href="tel:9148790442">Call 914.879.0442</a>
+</div>
+</div>
+</div>
+<!-- CENTER CONTENT -->
+<div class="dp-mission-content">
+<p class="dp-mission-eyebrow">Kitchen Renovation Details</p>
+<h1 class="dp-mission-title" id="dp-mission-title">
+        The kitchen details homeowners<br/>
+        notice without knowing why.
+      </h1>
+<p class="dp-mission-copy">
+        A design-build guide to the subtle kitchen renovation details that make a remodel feel balanced, functional, premium, and intentionally built.
+      </p>
+<div class="dp-mission-hero-actions">
+<a class="dp-mission-hero-btn dp-mission-hero-btn-primary" href="#">
+          Read Article
+          <span aria-hidden="true">→</span>
+</a>
+<a class="dp-mission-hero-btn dp-mission-hero-btn-secondary" href="#">
+          View More Insights
+        </a>
+</div>
+</div>
+<!-- RIGHT-SIDE BRAND GRAPHIC -->
+<div aria-hidden="true" class="dp-mission-mark-system">
+<span class="dp-mission-ribbon dp-mission-ribbon-white-top"></span>
+<span class="dp-mission-ribbon dp-mission-ribbon-slate grey-mid"></span>
+<span class="dp-mission-ribbon dp-mission-ribbon-white-bottom"></span>
+<span class="dp-mission-ribbon dp-mission-ribbon-slate grey-low"></span>
+</div>
+</div>
+
+
+<div aria-hidden="true" class="dp-mission-bottom-band"></div>
+</section>
+<!--
+====================================================================
+BLOG ARTICLE
+====================================================================
+Simple blog post layout using the same Diversified Plus brand system.
+====================================================================
+-->
+<main class="dp-blog-post" id="article">
+<div class="dp-blog-container">
+<aside aria-label="Article details" class="dp-blog-sidebar">
+<div class="dp-blog-sidebar-card">
+<span>Article Details</span>
+<h2>Kitchen Renovation</h2>
+<dl>
+<div>
+<dt>Category</dt>
+<dd>Kitchens</dd>
+</div>
+<div>
+<dt>Read Time</dt>
+<dd>10 minutes</dd>
+</div>
+<div>
+<dt>Focus</dt>
+<dd>Kitchen remodeling, cabinet layout, lighting, countertops, storage, and finish detail</dd>
+</div>
+<div>
+<dt>Service Area</dt>
+<dd>Westchester, Putnam, and Southern CT</dd>
+</div>
+</dl>
+<a href="#contact">Plan a Similar Project</a>
+</div>
+</aside>
+<article class="dp-blog-article">
+<p class="dp-blog-kicker">Field Notes / Kitchen Renovation Strategy</p>
+<h2>The kitchen details homeowners notice without knowing why.</h2>
+<p class="dp-blog-lead">
+        The best kitchen renovations do not only look beautiful in photographs. They feel calm when you walk into them, make cooking feel easier, make storage feel natural, and make the room seem quietly expensive without one single feature shouting for attention. Most homeowners notice these details instantly, even if they do not know the construction or design language behind them.
+      </p>
+<figure class="dp-blog-image">
+<img alt="Elegant kitchen renovation with cabinetry, island lighting, and refined finish details" src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"/>
+<figcaption>Great kitchen remodeling is often defined by proportion, lighting, storage, transitions, and the quiet alignment of details.</figcaption>
+</figure>
+<h3>1. Cabinet proportions make the kitchen feel custom.</h3>
+<p>
+        In a kitchen renovation, cabinetry is usually the largest visual surface in the room. Homeowners may not use terms like reveal, stile, rail, inset, overlay, filler, panel rhythm, or crown alignment, but they can feel when the cabinets look balanced. When cabinet doors are proportioned well, upper cabinets do not feel top-heavy, appliance panels feel integrated, and the kitchen reads as built-in instead of assembled.
+      </p>
+<p>
+        A thoughtful kitchen remodeling contractor looks at cabinet height, ceiling conditions, crown buildup, filler placement, drawer banks, pantry proportions, island storage, and appliance openings before installation begins. These details matter because a kitchen cabinet layout that is slightly off can make even high-end materials feel less refined.
+      </p>
+<blockquote>
+        “Homeowners may not know why a kitchen feels expensive, but they almost always notice when cabinet lines, lighting, and surfaces feel aligned.”
+      </blockquote>
+<h3>2. Lighting changes how every finish is perceived.</h3>
+<p>
+        Kitchen lighting is one of the most overlooked details in remodeling. A kitchen can have beautiful cabinetry, quartz countertops, tile backsplash, and premium hardware, but poor lighting can make the entire space feel flat. The right lighting plan uses layers: recessed ceiling lighting, under-cabinet lighting, island pendants, task lighting, and softer ambient lighting where appropriate.
+      </p>
+<p>
+        Homeowners notice whether the island feels warm, whether the counters are easy to work on, whether the backsplash has dimension, and whether the room feels inviting at night. They may not know the difference between task lighting and ambient lighting, but they know when the kitchen feels comfortable.
+      </p>
+<div class="dp-blog-callout">
+<span>Kitchen Renovation Detail</span>
+<p>
+          Under-cabinet lighting, properly centered island pendants, and warm layered lighting can make cabinetry, countertops, backsplash tile, and hardware feel more intentional.
+        </p>
+</div>
+<h3>3. The island needs to be beautiful and useful.</h3>
+<p>
+        Kitchen islands are often the centerpiece of a remodel, but the best islands are not designed as decoration alone. They support cooking, seating, storage, serving, gathering, and circulation. A good island leaves enough clearance around appliances, walkways, stools, and nearby cabinets while still feeling substantial.
+      </p>
+<p>
+        Homeowners notice when island seating feels cramped, when dishwasher access blocks a walkway, when pendant lights feel too high or too low, or when the island feels undersized for the room. In a custom kitchen renovation, island proportion should be planned around how the family actually uses the space.
+      </p>
+<h3>4. Countertop edges and backsplash transitions quietly shape the room.</h3>
+<p>
+        Countertops and backsplash tile create some of the most visible finish lines in a kitchen. The edge profile, slab thickness, backsplash height, outlet placement, tile layout, grout color, and where surfaces stop or wrap all influence the final result.
+      </p>
+<p>
+        Many homeowners do not consciously notice the countertop edge or backsplash termination point, but they notice when something feels abrupt. A clean kitchen renovation considers where the backsplash ends, how it meets windows, how outlets are handled, how the countertop meets panels, and whether the material transitions feel deliberate.
+      </p>
+<h3>5. Storage feels premium when it reduces friction.</h3>
+<p>
+        Luxury kitchen remodeling is not only about expensive finishes. It is about making everyday routines easier. Deep drawers for pots, hidden trash pullouts, tray dividers, spice storage, pantry organization, appliance garages, charging drawers, and properly planned cabinet interiors can make a kitchen feel more valuable every day.
+      </p>
+<p>
+        Homeowners notice when they no longer have to fight the kitchen. They notice when the coffee area has an outlet, when the trash is near the prep zone, when pantry storage is easy to see, and when dishes land close to the dishwasher. Those details create a quiet feeling of order.
+      </p>
+<h3>6. Flooring transitions can make or break an open kitchen.</h3>
+<p>
+        In many Westchester County, Putnam County, and Southern Connecticut homes, kitchen renovation often connects to nearby dining rooms, living rooms, mudrooms, hallways, or additions. Flooring transitions become extremely important. If the new kitchen floor does not meet the surrounding rooms cleanly, the project can feel unfinished even when the cabinets and counters look beautiful.
+      </p>
+<p>
+        A strong renovation plan considers floor height, direction, thresholds, refinishing, patching, and how new materials connect to old ones. In open-plan kitchen remodeling, the transition between the kitchen and surrounding living space is one of the details homeowners feel immediately.
+      </p>
+<h3>7. Hardware placement affects the entire cabinet elevation.</h3>
+<p>
+        Cabinet hardware may seem small, but it influences the rhythm of the kitchen. Pull length, knob placement, appliance pull selection, finish color, and consistency across drawer banks all affect how cabinetry reads. Hardware that is too small can make cabinets feel under-designed. Hardware that is too large can overwhelm the doors.
+      </p>
+<p>
+        Homeowners may not analyze hardware placement, but they notice whether the cabinetry feels balanced. This is especially true in kitchens with large pantry doors, paneled appliances, tall cabinets, or long drawer stacks.
+      </p>
+<h3>8. Appliance placement should support movement, not interrupt it.</h3>
+<p>
+        Refrigerator, range, sink, dishwasher, microwave, wall oven, beverage fridge, and pantry placement all shape how the kitchen works. A kitchen remodel can look beautiful but feel frustrating if the refrigerator blocks the prep zone, the dishwasher interrupts the sink area, or the range is placed without enough landing space.
+      </p>
+<p>
+        The best kitchen layouts make movement feel intuitive. Cooking, cleaning, storing, and gathering should each have a natural place. Homeowners notice this every day because the kitchen is one of the most used rooms in the home.
+      </p>
+<h3>9. Trim, panels, and end details make the remodel feel finished.</h3>
+<p>
+        End panels, toe kicks, fillers, crown, base trim, appliance panels, island legs, cabinet returns, and exposed side details are the places where a kitchen remodel either feels complete or slightly unfinished. These details are especially important in custom kitchen renovations where the goal is a built-in look.
+      </p>
+<p>
+        When panels align, trim feels intentional, and exposed ends are handled cleanly, homeowners experience the kitchen as more refined. These are the quiet details that turn a cabinet installation into a finished kitchen.
+      </p>
+<h3>10. Color balance matters more than a single dramatic feature.</h3>
+<p>
+        Many homeowners start with one inspiration image: a bold island, a dramatic slab, a dark cabinet color, or a striking backsplash. Those choices can work beautifully, but the full kitchen must be balanced. Cabinet color, wall color, flooring tone, countertop movement, backsplash texture, metal finishes, and natural light all need to support one another.
+      </p>
+<p>
+        A kitchen that feels timeless usually has contrast, warmth, and restraint. In high-end kitchen remodeling, the best result often comes from editing the palette so every material has a reason to be there.
+      </p>
+<div class="dp-blog-summary">
+<h3>Kitchen details homeowners notice without knowing why:</h3>
+<ul>
+<li>Cabinet proportions, reveals, and panel alignment.</li>
+<li>Layered lighting that makes the room feel warm and useful.</li>
+<li>Island clearance, seating comfort, and storage placement.</li>
+<li>Countertop edges, backsplash terminations, and outlet locations.</li>
+<li>Storage that supports real routines instead of only looking good.</li>
+<li>Flooring transitions between the kitchen and surrounding rooms.</li>
+<li>Hardware scale, placement, and finish consistency.</li>
+<li>Appliance placement that supports movement and prep zones.</li>
+<li>Trim, end panels, toe kicks, and finish carpentry details.</li>
+<li>A balanced material palette that feels calm, not crowded.</li>
+</ul>
+</div>
+<h3>Local kitchen renovation matters because homes are not built the same.</h3>
+<p>
+        Kitchen remodeling in Westchester County, Putnam County, and Southern Connecticut often involves older homes, additions, existing framing conditions, mixed flooring heights, unique window openings, and layouts that have changed over time. A kitchen renovation in New Rochelle, Mamaroneck, Bedford, Thornwood, Larchmont, White Plains, Scarsdale, Chappaqua, Armonk, Mount Kisco, Rye, North Salem, Lake Waccabuc, Greenwich, Stamford, Darien, New Canaan, Norwalk, Westport, Fairfield, Wilton, or Ridgefield should be planned around the specific home, not a generic kitchen template.
+      </p>
+<p>
+        Diversified Plus approaches kitchen renovation with the details homeowners feel every day: cabinet layout, countertop planning, backsplash tile, lighting, appliance placement, storage, flooring transitions, finish carpentry, and construction coordination. The result is a kitchen that looks refined and works naturally.
+      </p>
+</article>
+</div>
+</main>
+<!--
+====================================================================
+RELATED BLOGS
+====================================================================
+-->
+<section aria-labelledby="dp-blog-related-title" class="dp-blog-related">
+<div class="dp-blog-related-container">
+<div class="dp-blog-related-head">
+<p class="dp-blog-related-eyebrow">More Insights</p>
+<h2 id="dp-blog-related-title">Related kitchen and renovation planning articles.</h2>
+</div>
+<div class="dp-blog-related-grid">
+<a class="dp-blog-related-card" href="kitchen-services.html">
+<span class="dp-blog-related-img" style="background-image:url('https://images.unsplash.com/photo-1556912173-3bb406ef7e77?q=80&amp;w=900&amp;auto=format&amp;fit=crop')"></span>
+<span>
+<small>Kitchens</small>
+<strong>How cabinet layout changes the way a kitchen feels.</strong>
+</span>
+</a>
+<a class="dp-blog-related-card" href="bathroom-services.html">
+<span class="dp-blog-related-img" style="background-image:url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&amp;w=900&amp;auto=format&amp;fit=crop')"></span>
+<span>
+<small>Bathrooms</small>
+<strong>Why tile, lighting, and ventilation matter in a bathroom remodel.</strong>
+</span>
+</a>
+<a class="dp-blog-related-card" href="full-renovation.html">
+<span class="dp-blog-related-img" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&amp;w=900&amp;auto=format&amp;fit=crop')"></span>
+<span>
+<small>Full Renovations</small>
+<strong>How to plan finishes across a whole-home renovation.</strong>
+</span>
+</a>
+</div>
+</div>
+</section>
+<!--
+====================================================================
+CTA
+====================================================================
+-->
+<section aria-labelledby="dp-final-cta-title" class="dp-final-cta" id="contact">
+<div class="dp-final-cta-container">
+<div>
+<p class="dp-final-cta-eyebrow">Ready To Plan?</p>
+<h2 id="dp-final-cta-title">Bring your kitchen renovation idea into a clearer construction path.</h2>
+<p>
+        Talk with Diversified Plus about kitchen layout, cabinetry, countertops, backsplash, lighting, storage, appliance placement, finish carpentry, and full renovation planning.
+      </p>
+</div>
+<div class="dp-final-cta-actions">
+<a class="dp-final-cta-primary" href="tel:9148790442">Call 914.879.0442</a>
+<a class="dp-final-cta-secondary" href="mailto:info@diversifiedplus.com">Email The Team</a>
+</div>
+</div>
+</section>
+<!--
+====================================================================
+FOOTER
+====================================================================
+-->
+<footer aria-label="Footer" class="dp-footer">
+<div class="dp-footer-container">
+<a class="dp-footer-brand" href="home.html">
+<span aria-hidden="true" class="dp-footer-brand-mark"><i></i><i></i><i></i></span>
+      Diversified Plus
+    </a>
+<div class="dp-footer-links">
+<a href="services.html">Services</a>
+<a href="Projects.html">Projects</a>
+<a href="news.html">News</a>
+<a href="contact.html">Contact</a>
+</div>
+<p>© 2026 Diversified Plus Construction. Licensed &amp; insured across Westchester, Putnam &amp; Southern CT.</p>
+</div>
+</footer>
+<style>
+.dp-mission-hero,
+.dp-mission-hero *,
+.dp-mission-hero *::before,
+.dp-mission-hero *::after {
+  box-sizing: border-box;
+}
+
+.dp-mission-hero {
+  position: relative;
+  width: 100%;
+  min-height: 860px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(15,23,42,.08), transparent 24%),
+    #0f172a;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.dp-mission-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,.018) 1px, transparent 1px);
+  background-size: 92px 92px;
+  opacity: .40;
+  pointer-events: none;
+}
+
+.dp-mission-shell {
+  position: relative;
+  z-index: 2;
+  width: min(1420px, calc(100% - 88px));
+  min-height: 720px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.dp-mission-header {
+  position: relative;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 260px 1fr 250px;
+  align-items: center;
+  gap: 30px;
+  padding-top: 34px;
+}
+
+.dp-mission-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  color: #0f172a;
+  text-decoration: none;
+}
+
+.dp-mission-brand-mark {
+  display: grid;
+  gap: 4px;
+  transform: skewY(25deg);
+  flex: 0 0 auto;
+}
+
+.dp-mission-brand-mark i {
+  display: block;
+  height: 5px;
+  background: #ffffff;
+}
+
+.dp-mission-brand-mark i:nth-child(1) {
+  width: 31px;
+}
+
+.dp-mission-brand-mark i:nth-child(2) {
+  width: 25px;
+}
+
+.dp-mission-brand-mark i:nth-child(3) {
+  width: 18px;
+  background: #68717d;
+}
+
+.dp-mission-brand-text {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.055em;
+}
+
+.dp-mission-nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(26px, 2.5vw, 44px);
+}
+
+.dp-mission-nav-menu a {
+  color: rgba(255,255,255,.94);
+  text-decoration: none;
+  font-size: 15.5px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.032em;
+  white-space: nowrap;
+  transition: color .2s ease, opacity .2s ease;
+}
+
+.dp-mission-nav-menu a:hover,
+.dp-mission-nav-menu a:focus-visible {
+  color: #68717d;
+  outline: none;
+}
+
+.dp-mission-nav-menu span {
+  display: inline-block;
+  margin-left: 7px;
+  font-weight: 700;
+}
+
+
+/* SERVICES MEGA MENU — CLEANED + FIXED
+   Fixes:
+   - Removed dark divider lines completely.
+   - Body text now fits below each service image.
+   - Menu stays open while moving from Services into the cards/images.
+   - Uses clean cream gutters instead of black borders.
+*/
+.dp-mission-mega-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dp-mission-mega-trigger {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: rgba(255,255,255,.94);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 15.5px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.032em;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 0;
+  transition: color .2s ease;
+}
+
+.dp-mission-mega-trigger:hover,
+.dp-mission-mega-trigger:focus-visible,
+.dp-mission-mega-wrap:hover .dp-mission-mega-trigger,
+.dp-mission-mega-wrap.is-open .dp-mission-mega-trigger {
+  color: #68717d;
+  outline: none;
+}
+
+.dp-mission-mega-trigger span {
+  display: inline-block;
+  margin-left: 7px;
+  font-weight: 700;
+  transition: transform .22s ease;
+}
+
+.dp-mission-mega-wrap:hover .dp-mission-mega-trigger span,
+.dp-mission-mega-wrap:focus-within .dp-mission-mega-trigger span,
+.dp-mission-mega-wrap.is-open .dp-mission-mega-trigger span {
+  transform: rotate(180deg);
+}
+
+.dp-mission-mega {
+  position: fixed;
+  left: 50%;
+  top: 104px;
+  z-index: 100;
+  width: min(1140px, calc(100vw - 72px));
+  transform: translateX(-50%) translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .24s ease, transform .24s ease, visibility .24s ease;
+}
+
+/* Hover bridge so dropdown does not close while cursor moves down */
+.dp-mission-mega::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -28px;
+  height: 28px;
+  display: block;
+}
+
+.dp-mission-mega-wrap:hover .dp-mission-mega,
+.dp-mission-mega-wrap:focus-within .dp-mission-mega,
+.dp-mission-mega-wrap.is-open .dp-mission-mega {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.dp-mission-mega-panel {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 0;
+  background: #f4f2ee;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 30px 80px rgba(0,0,0,.20);
+  overflow: visible;
+}
+
+.dp-mission-mega-intro {
+  min-height: 545px;
+  padding: 34px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(15,23,42,.13), transparent 34%),
+    #0f172a;
+  color: #ffffff;
+  border: 0;
+  position: relative;
+}
+
+.dp-mission-mega-intro::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 34px;
+  bottom: 34px;
+  width: 4px;
+  background: #68717d;
+}
+
+.dp-mission-mega-intro span {
+  display: block;
+  margin: 0 0 18px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.dp-mission-mega-intro h3 {
+  margin: 0 0 16px;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -.055em;
+}
+
+.dp-mission-mega-intro p {
+  margin: 0 0 26px;
+  color: rgba(255,255,255,.70);
+  font-size: 13.5px;
+  line-height: 1.72;
+  font-weight: 400;
+  letter-spacing: -.025em;
+}
+
+.dp-mission-mega-intro a {
+  display: inline-flex;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  transition: color .2s ease;
+}
+
+.dp-mission-mega-intro a:hover,
+.dp-mission-mega-intro a:focus-visible {
+  color: #68717d;
+  outline: none;
+}
+
+/* Cream gutters remove the dark/black divider problem */
+.dp-mission-mega-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  padding: 10px;
+  background: #f4f2ee;
+  border: 0;
+  outline: 0;
+}
+
+.dp-mission-mega-card {
+  display: grid;
+  grid-template-rows: 132px minmax(138px, auto);
+  min-height: 278px;
+  background: #ffffff;
+  color: #0f172a;
+  text-decoration: none;
+  overflow: visible;
+  border: 0;
+  outline: 0;
+  transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+
+.dp-mission-mega-card:hover,
+.dp-mission-mega-card:focus-visible {
+  background: #ffffff;
+  outline: none;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(15,23,42,.10);
+}
+
+.dp-mission-mega-img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 132px;
+  min-height: 132px;
+  background-size: cover;
+  background-position: center;
+  filter: saturate(.92) contrast(1.02);
+  overflow: hidden;
+  border: 0;
+}
+
+.dp-mission-mega-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, rgba(15,23,42,.46), rgba(15,23,42,.04)),
+    linear-gradient(90deg, rgba(15,23,42,.10), transparent);
+  transition: opacity .22s ease;
+}
+
+.dp-mission-mega-card:hover .dp-mission-mega-img::after {
+  opacity: .72;
+}
+
+.dp-mission-mega-copy {
+  display: block;
+  padding: 18px 18px 22px;
+  min-height: 138px;
+  overflow: visible;
+}
+
+.dp-mission-mega-copy strong {
+  display: block;
+  margin-bottom: 9px;
+  color: #0f172a;
+  font-size: 15px;
+  line-height: 1.18;
+  font-weight: 800;
+  letter-spacing: -.035em;
+  white-space: normal;
+}
+
+.dp-mission-mega-copy small {
+  display: block;
+  color: rgba(15,23,42,.66);
+  font-size: 11.25px;
+  line-height: 1.58;
+  font-weight: 600;
+  letter-spacing: -.02em;
+  white-space: normal;
+  overflow: visible;
+  max-height: none;
+}
+
+
+.dp-mission-cta {
+  justify-self: end;
+  min-height: 64px;
+  min-width: 206px;
+  padding: 0 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  background: #68717d;
+  color: #ffffff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  box-shadow: 0 12px 34px rgba(15,23,42,.28);
+  transition: transform .22s ease, background .22s ease, box-shadow .22s ease;
+}
+
+.dp-mission-cta:hover,
+.dp-mission-cta:focus-visible {
+  transform: translateY(-2px);
+  background: #0f172a;
+  box-shadow: 0 18px 48px rgba(15,23,42,.24);
+  outline: none;
+}
+
+.dp-mission-cta span {
+  font-size: 27px;
+  line-height: .8;
+  font-weight: 400;
+}
+
+/* CENTER CONTENT */
+.dp-mission-content {
+  position: relative;
+  z-index: 5;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 192px;
+  text-align: center;
+}
+
+.dp-mission-eyebrow {
+  margin: 0 0 58px;
+  color: #68717d;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+}
+
+.dp-mission-title {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(54px, 5.2vw, 76px);
+  line-height: 1.18;
+  font-weight: 500;
+  letter-spacing: -0.072em;
+}
+
+.dp-mission-copy {
+  max-width: 650px;
+  margin: 32px auto 0;
+  color: rgba(255,255,255,.90);
+  font-size: 16.5px;
+  line-height: 1.58;
+  font-weight: 400;
+  letter-spacing: -0.034em;
+}
+
+
+/* HERO ACTION BUTTONS */
+.dp-mission-hero-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.dp-mission-hero-btn {
+  min-height: 56px;
+  padding: 0 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  transition: transform .2s ease, background .2s ease, color .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+
+.dp-mission-hero-btn:hover,
+.dp-mission-hero-btn:focus-visible {
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.dp-mission-hero-btn-primary {
+  background: #68717d;
+  color: #ffffff;
+  box-shadow: 0 16px 38px rgba(15,23,42,.28);
+}
+
+.dp-mission-hero-btn-primary:hover,
+.dp-mission-hero-btn-primary:focus-visible {
+  background: #111c35;
+  box-shadow: 0 18px 44px rgba(15,23,42,.34);
+}
+
+.dp-mission-hero-btn-secondary {
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.06);
+}
+
+.dp-mission-hero-btn-secondary:hover,
+.dp-mission-hero-btn-secondary:focus-visible {
+  border-color: rgba(255,255,255,.30);
+  background: rgba(255,255,255,.12);
+}
+
+.dp-mission-hero-btn span {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* RIGHT-SIDE DIVERSIFIED PLUS BRAND MARK
+   Updated to match the uploaded reference more closely:
+   - Ribbons are attached / visually connected at the right edge
+   - Entire composition sits flush on the absolute far right side of the hero
+   - Two white ribbons and two slate grey ribbons
+   - Bottom slate grey ribbon extends into the light bottom band
+*/
+.dp-mission-mark-system {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  top: 292px;
+  width: 372px;
+  height: 454px;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.dp-mission-ribbon {
+  position: absolute;
+  right: -8px;
+  display: block;
+  transform-origin: right center;
+  box-shadow: none;
+}
+
+/* Top white ribbon */
+.dp-mission-ribbon-white-top {
+  top: 14px;
+  width: 252px;
+  height: 40px;
+  background: #ffffff;
+  transform: rotate(25.8deg);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+/* Middle slate grey ribbon */
+.dp-mission-ribbon-slate grey-mid {
+  top: 112px;
+  width: 310px;
+  height: 42px;
+  background: #68717d;
+  transform: rotate(25.8deg);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
+}
+
+/* Lower white ribbon */
+.dp-mission-ribbon-white-bottom {
+  top: 232px;
+  width: 252px;
+  height: 42px;
+  background: #ffffff;
+  transform: rotate(-28.8deg);
+  clip-path: polygon(11% 0, 100% 0, 92% 100%, 0 100%);
+}
+
+/* Bottom slate grey ribbon crossing into the light band */
+.dp-mission-ribbon-slate grey-low {
+  top: 362px;
+  width: 324px;
+  height: 50px;
+  background: #68717d;
+  transform: rotate(-28.8deg);
+  clip-path: polygon(12% 0, 100% 0, 91% 100%, 0 100%);
+}
+
+/* BOTTOM LIGHT BAND */
+.dp-mission-bottom-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 112px;
+  z-index: 1;
+  background: #f4f2ee;
+}
+
+
+
+/* Light contrast design cleanup */
+.dp-mission-header {
+  align-items: center;
+}
+
+.dp-mission-brand,
+.dp-mission-brand:visited {
+  color: #ffffff;
+}
+
+.dp-mission-nav-menu a,
+.dp-mission-mega-trigger {
+  text-shadow: none;
+}
+
+.dp-mission-cta:hover,
+.dp-mission-cta:focus-visible {
+  background: #111c35;
+  box-shadow: 0 18px 48px rgba(15,23,42,.34);
+}
+
+.dp-mission-mobile-menu {
+  filter: none;
+}
+
+.dp-mission-mobile-menu-inner {
+  border: 0;
+}
+
+/* MOBILE MENU — CONTRAST VERSION */
+.dp-mission-mobile-toggle {
+  display: none;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(15,23,42,.82);
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0;
+  transition: background .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+.dp-mission-mobile-toggle:hover,
+.dp-mission-mobile-toggle:focus-visible {
+  background: rgba(15,23,42,.90);
+  border-color: rgba(15,23,42,.42);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.dp-mission-mobile-toggle span {
+  width: 20px;
+  height: 2px;
+  display: block;
+  background: currentColor;
+  transition: transform .28s ease, opacity .2s ease;
+}
+
+.dp-mission-mobile-toggle.is-active span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.dp-mission-mobile-toggle.is-active span:nth-child(2) {
+  opacity: 0;
+}
+
+.dp-mission-mobile-toggle.is-active span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.dp-mission-mobile-menu {
+  position: absolute;
+  left: 50%;
+  top: 92px;
+  z-index: 120;
+  width: min(480px, calc(100vw - 44px));
+  transform: translateX(-50%) translateY(-12px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .28s ease, transform .28s ease, visibility .28s ease;
+}
+
+.dp-mission-mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.dp-mission-mobile-menu-inner {
+  background: #0f172a;
+  color: #ffffff;
+  box-shadow: 0 28px 80px rgba(15,23,42,.26);
+  border-top: 4px solid #68717d;
+  overflow: hidden;
+}
+
+.dp-mission-mobile-menu-head {
+  padding: 24px 24px 18px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(15,23,42,.18), transparent 36%),
+    #0f172a;
+}
+
+.dp-mission-mobile-menu-head span {
+  display: block;
+  margin-bottom: 9px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.dp-mission-mobile-menu-head strong {
+  display: block;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -.055em;
+}
+
+.dp-mission-mobile-links {
+  display: grid;
+  padding: 0 24px;
+}
+
+.dp-mission-mobile-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 54px;
+  color: rgba(255,255,255,.86);
+  text-decoration: none;
+  border-top: 1px solid rgba(255,255,255,.10);
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -.045em;
+  transition: color .2s ease, padding-left .2s ease;
+}
+
+.dp-mission-mobile-links a::after {
+  content: '→';
+  color: #68717d;
+  font-size: 17px;
+  line-height: 1;
+}
+
+.dp-mission-mobile-links a:hover,
+.dp-mission-mobile-links a:focus-visible {
+  color: #ffffff;
+  padding-left: 6px;
+  outline: none;
+}
+
+.dp-mission-mobile-feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 22px 24px 24px;
+  background: #f4f2ee;
+}
+
+.dp-mission-mobile-feature-grid a {
+  display: grid;
+  grid-template-rows: 100px auto;
+  background: #ffffff;
+  color: #0f172a;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.dp-mission-mobile-feature-img {
+  display: block;
+  min-height: 100px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.dp-mission-mobile-feature-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15,23,42,.45), rgba(15,23,42,.04));
+}
+
+.dp-mission-mobile-feature-grid a > span:last-child {
+  display: block;
+  padding: 14px;
+}
+
+.dp-mission-mobile-feature-grid strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #0f172a;
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -.04em;
+}
+
+.dp-mission-mobile-feature-grid small {
+  display: block;
+  color: rgba(15,23,42,.62);
+  font-size: 11px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.dp-mission-mobile-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(15,23,42,.90);
+}
+
+.dp-mission-mobile-actions a {
+  min-height: 54px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+}
+
+.dp-mission-mobile-primary {
+  background: #68717d;
+  color: #ffffff;
+}
+
+.dp-mission-mobile-secondary {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1240px) {
+  .dp-mission-header {
+    grid-template-columns: 230px 1fr 210px;
+  }
+
+  .dp-mission-nav-menu {
+    gap: 24px;
+  }
+
+  .dp-mission-nav-menu a {
+    font-size: 14.5px;
+  }
+
+  .dp-mission-cta {
+    min-width: 178px;
+    min-height: 58px;
+    font-size: 16px;
+  }
+
+  .dp-mission-mark-system {
+    right: 0;
+    top: 304px;
+    transform: scale(.92);
+    opacity: 1;
+  }
+}
+
+
+
+@media (max-width: 1180px) and (min-width: 981px) {
+  .dp-mission-mega {
+    width: min(980px, calc(100vw - 48px));
+  }
+
+  .dp-mission-mega-panel {
+    grid-template-columns: 275px minmax(0, 1fr);
+  }
+
+  .dp-mission-mega-intro {
+    min-height: 620px;
+  }
+
+  .dp-mission-mega-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dp-mission-mega-card {
+    grid-template-rows: 126px minmax(128px, auto);
+    min-height: 254px;
+  }
+
+  .dp-mission-mega-img {
+    height: 126px;
+    min-height: 126px;
+  }
+
+  .dp-mission-mega-copy {
+    min-height: 128px;
+  }
+}
+
+@media (max-width: 980px) {
+  .dp-mission-mega {
+    display: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .dp-mission-hero {
+    min-height: 800px;
+  }
+
+  .dp-mission-shell {
+    width: min(100% - 48px, 1420px);
+    min-height: 690px;
+  }
+
+  .dp-mission-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dp-mission-nav-menu {
+    display: none;
+  }
+
+  .dp-mission-mobile-toggle {
+    display: flex;
+  }
+
+  .dp-mission-cta {
+    display: none;
+  }
+
+
+  .dp-mission-content {
+    padding-top: 168px;
+    max-width: 760px;
+  }
+
+  .dp-mission-eyebrow {
+    margin-bottom: 42px;
+  }
+
+  .dp-mission-title {
+    font-size: clamp(42px, 8vw, 64px);
+    font-weight: 500;
+  }
+
+  .dp-mission-copy {
+    max-width: 590px;
+  }
+
+  .dp-mission-mark-system {
+    right: 0;
+    top: 364px;
+    transform: scale(.78);
+    opacity: .96;
+  }
+
+  .dp-mission-bottom-band {
+    height: 104px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .dp-mission-mobile-menu {
+    top: 76px;
+  }
+
+  .dp-mission-mobile-menu-inner {
+    max-height: calc(100svh - 96px);
+    overflow-y: auto;
+  }
+
+  .dp-mission-mobile-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dp-mission-mobile-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .dp-mission-hero {
+    min-height: 760px;
+  }
+
+  .dp-mission-shell {
+    width: min(100% - 36px, 1420px);
+  }
+
+  .dp-mission-header {
+    padding-top: 22px;
+  }
+
+  .dp-mission-brand-text {
+    font-size: 20px;
+  }
+
+  .dp-mission-brand-mark i:nth-child(1) {
+    width: 27px;
+  }
+
+  .dp-mission-brand-mark i:nth-child(2) {
+    width: 22px;
+  }
+
+  .dp-mission-brand-mark i:nth-child(3) {
+    width: 16px;
+  }
+
+  .dp-mission-cta {
+    min-width: auto;
+    min-height: 46px;
+    padding: 0 18px;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .dp-mission-cta span {
+    font-size: 22px;
+  }
+
+  .dp-mission-content {
+    padding-top: 142px;
+  }
+
+  .dp-mission-eyebrow {
+    margin-bottom: 34px;
+    font-size: 14px;
+  }
+
+  .dp-mission-title {
+    font-size: clamp(35px, 10.5vw, 50px);
+    line-height: 1.14;
+    font-weight: 500;
+  }
+
+  .dp-mission-copy {
+    margin-top: 24px;
+    font-size: 15px;
+    line-height: 1.62;
+  }
+
+  .dp-mission-mark-system {
+    right: -6px;
+    top: 418px;
+    transform: scale(.60);
+    opacity: .90;
+  }
+
+  .dp-mission-bottom-band {
+    height: 96px;
+  }
+}
+
+@media (max-width: 440px) {
+  .dp-mission-header {
+    gap: 12px;
+  }
+
+  .dp-mission-cta {
+    padding: 0 14px;
+    font-size: 13px;
+  }
+
+  .dp-mission-cta span {
+    display: none;
+  }
+
+  .dp-mission-title {
+    font-size: 35px;
+  }
+
+  .dp-mission-mark-system {
+    right: -18px;
+    top: 442px;
+    transform: scale(.50);
+    opacity: .82;
+  }
+}
+
+
+/* NEWS MEGA MENU */
+.dp-mission-news-mega {
+  width: min(980px, calc(100vw - 72px));
+}
+
+.dp-mission-news-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, .92fr);
+  gap: 10px;
+  padding: 10px;
+  background: #f4f2ee;
+  box-shadow: 0 30px 80px rgba(0,0,0,.20);
+}
+
+.dp-mission-news-feature {
+  display: grid;
+  grid-template-columns: minmax(240px, .9fr) minmax(0, 1.1fr);
+  min-height: 340px;
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.dp-mission-news-feature-img {
+  display: block;
+  min-height: 340px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.dp-mission-news-feature-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, rgba(15,23,42,.48), rgba(15,23,42,.04)),
+    linear-gradient(90deg, rgba(15,23,42,.10), transparent);
+}
+
+.dp-mission-news-feature-copy {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dp-mission-news-feature-copy small {
+  display: block;
+  margin-bottom: 14px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.dp-mission-news-feature-copy h3 {
+  margin: 0 0 14px;
+  color: #0f172a;
+  font-size: 28px;
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -.055em;
+}
+
+.dp-mission-news-feature-copy p {
+  margin: 0 0 24px;
+  color: rgba(15,23,42,.66);
+  font-size: 13.5px;
+  line-height: 1.68;
+  font-weight: 500;
+  letter-spacing: -.02em;
+}
+
+.dp-mission-news-feature-copy a {
+  color: #0f172a;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  transition: color .2s ease;
+}
+
+.dp-mission-news-feature-copy a:hover,
+.dp-mission-news-feature-copy a:focus-visible {
+  color: #68717d;
+  outline: none;
+}
+
+.dp-mission-news-list {
+  display: grid;
+  gap: 10px;
+}
+
+.dp-mission-news-list a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 77px;
+  padding: 18px 20px;
+  background: #ffffff;
+  color: #0f172a;
+  text-decoration: none;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.dp-mission-news-list a:hover,
+.dp-mission-news-list a:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(15,23,42,.10);
+  outline: none;
+}
+
+.dp-mission-news-list span {
+  display: block;
+  margin-bottom: 7px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.dp-mission-news-list strong {
+  display: block;
+  color: #0f172a;
+  font-size: 14px;
+  line-height: 1.28;
+  font-weight: 800;
+  letter-spacing: -.035em;
+}
+
+/* Projects + news can share the stable hover/focus system. */
+.dp-mission-projects-mega .dp-mission-mega-intro,
+.dp-mission-news-mega .dp-mission-news-panel {
+  border: 0;
+}
+
+@media (max-width: 1180px) and (min-width: 981px) {
+  .dp-mission-news-mega {
+    width: min(920px, calc(100vw - 48px));
+  }
+
+  .dp-mission-news-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .dp-mission-news-feature {
+    grid-template-columns: 280px 1fr;
+    min-height: 280px;
+  }
+
+  .dp-mission-news-feature-img {
+    min-height: 280px;
+  }
+
+  .dp-mission-news-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* Mega menu interaction cleanup */
+.dp-mission-mega-wrap:not(.is-open):not(:hover):not(:focus-within) .dp-mission-mega {
+  pointer-events: none;
+}
+
+.dp-mission-mega-wrap.is-open .dp-mission-mega {
+  pointer-events: auto;
+}
+
+.dp-mission-mega-wrap.is-switching .dp-mission-mega {
+  transition-duration: .12s;
+}
+
+/* Mega menu divider cleanup overrides */
+.dp-mission-mega-panel,
+.dp-mission-mega-grid,
+.dp-mission-mega-card,
+.dp-mission-mega-img,
+.dp-mission-mega-copy {
+  border-color: transparent;
+}
+
+
+/* Mega menu image/card alignment cleanup */
+.dp-mission-mega-panel,
+.dp-mission-mega-grid,
+.dp-mission-news-panel,
+.dp-mission-mobile-feature-grid {
+  align-items: stretch;
+}
+
+.dp-mission-mega-grid {
+  grid-auto-rows: 1fr;
+}
+
+.dp-mission-mega-card,
+.dp-mission-news-feature,
+.dp-mission-news-list a,
+.dp-mission-mobile-feature-grid a {
+  overflow: hidden;
+}
+
+.dp-mission-mega-card {
+  height: 100%;
+  align-self: stretch;
+  grid-template-rows: 132px minmax(146px, auto);
+}
+
+.dp-mission-mega-card > span,
+.dp-mission-news-feature > span,
+.dp-mission-mobile-feature-grid a > span {
+  width: 100%;
+}
+
+.dp-mission-mega-img,
+.dp-mission-news-feature-img,
+.dp-mission-mobile-feature-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.dp-mission-mega-img {
+  height: 132px;
+  min-height: 132px;
+}
+
+.dp-mission-mega-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 146px;
+}
+
+.dp-mission-news-feature {
+  align-items: stretch;
+}
+
+.dp-mission-news-feature-copy {
+  min-width: 0;
+}
+
+.dp-mission-mobile-feature-grid a {
+  align-self: stretch;
+  grid-template-rows: 100px minmax(98px, auto);
+}
+
+.dp-mission-mobile-feature-grid a > span:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (max-width: 1180px) and (min-width: 981px) {
+  .dp-mission-mega-card {
+    grid-template-rows: 126px minmax(138px, auto);
+  }
+
+  .dp-mission-mega-img {
+    height: 126px;
+    min-height: 126px;
+  }
+
+  .dp-mission-mega-copy {
+    min-height: 138px;
+  }
+}
+
+@media (max-width: 700px) {
+  .dp-mission-mobile-feature-grid a {
+    grid-template-rows: 110px minmax(90px, auto);
+  }
+
+  .dp-mission-mobile-feature-img {
+    min-height: 110px;
+  }
+}
+
+/* Final mobile cleanup overrides */
+
+@media (max-width: 980px) {
+  .dp-mission-header {
+    gap: 16px;
+  }
+
+  .dp-mission-mobile-menu {
+    top: 88px;
+  }
+}
+
+@media (max-width: 700px) {
+  .dp-mission-mobile-menu {
+    top: 76px;
+  }
+
+  .dp-mission-mobile-menu-head strong {
+    font-size: 22px;
+  }
+
+  .dp-mission-mobile-links a {
+    min-height: 50px;
+    font-size: 17px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .dp-mission-hero-actions {
+    gap: 10px;
+    margin-top: 26px;
+  }
+
+  .dp-mission-hero-btn {
+    width: 100%;
+    min-height: 50px;
+    padding: 0 18px;
+    font-size: 11px;
+  }
+}
+
+
+/* SIMPLE PORTFOLIO / CTA / FOOTER */
+.dp-portfolio-simple,.dp-portfolio-simple *,.dp-final-cta,.dp-final-cta *,.dp-footer,.dp-footer *{box-sizing:border-box}
+.dp-portfolio-simple{background:#f4f2ee;color:#0f172a;font-family:'Plus Jakarta Sans',system-ui,sans-serif;padding:104px 0;position:relative;overflow:hidden}
+.dp-portfolio-simple::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,23,42,.045) 1px,transparent 1px),linear-gradient(0deg,rgba(15,23,42,.032) 1px,transparent 1px);background-size:90px 90px;opacity:.42;pointer-events:none}
+.dp-portfolio-simple-container,.dp-final-cta-container,.dp-footer-container{position:relative;z-index:1;width:min(1400px,calc(100% - 80px));margin:0 auto}
+.dp-portfolio-simple-head{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(360px,.9fr);gap:72px;align-items:end;margin-bottom:34px}
+.dp-portfolio-simple-eyebrow,.dp-final-cta-eyebrow{display:inline-flex;align-items:center;gap:9px;margin:0 0 18px;color:#68717d;font-size:10px;line-height:1;letter-spacing:.18em;text-transform:uppercase;font-weight:800}
+.dp-portfolio-simple-eyebrow::before,.dp-final-cta-eyebrow::before{content:'';width:28px;height:2px;display:block;background:currentColor}
+.dp-portfolio-simple-head h2{max-width:840px;margin:0;color:#0f172a;font-size:clamp(32px,4vw,54px);line-height:1.06;font-weight:500;letter-spacing:-.06em}
+.dp-portfolio-simple-head>p{margin:0;color:rgba(15,23,42,.66);font-size:15px;line-height:1.72;font-weight:500;letter-spacing:-.025em}
+.dp-portfolio-simple-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.dp-portfolio-simple-tab{appearance:none;border:1px solid rgba(15,23,42,.12);background:rgba(255,255,255,.58);color:rgba(15,23,42,.68);min-height:42px;padding:0 18px;font-family:'Plus Jakarta Sans',system-ui,sans-serif;font-size:12px;line-height:1;font-weight:800;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;transition:background .2s ease,color .2s ease,border-color .2s ease,transform .2s ease}
+.dp-portfolio-simple-tab:hover,.dp-portfolio-simple-tab:focus-visible,.dp-portfolio-simple-tab.is-active{background:#0f172a;color:#fff;border-color:#0f172a;outline:none}
+.dp-portfolio-simple-tab.is-active{box-shadow:inset 4px 0 0 #68717d}
+.dp-portfolio-simple-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;transition:opacity .2s ease,transform .2s ease}
+.dp-portfolio-simple-grid.is-filtering{opacity:.45;transform:translateY(4px)}
+.dp-portfolio-simple-card{min-height:430px;background:#fff;overflow:hidden;border:1px solid rgba(15,23,42,.09);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;position:relative}
+.dp-portfolio-simple-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:transparent;transition:background .22s ease}
+.dp-portfolio-simple-card.is-hidden{display:none}
+.dp-portfolio-simple-card:hover{transform:translateY(-4px);border-color:rgba(15,23,42,.28);box-shadow:0 22px 52px rgba(15,23,42,.10)}
+.dp-portfolio-simple-card:hover::before{background:#68717d}
+.dp-portfolio-simple-card a{display:grid;grid-template-rows:230px auto;min-height:100%;color:inherit;text-decoration:none}
+.dp-portfolio-simple-img{display:block;width:100%;height:230px;background-size:cover;background-position:center;position:relative;overflow:hidden}
+.dp-portfolio-simple-img::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(15,23,42,.52),rgba(15,23,42,.05)),linear-gradient(90deg,rgba(15,23,42,.08),transparent)}
+.dp-portfolio-simple-copy{display:flex;flex-direction:column;gap:0;padding:24px;min-height:200px}
+.dp-portfolio-simple-copy small{display:block;margin-bottom:12px;color:#68717d;font-size:10px;line-height:1;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-style:normal}
+.dp-portfolio-simple-copy strong{display:block;margin-bottom:12px;color:#0f172a;font-size:22px;line-height:1.12;font-weight:800;letter-spacing:-.045em}
+.dp-portfolio-simple-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.dp-portfolio-simple-meta i{display:inline-flex;align-items:center;min-height:24px;padding:0 10px;background:rgba(15,23,42,.05);color:rgba(15,23,42,.66);font-size:10px;line-height:1;font-style:normal;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+.dp-portfolio-simple-copy em{display:block;color:rgba(15,23,42,.64);font-size:13.5px;line-height:1.62;font-weight:500;font-style:normal;letter-spacing:-.02em}
+.dp-portfolio-simple-linkrow{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:16px;border-top:1px solid rgba(15,23,42,.08)}
+.dp-portfolio-simple-linkrow b{color:#0f172a;font-size:11px;line-height:1;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.dp-portfolio-simple-linkrow span{color:#68717d;font-size:18px;line-height:1;transition:transform .2s ease}
+.dp-portfolio-simple-card:hover .dp-portfolio-simple-linkrow span{transform:translateX(3px)}
+.dp-final-cta{position:relative;overflow:hidden;background:#68717d;color:#fff;font-family:'Plus Jakarta Sans',system-ui,sans-serif;padding:92px 0}
+.dp-final-cta::before{content:'';position:absolute;right:-100px;top:50%;width:560px;height:560px;transform:translateY(-50%) skewY(25deg);background:rgba(255,255,255,.08);pointer-events:none}
+.dp-final-cta-container{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);gap:70px;align-items:center}
+.dp-final-cta-eyebrow{color:rgba(255,255,255,.82)}
+.dp-final-cta-eyebrow::before{background:rgba(255,255,255,.54)}
+.dp-final-cta h2{max-width:760px;margin:0 0 18px;color:#fff;font-size:clamp(34px,4.2vw,58px);line-height:1.04;font-weight:500;letter-spacing:-.06em}
+.dp-final-cta p{max-width:600px;margin:0;color:rgba(255,255,255,.84);font-size:15px;line-height:1.7;font-weight:500;letter-spacing:-.02em}
+.dp-final-cta-actions{display:grid;gap:12px;justify-items:end}
+.dp-final-cta-primary,.dp-final-cta-secondary{min-height:54px;min-width:245px;display:inline-flex;align-items:center;justify-content:center;padding:0 24px;text-decoration:none;color:#fff;font-size:12px;line-height:1;font-weight:800;letter-spacing:.08em;text-transform:uppercase;transition:transform .2s ease,background .2s ease}
+.dp-final-cta-primary{background:#0f172a}.dp-final-cta-secondary{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28)}
+.dp-final-cta-primary:hover,.dp-final-cta-secondary:hover,.dp-final-cta-primary:focus-visible,.dp-final-cta-secondary:focus-visible{transform:translateY(-2px);outline:none}
+.dp-footer{background:#0f172a;color:#fff;font-family:'Plus Jakarta Sans',system-ui,sans-serif;padding:44px 0;border-top:1px solid rgba(255,255,255,.08)}
+.dp-footer-container{display:grid;grid-template-columns:250px 1fr minmax(260px,.8fr);gap:30px;align-items:center}
+.dp-footer-brand{display:inline-flex;align-items:center;gap:12px;width:max-content;color:#fff;text-decoration:none;font-size:20px;line-height:1;font-weight:700;letter-spacing:-.055em}
+.dp-footer-brand-mark{display:grid;gap:4px;transform:skewY(25deg);flex:0 0 auto}.dp-footer-brand-mark i{display:block;height:5px;background:#fff}.dp-footer-brand-mark i:nth-child(1){width:31px}.dp-footer-brand-mark i:nth-child(2){width:25px}.dp-footer-brand-mark i:nth-child(3){width:18px;background:#68717d}
+.dp-footer-links{display:flex;align-items:center;justify-content:center;gap:26px}.dp-footer-links a{color:rgba(255,255,255,.72);text-decoration:none;font-size:11px;line-height:1;font-weight:800;letter-spacing:.14em;text-transform:uppercase;transition:color .2s ease}.dp-footer-links a:hover,.dp-footer-links a:focus-visible{color:#68717d;outline:none}
+.dp-footer p{margin:0;color:rgba(255,255,255,.46);font-size:11px;line-height:1.55;font-weight:600;letter-spacing:.02em;text-align:right}
+@media (max-width:1100px){.dp-portfolio-simple-head,.dp-final-cta-container,.dp-footer-container{grid-template-columns:1fr}.dp-final-cta-actions{justify-items:start}.dp-footer-links{justify-content:flex-start;flex-wrap:wrap}.dp-footer p{text-align:left}}
+@media (max-width:860px){.dp-portfolio-simple-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.dp-portfolio-simple-head{gap:24px}}
+@media (max-width:640px){.dp-portfolio-simple,.dp-final-cta{padding:76px 0}.dp-portfolio-simple-container,.dp-final-cta-container,.dp-footer-container{width:min(100% - 36px,1400px)}.dp-portfolio-simple-grid{grid-template-columns:1fr}.dp-portfolio-simple-tabs{display:grid;grid-template-columns:1fr 1fr}.dp-portfolio-simple-tab{width:100%}.dp-final-cta-actions,.dp-final-cta-primary,.dp-final-cta-secondary{width:100%}.dp-footer-links{display:grid;grid-template-columns:1fr 1fr;gap:16px}}
+
+
+@media (max-width:640px){
+  .dp-portfolio-simple-copy{min-height:auto}
+  .dp-portfolio-simple-meta{gap:6px}
+  .dp-portfolio-simple-meta i{font-size:9px;padding:0 8px}
+}
+
+
+/* BLOG POST PAGE */
+.dp-blog-post,
+.dp-blog-post *,
+.dp-blog-related,
+.dp-blog-related *,
+.dp-final-cta,
+.dp-final-cta *,
+.dp-footer,
+.dp-footer * {
+  box-sizing: border-box;
+}
+
+.dp-blog-post {
+  background: #f4f2ee;
+  color: #0f172a;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  padding: 104px 0;
+  position: relative;
+  overflow: visible;
+}
+
+.dp-blog-post::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(15,23,42,.045) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(15,23,42,.032) 1px, transparent 1px);
+  background-size: 90px 90px;
+  opacity: .36;
+  pointer-events: none;
+}
+
+.dp-blog-container,
+.dp-blog-related-container,
+.dp-final-cta-container,
+.dp-footer-container {
+  width: min(1520px, calc(100% - 80px));
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.dp-blog-container {
+  display: grid;
+  grid-template-columns: 360px minmax(0, 920px);
+  gap: 96px;
+  align-items: start;
+  justify-content: center;
+  overflow: visible;
+}
+
+.dp-blog-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 28px;
+  align-self: start;
+  height: max-content;
+  max-height: calc(100vh - 56px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  z-index: 2;
+}
+
+.dp-blog-sidebar-card {
+  background: #ffffff;
+  border-left: 4px solid #68717d;
+  padding: 30px;
+  box-shadow: 0 18px 54px rgba(15,23,42,.08);
+}
+
+.dp-blog-sidebar-card > span,
+.dp-blog-kicker,
+.dp-blog-related-eyebrow,
+.dp-final-cta-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 16px;
+  color: #68717d;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.dp-blog-kicker::before,
+.dp-blog-related-eyebrow::before,
+.dp-final-cta-eyebrow::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  display: block;
+  background: currentColor;
+}
+
+.dp-blog-sidebar-card h2 {
+  margin: 0 0 24px;
+  color: #0f172a;
+  font-size: 26px;
+  line-height: 1.08;
+  font-weight: 600;
+  letter-spacing: -.055em;
+}
+
+.dp-blog-sidebar-card dl {
+  display: grid;
+  gap: 18px;
+  margin: 0 0 28px;
+}
+
+.dp-blog-sidebar-card dl div {
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(15,23,42,.09);
+}
+
+.dp-blog-sidebar-card dt {
+  margin-bottom: 7px;
+  color: rgba(15,23,42,.42);
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.dp-blog-sidebar-card dd {
+  margin: 0;
+  color: rgba(15,23,42,.72);
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.dp-blog-sidebar-card a {
+  min-height: 48px;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+  transition: transform .2s ease, background .2s ease;
+}
+
+.dp-blog-sidebar-card a:hover,
+.dp-blog-sidebar-card a:focus-visible {
+  transform: translateY(-2px);
+  background: #68717d;
+  outline: none;
+}
+
+.dp-blog-article {
+  background: #ffffff;
+  padding: clamp(34px, 5vw, 70px);
+  box-shadow: 0 18px 54px rgba(15,23,42,.08);
+}
+
+.dp-blog-article h2 {
+  margin: 0 0 24px;
+  color: #0f172a;
+  font-size: clamp(34px, 4.4vw, 58px);
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: -.065em;
+}
+
+.dp-blog-lead {
+  color: rgba(15,23,42,.72);
+  font-size: 20px;
+  line-height: 1.65;
+  font-weight: 400;
+  letter-spacing: -.035em;
+}
+
+.dp-blog-article p {
+  margin: 0 0 24px;
+  color: rgba(15,23,42,.68);
+  font-size: 16px;
+  line-height: 1.78;
+  font-weight: 500;
+  letter-spacing: -.02em;
+}
+
+.dp-blog-article h3 {
+  margin: 46px 0 16px;
+  color: #0f172a;
+  font-size: clamp(25px, 3vw, 34px);
+  line-height: 1.13;
+  font-weight: 700;
+  letter-spacing: -.055em;
+}
+
+.dp-blog-image {
+  margin: 42px 0;
+  background: #0f172a;
+  overflow: hidden;
+}
+
+.dp-blog-image img {
+  width: 100%;
+  height: 420px;
+  display: block;
+  object-fit: cover;
+}
+
+.dp-blog-image figcaption {
+  padding: 14px 18px;
+  color: rgba(255,255,255,.68);
+  background: #0f172a;
+  font-size: 11px;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
+.dp-blog-article blockquote {
+  margin: 42px 0;
+  padding: 30px;
+  background: #0f172a;
+  border-left: 4px solid #68717d;
+  color: #ffffff;
+  font-size: clamp(22px, 3vw, 32px);
+  line-height: 1.25;
+  font-weight: 400;
+  letter-spacing: -.05em;
+}
+
+.dp-blog-callout,
+.dp-blog-summary {
+  margin: 42px 0;
+  padding: 30px;
+  background: #f4f2ee;
+  border-left: 4px solid #68717d;
+}
+
+.dp-blog-callout span {
+  display: block;
+  margin-bottom: 12px;
+  color: #68717d;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.dp-blog-callout p,
+.dp-blog-summary p {
+  margin: 0;
+}
+
+.dp-blog-summary h3 {
+  margin-top: 0;
+}
+
+.dp-blog-summary ul {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dp-blog-summary li {
+  position: relative;
+  padding-left: 20px;
+  color: rgba(15,23,42,.70);
+  font-size: 15px;
+  line-height: 1.65;
+  font-weight: 600;
+}
+
+.dp-blog-summary li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: .75em;
+  width: 8px;
+  height: 2px;
+  background: #68717d;
+}
+
+/* RELATED BLOGS */
+.dp-blog-related {
+  background: #0f172a;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  padding: 96px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.dp-blog-related::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,.018) 1px, transparent 1px);
+  background-size: 90px 90px;
+  opacity: .38;
+  pointer-events: none;
+}
+
+.dp-blog-related-head {
+  margin-bottom: 34px;
+}
+
+.dp-blog-related h2 {
+  max-width: 760px;
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(32px, 4vw, 54px);
+  line-height: 1.06;
+  font-weight: 500;
+  letter-spacing: -.06em;
+}
+
+.dp-blog-related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.dp-blog-related-card {
+  display: grid;
+  grid-template-rows: 220px auto;
+  min-height: 390px;
+  background: rgba(255,255,255,.055);
+  color: #ffffff;
+  text-decoration: none;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.08);
+  transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+
+.dp-blog-related-card:hover,
+.dp-blog-related-card:focus-visible {
+  transform: translateY(-4px);
+  border-color: rgba(15,23,42,.30);
+  background: rgba(255,255,255,.075);
+  outline: none;
+}
+
+.dp-blog-related-img {
+  display: block;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.dp-blog-related-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15,23,42,.62), rgba(15,23,42,.06));
+}
+
+.dp-blog-related-card > span:last-child {
+  padding: 24px;
+}
+
+.dp-blog-related-card small {
+  display: block;
+  margin-bottom: 12px;
+  color: #68717d;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.dp-blog-related-card strong {
+  display: block;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 1.16;
+  font-weight: 700;
+  letter-spacing: -.045em;
+}
+
+/* FINAL CTA */
+.dp-final-cta {
+  position: relative;
+  overflow: hidden;
+  background: #68717d;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  padding: 92px 0;
+}
+
+.dp-final-cta::before {
+  content: '';
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  width: 560px;
+  height: 560px;
+  transform: translateY(-50%) skewY(25deg);
+  background: rgba(255,255,255,.08);
+  pointer-events: none;
+}
+
+.dp-final-cta-container {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, .9fr);
+  gap: 70px;
+  align-items: center;
+}
+
+.dp-final-cta-eyebrow {
+  color: rgba(255,255,255,.82);
+}
+
+.dp-final-cta-eyebrow::before {
+  background: rgba(255,255,255,.54);
+}
+
+.dp-final-cta h2 {
+  max-width: 760px;
+  margin: 0 0 18px;
+  color: #ffffff;
+  font-size: clamp(34px, 4.2vw, 58px);
+  line-height: 1.04;
+  font-weight: 500;
+  letter-spacing: -.06em;
+}
+
+.dp-final-cta p {
+  max-width: 600px;
+  margin: 0;
+  color: rgba(255,255,255,.84);
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 500;
+  letter-spacing: -.02em;
+}
+
+.dp-final-cta-actions {
+  display: grid;
+  gap: 12px;
+  justify-items: end;
+}
+
+.dp-final-cta-primary,
+.dp-final-cta-secondary {
+  min-height: 54px;
+  min-width: 245px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  transition: transform .2s ease, background .2s ease;
+}
+
+.dp-final-cta-primary {
+  background: #0f172a;
+}
+
+.dp-final-cta-secondary {
+  background: rgba(255,255,255,.14);
+  border: 1px solid rgba(255,255,255,.28);
+}
+
+.dp-final-cta-primary:hover,
+.dp-final-cta-secondary:hover,
+.dp-final-cta-primary:focus-visible,
+.dp-final-cta-secondary:focus-visible {
+  transform: translateY(-2px);
+  outline: none;
+}
+
+/* FOOTER */
+.dp-footer {
+  background: #0f172a;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  padding: 44px 0;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.dp-footer-container {
+  display: grid;
+  grid-template-columns: 250px 1fr minmax(260px,.8fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.dp-footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -.055em;
+}
+
+.dp-footer-brand-mark {
+  display: grid;
+  gap: 4px;
+  transform: skewY(25deg);
+  flex: 0 0 auto;
+}
+
+.dp-footer-brand-mark i {
+  display: block;
+  height: 5px;
+  background: #ffffff;
+}
+
+.dp-footer-brand-mark i:nth-child(1) { width: 31px; }
+.dp-footer-brand-mark i:nth-child(2) { width: 25px; }
+.dp-footer-brand-mark i:nth-child(3) { width: 18px; background: #68717d; }
+
+.dp-footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+}
+
+.dp-footer-links a {
+  color: rgba(255,255,255,.72);
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  transition: color .2s ease;
+}
+
+.dp-footer-links a:hover,
+.dp-footer-links a:focus-visible {
+  color: #68717d;
+  outline: none;
+}
+
+.dp-footer p {
+  margin: 0;
+  color: rgba(255,255,255,.46);
+  font-size: 11px;
+  line-height: 1.55;
+  font-weight: 600;
+  letter-spacing: .02em;
+  text-align: right;
+}
+
+@media (max-width: 1100px) {
+  .dp-blog-container,
+  .dp-final-cta-container,
+  .dp-footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .dp-blog-sidebar {
+    position: relative;
+    top: auto;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .dp-blog-sidebar-card {
+    position: relative;
+    top: auto;
+  }
+
+  .dp-final-cta-actions {
+    justify-items: start;
+  }
+
+  .dp-footer-links {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .dp-footer p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 860px) {
+  .dp-blog-related-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .dp-blog-post,
+  .dp-blog-related,
+  .dp-final-cta {
+    padding: 76px 0;
+  }
+
+  .dp-blog-container,
+  .dp-blog-related-container,
+  .dp-final-cta-container,
+  .dp-footer-container {
+    width: min(100% - 36px, 1520px);
+  }
+
+  .dp-blog-article {
+    padding: 28px 22px;
+  }
+
+  .dp-blog-image img {
+    height: 280px;
+  }
+
+  .dp-final-cta-actions,
+  .dp-final-cta-primary,
+  .dp-final-cta-secondary {
+    width: 100%;
+  }
+
+  .dp-footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+
+/* Blog width + sticky details polish */
+.dp-blog-sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.dp-blog-sidebar::-webkit-scrollbar-thumb {
+  background: rgba(15,23,42,.18);
+}
+
+.dp-blog-sidebar-card {
+  transition: box-shadow .25s ease, transform .25s ease;
+}
+
+.dp-blog-sidebar-card:hover {
+  box-shadow: 0 24px 68px rgba(15,23,42,.10);
+}
+
+
+/* Sticky sidebar fix:
+   Sticky can fail if any parent has overflow hidden.
+   Blog section/container are now overflow: visible, and both the aside + card have sticky positioning.
+*/
+.dp-blog-sidebar-card {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 28px;
+}
+
+@media (max-width: 1100px) {
+  .dp-blog-sidebar-card {
+    position: relative;
+    top: auto;
+  }
+}
+
+
+/* SEO BLOG ENHANCEMENTS — KITCHEN DETAILS ARTICLE */
+.dp-blog-article h3 {
+  scroll-margin-top: 120px;
+}
+
+.dp-blog-article p strong {
+  color: #0f172a;
+}
+
+.dp-blog-summary {
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.dp-blog-callout span {
+  color: #68717d;
+}
+
+.dp-blog-article a {
+  color: #68717d;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 700px) {
+  .dp-mission-title br {
+    display: none;
+  }
+}
+
+</style>
+<script>
+(function () {
+  var wraps = Array.prototype.slice.call(document.querySelectorAll('.dp-mission-mega-wrap'));
+  var closeTimers = new WeakMap();
+
+  function closeWrap(wrap) {
+    var trigger = wrap.querySelector('.dp-mission-mega-trigger');
+    wrap.classList.remove('is-open');
+    wrap.classList.remove('is-switching');
+    if (trigger) trigger.setAttribute('aria-expanded', 'false');
+  }
+
+  function closeOtherWraps(activeWrap) {
+    wraps.forEach(function (wrap) {
+      if (wrap !== activeWrap) {
+        window.clearTimeout(closeTimers.get(wrap));
+        closeWrap(wrap);
+      }
+    });
+  }
+
+  function openWrap(wrap) {
+    var trigger = wrap.querySelector('.dp-mission-mega-trigger');
+
+    window.clearTimeout(closeTimers.get(wrap));
+    closeOtherWraps(wrap);
+
+    wrap.classList.add('is-switching');
+    wrap.classList.add('is-open');
+
+    if (trigger) trigger.setAttribute('aria-expanded', 'true');
+
+    window.setTimeout(function () {
+      wrap.classList.remove('is-switching');
+    }, 140);
+  }
+
+  function delayedCloseWrap(wrap) {
+    window.clearTimeout(closeTimers.get(wrap));
+
+    var timer = window.setTimeout(function () {
+      closeWrap(wrap);
+    }, 120);
+
+    closeTimers.set(wrap, timer);
+  }
+
+  wraps.forEach(function (wrap) {
+    var trigger = wrap.querySelector('.dp-mission-mega-trigger');
+    var mega = wrap.querySelector('.dp-mission-mega');
+
+    if (!trigger || !mega) return;
+
+    wrap.addEventListener('mouseenter', function () {
+      openWrap(wrap);
+    });
+
+    wrap.addEventListener('mouseleave', function () {
+      delayedCloseWrap(wrap);
+    });
+
+    trigger.addEventListener('focus', function () {
+      openWrap(wrap);
+    });
+
+    wrap.addEventListener('focusout', function () {
+      window.setTimeout(function () {
+        if (!wrap.contains(document.activeElement)) delayedCloseWrap(wrap);
+      }, 0);
+    });
+
+    trigger.addEventListener('click', function (event) {
+      event.preventDefault();
+
+      if (wrap.classList.contains('is-open')) {
+        closeWrap(wrap);
+      } else {
+        openWrap(wrap);
+      }
+    });
+  });
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+      wraps.forEach(closeWrap);
+      closeMobile();
+    }
+  });
+
+  document.addEventListener('click', function (event) {
+    var clickedInsideMega = wraps.some(function (wrap) {
+      return wrap.contains(event.target);
+    });
+
+    if (!clickedInsideMega) {
+      wraps.forEach(closeWrap);
+    }
+  });
+
+  var hero = document.querySelector('.dp-mission-hero');
+  var mobileToggle = document.querySelector('.dp-mission-mobile-toggle');
+  var mobileMenu = document.querySelector('.dp-mission-mobile-menu');
+
+  function closeMobile() {
+    if (!mobileMenu || !mobileToggle) return;
+
+    mobileMenu.classList.remove('is-open');
+    mobileToggle.classList.remove('is-active');
+    mobileToggle.setAttribute('aria-expanded', 'false');
+  }
+
+  if (hero && mobileToggle && mobileMenu) {
+    mobileToggle.addEventListener('click', function (event) {
+      event.stopPropagation();
+
+      var isOpen = mobileMenu.classList.toggle('is-open');
+      mobileToggle.classList.toggle('is-active', isOpen);
+      mobileToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+
+      if (isOpen) wraps.forEach(closeWrap);
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMobile);
+    });
+
+    document.addEventListener('click', function (event) {
+      if (!hero.contains(event.target)) closeMobile();
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 980) closeMobile();
+    });
+  }
+
+  var portfolioSections = document.querySelectorAll('.dp-portfolio-simple');
+  portfolioSections.forEach(function (section) {
+    var tabs = Array.prototype.slice.call(section.querySelectorAll('[data-dp-simple-filter]'));
+    var items = Array.prototype.slice.call(section.querySelectorAll('[data-dp-simple-item]'));
+    var grid = section.querySelector('[data-dp-simple-grid]');
+    if (!tabs.length || !items.length || !grid) return;
+    function filterPortfolio(filter) {
+      grid.classList.add('is-filtering');
+      window.setTimeout(function () {
+        items.forEach(function (item) {
+          var category = item.getAttribute('data-dp-simple-category');
+          item.classList.toggle('is-hidden', !(filter === 'all' || category === filter));
+        });
+        grid.classList.remove('is-filtering');
+      }, 140);
+    }
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        var filter = tab.getAttribute('data-dp-simple-filter') || 'all';
+        tabs.forEach(function (button) {
+          var active = button === tab;
+          button.classList.toggle('is-active', active);
+          button.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        filterPortfolio(filter);
+      });
+    });
+  });
+
+})();
+</script>
+<link rel="stylesheet" href="dplus-motion.css">
+<script src="dplus-motion.js" defer></script>

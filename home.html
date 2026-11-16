@@ -1,0 +1,3741 @@
+<!--
+====================================================================
+DIVERSIFIED PLUS SITE LINK UPDATE
+====================================================================
+Navigation, mega menus, mobile menus, footer links, service cards,
+project cards, blog links, and CTA links were updated to use the
+matching local pages included in this zip package.
+====================================================================
+-->
+
+<!--
+====================================================================
+DIVERSIFIED PLUS MENU LINK UPDATE
+====================================================================
+Updated the desktop menu, mega menus, mobile menu, service cards,
+portfolio cards/CTAs, blog carousel, CTA links, and footer navigation
+with the local page links provided.
+====================================================================
+-->
+<!--
+====================================================================
+UPDATE: HERO BACKGROUND VIDEO
+====================================================================
+Added/updated the hero background video source:
+https://video.wixstatic.com/video/a8d567_addeb3ba4e3042aab9edee9c62712ee8/1080p/mp4/file.mp4
+
+The video is autoplay, muted, looped, playsinline, object-fit: cover,
+and layered behind the universal hero content with a dark overlay for readability.
+====================================================================
+-->
+<!--
+====================================================================
+DIVERSIFIED PLUS PAGE UPDATE
+====================================================================
+Current update:
+- Replaced the existing mission hero with the approved Diversified Plus Universal Hero.
+- Universal Hero includes the exact universal menu, mega menus, restored mobile menu,
+  responsive behavior, background video, and right-side ribbon system.
+- All content below the hero was preserved.
+====================================================================
+-->
+<div class="dpco-page">
+<!-- =========================================================
+       HERO + NAVIGATION
+  ========================================================== -->
+<!--
+====================================================================
+DIVERSIFIED PLUS HERO VIDEO SETTINGS / QUICK EDIT GUIDE
+====================================================================
+
+The hero video is controlled by CSS variables on .dpco-hero.
+
+MOST IMPORTANT SETTINGS TO CHANGE:
+
+1) Video visibility:
+   --dpco-video-opacity: .62;
+   Increase to .70 or .80 to see more video.
+   Decrease to .35 or .45 for a darker, more subtle video.
+
+2) Dark overlay transparency:
+   --dpco-overlay-alpha-top: .42;
+   --dpco-overlay-alpha-mid: .42;
+   --dpco-overlay-alpha-bottom: .62;
+   Lower numbers = more transparent overlay / more visible video.
+   Higher numbers = darker overlay / easier text readability.
+
+3) Side overlay:
+   --dpco-side-overlay-left: .62;
+   --dpco-side-overlay-right: .18;
+   Lower the right value if you want the right-side video/ribbon area brighter.
+   Lower the left value if you want the full hero brighter.
+
+4) Navy color wash over the video:
+   --dpco-bg-color-alpha: .10;
+   Lower = less navy tint / more visible video.
+   Higher = stronger navy tint / darker hero.
+
+5) Video image filters:
+   --dpco-video-saturate: .96;
+   --dpco-video-contrast: 1.06;
+   --dpco-video-brightness: 1.08;
+   Raise brightness to 1.12 or 1.18 if the video is still too dark.
+
+QUICK BRIGHTER VERSION:
+--dpco-video-opacity: .72;
+--dpco-overlay-alpha-top: .32;
+--dpco-overlay-alpha-mid: .32;
+--dpco-overlay-alpha-bottom: .50;
+--dpco-side-overlay-left: .50;
+--dpco-side-overlay-right: .08;
+--dpco-bg-color-alpha: .06;
+
+QUICK DARKER VERSION:
+--dpco-video-opacity: .45;
+--dpco-overlay-alpha-top: .68;
+--dpco-overlay-alpha-mid: .68;
+--dpco-overlay-alpha-bottom: .82;
+--dpco-side-overlay-left: .82;
+--dpco-side-overlay-right: .48;
+--dpco-bg-color-alpha: .22;
+
+====================================================================
+-->
+<section aria-labelledby="dpco-hero-title" class="dpco-hero" id="top">
+<!-- FUNCTIONAL HERO BACKGROUND VIDEO
+         Change the video URL inside the <source src=""> below.
+         Visibility/transparency is controlled in CSS under:
+         "HERO VIDEO VISIBILITY CONTROLS"
+    -->
+<div aria-hidden="true" class="dpco-hero-video-layer">
+<video autoplay="" class="dpco-hero-bg-video" loop="" muted="" playsinline="" poster="https://ckbuildersinc.com/wp-content/uploads/3-interior-home-renovations-holladay.jpeg" preload="metadata">
+<source src="https://video.wixstatic.com/video/a8d567_addeb3ba4e3042aab9edee9c62712ee8/1080p/mp4/file.mp4" type="video/mp4"/>
+</video>
+</div>
+<!-- Header -->
+<header aria-label="Main navigation" class="dpco-header">
+<a aria-label="Diversified Plus home" class="dpco-brand" href="home.html">
+<span aria-hidden="true" class="dpco-brand-mark"><i></i><i></i><i></i></span>
+<span>Diversified Plus</span>
+</a>
+<nav aria-label="Desktop navigation" class="dpco-nav">
+<a href="company.html">About Us</a>
+<div class="dpco-mega-wrap">
+<a aria-expanded="false" aria-haspopup="true" class="dpco-mega-trigger" href="kitchen-services.html">
+            Services <span aria-hidden="true">∨</span>
+</a>
+<div aria-label="Services mega menu" class="dpco-mega">
+<div class="dpco-mega-panel">
+<div class="dpco-mega-intro">
+<span>Construction Services</span>
+<h3>Built around the way real properties are improved.</h3>
+<p>Explore kitchen renovations, baths, additions, siding, decks, outdoor living, and full-scope remodeling.</p>
+<a href="services.html">View All Services →</a>
+</div>
+<div class="dpco-mega-grid">
+<a class="dpco-mega-card" href="kitchen-services.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1556912173-3bb406ef7e77?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Kitchen Renovations</strong><small>Layouts, cabinetry, lighting, surfaces, and finish coordination.</small></span>
+</a>
+<a class="dpco-mega-card" href="bathroom-services.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Bath Renovations</strong><small>Tile, waterproofing, ventilation, fixtures, and refined private spaces.</small></span>
+</a>
+<a class="dpco-mega-card" href="additions-renovations.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Additions &amp; Remodeling</strong><small>Expanded living space, structure, planning, and exterior matching.</small></span>
+</a>
+<a class="dpco-mega-card" href="outdoor-living.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Decks &amp; Outdoor Living</strong><small>Decks, porches, pergolas, pool decks, and gathering areas.</small></span>
+</a>
+<a class="dpco-mega-card" href="sididng.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Siding &amp; Exteriors</strong><small>Hardie siding, trim, curb appeal, protection, and exterior upgrades.</small></span>
+</a>
+<a class="dpco-mega-card" href="full-renovation.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Full Renovations</strong><small>Whole-home planning, project coordination, carpentry, and finishing.</small></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dpco-mega-wrap">
+<a aria-expanded="false" aria-haspopup="true" class="dpco-mega-trigger" href="Projects.html">Projects <span aria-hidden="true">∨</span></a>
+<div aria-label="Projects mega menu" class="dpco-mega">
+<div class="dpco-mega-panel">
+<div class="dpco-mega-intro">
+<span>Project Portfolio</span>
+<h3>Browse work by the kind of transformation you are planning.</h3>
+<p>See additions, kitchens, baths, decks, siding, outdoor structures, and full-property renovations organized by project type.</p>
+<a href="Projects.html">View Portfolio →</a>
+</div>
+<div class="dpco-mega-grid">
+<a class="dpco-mega-card" href="additions-renovations.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Home Additions</strong><small>Expanded rooms, exterior matching, and improved day-to-day space.</small></span>
+</a>
+<a class="dpco-mega-card" href="kitchen-services.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Kitchen Projects</strong><small>Open layouts, cabinetry, lighting, storage, and surface details.</small></span>
+</a>
+<a class="dpco-mega-card" href="bathroom-services.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Bath Projects</strong><small>Tile, glass, waterproofing, fixtures, and private-space planning.</small></span>
+</a>
+<a class="dpco-mega-card" href="outdoor-living.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1563298723-dcfebaa392e3?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Decks &amp; Porches</strong><small>Outdoor circulation, low-maintenance decking, and railing systems.</small></span>
+</a>
+<a class="dpco-mega-card" href="sididng.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Exterior Work</strong><small>Siding, trim, protection, curb appeal, and architectural detail.</small></span>
+</a>
+<a class="dpco-mega-card" href="outdoor-living.html">
+<span class="dpco-mega-img" style="background-image:url('https://images.unsplash.com/photo-1615874959474-d609969a20ed?q=80&amp;w=700&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-mega-copy"><strong>Outdoor Structures</strong><small>Pool decks, pergolas, gazebos, shade, and outdoor entertaining.</small></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<a href="careers.html">Founder</a>
+<div class="dpco-mega-wrap">
+<a aria-expanded="false" aria-haspopup="true" class="dpco-mega-trigger" href="news.html">News <span aria-hidden="true">∨</span></a>
+<div aria-label="News mega menu" class="dpco-mega dpco-news-mega">
+<div class="dpco-news-panel">
+<a class="dpco-news-feature" href="blog-post.html">
+<span class="dpco-news-img" style="background-image:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&amp;w=900&amp;auto=format&amp;fit=crop')"></span>
+<span class="dpco-news-copy">
+<small>Featured Insight</small>
+<strong>What to clarify before starting a renovation.</strong>
+<em>Scope, materials, access, schedule, and communication choices that shape the entire build.</em>
+</span>
+</a>
+<div class="dpco-news-list">
+<a href="how to define renovation scope before pricing pressure starts.html"><span>Planning</span><strong>How to define renovation scope before pricing pressure starts.</strong></a>
+<a href="k-blogpost.html"><span>Kitchens</span><strong>The kitchen details homeowners notice without knowing why.</strong></a>
+<a href="sididng.html"><span>Exteriors</span><strong>When siding becomes more than curb appeal.</strong></a>
+<a href="outdoor-living.html"><span>Outdoor</span><strong>Planning a deck that feels connected to the home.</strong></a>
+</div>
+</div>
+</div>
+</div>
+<a href="dpgoesgreen.html">Goes Green</a>
+</nav>
+<a class="dpco-header-cta" href="contact.html">Contact Us <span aria-hidden="true">→</span></a>
+<button aria-expanded="false" aria-label="Open mobile menu" class="dpco-mobile-toggle" type="button">
+<span></span><span></span><span></span>
+</button>
+<div aria-label="Mobile menu" class="dpco-mobile-menu">
+<div class="dpco-mobile-head">
+<span>Navigation</span>
+<strong>Explore Diversified Plus</strong>
+</div>
+<nav>
+<a href="company.html">About Us</a>
+<a href="services.html">Services</a>
+<a href="Projects.html">Projects</a>
+<a href="careers.html">Careers</a>
+<a href="dpgoesgreen.html">Goes Green</a>
+<a href="news.html">News</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<!-- SVG ribbon: transparent, small, positioned at right-middle -->
+<div class="dpco-hero-shell">
+<p class="dpco-eyebrow">Company</p>
+<h1 class="dpco-hero-title" id="dpco-hero-title">Premium construction services, simplified into one clear standard.</h1>
+<p class="dpco-hero-copy">
+        Explore Diversified Plus services for remodeling, kitchens, baths, additions, decking, siding, outdoor living, and eco-conscious building across Westchester, Putnam, and Southern Connecticut.
+      </p>
+<div class="dpco-hero-actions">
+<a class="dpco-btn dpco-btn-primary" href="kitchen-services.html">Explore Services</a>
+<a class="dpco-btn dpco-btn-secondary" href="contact.html">Start a Project</a>
+</div>
+<div aria-label="Company highlights" class="dpco-hero-proof">
+<div><strong>20+</strong><span>Years of home building experience through founder Jack Ricotta</span></div>
+<div><strong>In-house</strong><span>Coordination for budgets, schedules, inspections, and completion</span></div>
+<div><strong>Green</strong><span>Guidance on eco-friendly, low-maintenance, recyclable products</span></div>
+</div>
+</div>
+</section>
+</div>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* UNIVERSAL HERO FONT LOCK */
+.dpco-page,
+.dpco-page *,
+.dpco-page *::before,
+.dpco-page *::after {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.dpco-page,
+.dpco-page *,
+.dpco-page *::before,
+.dpco-page *::after {
+  box-sizing: border-box;
+}
+
+.dpco-page {
+  background: #f4f2ee;
+  color: #0f172a;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+/* HERO */
+.dpco-hero {
+  min-height: 930px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(15,23,42,.08), transparent 24%),
+    #0f172a;
+  color: #ffffff;
+}
+
+.dpco-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,.018) 1px, transparent 1px);
+  background-size: 92px 92px;
+  opacity: .40;
+  pointer-events: none;
+}
+
+.dpco-bottom-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 112px;
+  background: #f4f2ee;
+  z-index: 1;
+}
+
+/* HEADER */
+.dpco-header {
+  position: absolute;
+  top: 34px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 80;
+  width: min(1420px, calc(100% - 88px));
+  display: grid;
+  grid-template-columns: 250px 1fr 190px 48px;
+  gap: 24px;
+  align-items: center;
+}
+
+.dpco-brand,
+.dpco-footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -.055em;
+}
+
+.dpco-brand-mark,
+.dpco-footer-mark {
+  display: grid;
+  gap: 4px;
+  transform: skewY(25deg);
+  flex: 0 0 auto;
+}
+
+.dpco-brand-mark i,
+.dpco-footer-mark i {
+  display: block;
+  height: 5px;
+  background: #ffffff;
+}
+
+.dpco-brand-mark i:nth-child(1),
+.dpco-footer-mark i:nth-child(1) { width: 31px; }
+
+.dpco-brand-mark i:nth-child(2),
+.dpco-footer-mark i:nth-child(2) { width: 25px; }
+
+.dpco-brand-mark i:nth-child(3),
+.dpco-footer-mark i:nth-child(3) { width: 18px; background: #68717d; }
+
+.dpco-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(20px, 2.2vw, 34px);
+}
+
+.dpco-nav > a,
+.dpco-mega-trigger {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: rgba(255,255,255,.94);
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -.032em;
+  cursor: pointer;
+  padding: 0;
+  white-space: nowrap;
+  transition: color .2s ease;
+}
+
+.dpco-nav > a:hover,
+.dpco-nav > a:focus-visible,
+.dpco-mega-wrap:hover .dpco-mega-trigger,
+.dpco-mega-wrap.is-open .dpco-mega-trigger,
+.dpco-mega-trigger:hover,
+.dpco-mega-trigger:focus-visible {
+  color: #68717d;
+  outline: none;
+}
+
+.dpco-mega-trigger span {
+  display: inline-block;
+  margin-left: 7px;
+  transition: transform .2s ease;
+}
+
+.dpco-mega-wrap:hover .dpco-mega-trigger span,
+.dpco-mega-wrap.is-open .dpco-mega-trigger span,
+.dpco-mega-wrap:focus-within .dpco-mega-trigger span {
+  transform: rotate(180deg);
+}
+
+.dpco-header-cta {
+  min-height: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 20px;
+  background: #68717d;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  transition: transform .2s ease, background .2s ease;
+}
+
+.dpco-header-cta:hover,
+.dpco-header-cta:focus-visible {
+  transform: translateY(-2px);
+  background: #111c35;
+  outline: none;
+}
+
+/* MEGA MENUS */
+.dpco-mega-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dpco-mega {
+  position: fixed;
+  left: 50%;
+  top: 104px;
+  z-index: 120;
+  width: min(1140px, calc(100vw - 72px));
+  transform: translateX(-50%) translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .22s ease, transform .22s ease, visibility .22s ease;
+}
+
+.dpco-mega::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -28px;
+  height: 28px;
+}
+
+.dpco-mega-wrap:hover .dpco-mega,
+.dpco-mega-wrap:focus-within .dpco-mega,
+.dpco-mega-wrap.is-open .dpco-mega {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.dpco-mega-panel {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 0;
+  background: #f4f2ee;
+  border: 0;
+  box-shadow: 0 30px 80px rgba(0,0,0,.20);
+  overflow: visible;
+}
+
+.dpco-mega-intro {
+  min-height: 545px;
+  padding: 34px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(15,23,42,.13), transparent 34%),
+    #0f172a;
+  color: #ffffff;
+  position: relative;
+}
+
+.dpco-mega-intro::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 34px;
+  bottom: 34px;
+  width: 4px;
+  background: #68717d;
+}
+
+.dpco-mega-intro span,
+.dpco-news-copy small,
+.dpco-news-list span {
+  display: block;
+  margin-bottom: 14px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.dpco-mega-intro h3 {
+  margin: 0 0 16px;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -.055em;
+}
+
+.dpco-mega-intro p {
+  margin: 0 0 26px;
+  color: rgba(255,255,255,.70);
+  font-size: 13.5px;
+  line-height: 1.72;
+  font-weight: 400;
+}
+
+.dpco-mega-intro a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.dpco-mega-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 10px;
+  padding: 10px;
+  background: #f4f2ee;
+}
+
+.dpco-mega-card {
+  display: grid;
+  grid-template-rows: 132px minmax(146px, auto);
+  min-height: 278px;
+  background: #ffffff;
+  color: #0f172a;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.dpco-mega-card:hover,
+.dpco-mega-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(15,23,42,.10);
+  outline: none;
+}
+
+.dpco-mega-img {
+  width: 100%;
+  height: 132px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.dpco-mega-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15,23,42,.46), rgba(15,23,42,.04));
+}
+
+.dpco-mega-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 18px 18px 22px;
+  min-height: 146px;
+}
+
+.dpco-mega-copy strong {
+  display: block;
+  margin-bottom: 9px;
+  color: #0f172a;
+  font-size: 15px;
+  line-height: 1.18;
+  font-weight: 800;
+  letter-spacing: -.035em;
+}
+
+.dpco-mega-copy small {
+  color: rgba(15,23,42,.66);
+  font-size: 11.25px;
+  line-height: 1.58;
+  font-weight: 600;
+}
+
+.dpco-news-mega {
+  width: min(980px, calc(100vw - 72px));
+}
+
+.dpco-news-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, .92fr);
+  gap: 10px;
+  padding: 10px;
+  background: #f4f2ee;
+  box-shadow: 0 30px 80px rgba(0,0,0,.20);
+}
+
+.dpco-news-feature {
+  display: grid;
+  grid-template-columns: minmax(240px, .9fr) minmax(0,1.1fr);
+  min-height: 340px;
+  background: #ffffff;
+  color: #0f172a;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.dpco-news-img {
+  min-height: 340px;
+  background-size: cover;
+  background-position: center;
+}
+
+.dpco-news-copy {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dpco-news-copy strong {
+  margin-bottom: 14px;
+  color: #0f172a;
+  font-size: 28px;
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -.055em;
+}
+
+.dpco-news-copy em {
+  color: rgba(15,23,42,.66);
+  font-size: 13.5px;
+  line-height: 1.68;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dpco-news-list {
+  display: grid;
+  gap: 10px;
+}
+
+.dpco-news-list a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 77px;
+  padding: 18px 20px;
+  background: #ffffff;
+  color: #0f172a;
+  text-decoration: none;
+}
+
+.dpco-news-list strong {
+  color: #0f172a;
+  font-size: 14px;
+  line-height: 1.28;
+  font-weight: 800;
+  letter-spacing: -.035em;
+}
+
+/* MOBILE MENU */
+.dpco-mobile-toggle {
+  display: none;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.08);
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dpco-mobile-toggle span {
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  display: block;
+  transition: transform .25s ease, opacity .2s ease;
+}
+
+.dpco-mobile-toggle.is-active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.dpco-mobile-toggle.is-active span:nth-child(2) { opacity: 0; }
+.dpco-mobile-toggle.is-active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+.dpco-mobile-menu {
+  position: absolute;
+  right: 0;
+  top: 72px;
+  width: min(420px, calc(100vw - 44px));
+  background: #0f172a;
+  border-top: 4px solid #68717d;
+  box-shadow: 0 28px 80px rgba(0,0,0,.28);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity .25s ease, transform .25s ease, visibility .25s;
+}
+
+.dpco-mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.dpco-mobile-head {
+  padding: 24px 24px 18px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(15,23,42,.18), transparent 36%),
+    #0f172a;
+}
+
+.dpco-mobile-head span {
+  display: block;
+  margin-bottom: 9px;
+  color: #68717d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.dpco-mobile-head strong {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -.055em;
+}
+
+.dpco-mobile-menu nav {
+  display: grid;
+}
+
+.dpco-mobile-menu nav a {
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  color: rgba(255,255,255,.86);
+  text-decoration: none;
+  border-top: 1px solid rgba(255,255,255,.10);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -.045em;
+}
+
+.dpco-mobile-menu nav a::after {
+  content: '→';
+  color: #68717d;
+}
+
+/* HERO CONTENT */
+.dpco-hero-shell {
+  position: relative;
+  z-index: 4;
+  width: min(1420px, calc(100% - 88px));
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.dpco-eyebrow,
+.dpco-section-label,
+.dpco-cta-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 20px;
+  color: #68717d;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.dpco-section-label::before,
+.dpco-cta-eyebrow::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: currentColor;
+  display: block;
+}
+
+.dpco-hero-title {
+  max-width: 940px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: clamp(46px, 6.2vw, 86px);
+  line-height: 1.04;
+  font-weight: 500;
+  letter-spacing: -.072em;
+}
+
+.dpco-hero-copy {
+  max-width: 760px;
+  margin: 28px auto 0;
+  color: rgba(255,255,255,.82);
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: -.025em;
+}
+
+.dpco-hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+
+.dpco-btn {
+  min-height: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 26px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  transition: transform .2s ease, background .2s ease, border-color .2s ease;
+}
+
+.dpco-btn-primary {
+  background: #68717d;
+}
+
+.dpco-btn-secondary {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.18);
+}
+
+.dpco-btn:hover,
+.dpco-btn:focus-visible {
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.dpco-hero-proof {
+  width: min(960px, 100%);
+  margin: 54px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid rgba(255,255,255,.13);
+  border-bottom: 1px solid rgba(255,255,255,.13);
+}
+
+.dpco-hero-proof div {
+  padding: 22px 20px;
+  border-right: 1px solid rgba(255,255,255,.13);
+}
+
+.dpco-hero-proof div:last-child {
+  border-right: 0;
+}
+
+.dpco-hero-proof strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #68717d;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -.03em;
+}
+
+.dpco-hero-proof span {
+  color: rgba(255,255,255,.60);
+  font-size: 10px;
+  line-height: 1.55;
+  font-weight: 800;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+}
+
+/* RIBBON */
+.dpco-ribbon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: min(21vw, 230px);
+  transform: translateY(-50%);
+  z-index: 3;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.dpco-ribbon-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* HERO VIDEO + RIBBON FIXES */
+.dpco-hero {
+  position: relative;
+  isolation: isolate;
+  background: #0f172a;
+}
+
+.dpco-hero-video-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: #0f172a;
+}
+
+.dpco-hero-bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: var(--dpco-video-opacity, .62);
+  filter: saturate(.78) contrast(1.08);
+}
+
+.dpco-hero-video-layer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(15,23,42,.88) 0%, rgba(15,23,42,.86) 46%, rgba(15,23,42,.95) 100%),
+    linear-gradient(90deg, rgba(15,23,42,.94) 0%, rgba(15,23,42,.74) 100%);
+}
+
+.dpco-hero::before {
+  z-index: 1;
+}
+
+.dpco-header {
+  z-index: 80;
+}
+
+.dpco-hero-shell {
+  z-index: 5;
+  position: relative;
+}
+
+.dpco-bottom-band {
+  z-index: 2;
+}
+
+/* Corrected right-side SVG/ribbon position.
+   It stays decorative and can never affect CTA clicks or layout. */
+.dpco-ribbon {
+  position: absolute;
+  right: 0;
+  top: 52%;
+  width: min(14vw, 150px);
+  transform: translateY(-50%);
+  z-index: 2;
+  pointer-events: none;
+  overflow: visible;
+  opacity: .88;
+}
+
+.dpco-ribbon-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Keep hero CTA/content above ribbon */
+.dpco-hero-actions,
+.dpco-btn,
+.dpco-hero-proof {
+  position: relative;
+  z-index: 6;
+}
+
+/* Add a little right-side breathing room on large screens so the ribbon stays ornamental */
+@media (min-width: 1180px) {
+  .dpco-hero-shell {
+    max-width: 1120px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .dpco-ribbon {
+    width: min(18vw, 132px);
+    top: 57%;
+    opacity: .72;
+  }
+}
+
+@media (max-width: 720px) {
+  .dpco-ribbon {
+    width: min(24vw, 96px);
+    top: 62%;
+    opacity: .55;
+  }
+}
+
+/* UNIVERSAL HERO TYPOGRAPHY REFINEMENT */
+.dpco-hero-title {
+  font-weight: 300;
+  letter-spacing: -.078em;
+}
+
+.dpco-hero-copy {
+  font-weight: 400;
+  letter-spacing: -.026em;
+}
+
+.dpco-brand span,
+.dpco-brand,
+.dpco-nav a,
+.dpco-mega-trigger,
+.dpco-header-cta,
+.dpco-mobile-menu,
+.dpco-btn {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.dpco-nav > a,
+.dpco-mega-trigger {
+  font-weight: 500;
+}
+
+.dpco-brand span:last-child {
+  font-weight: 700;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 1180px) and (min-width: 981px) {
+  .dpco-mega {
+    width: min(980px, calc(100vw - 48px));
+  }
+
+  .dpco-mega-panel {
+    grid-template-columns: 275px minmax(0,1fr);
+  }
+
+  .dpco-mega-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width: 1120px) {
+  .dpco-header {
+    display: flex;
+    justify-content: space-between;
+    top: 22px;
+    width: min(100% - 48px, 1420px);
+  }
+
+  .dpco-nav,
+  .dpco-header-cta {
+    display: none;
+  }
+
+  .dpco-mobile-toggle {
+    display: flex;
+  }
+
+  .dpco-hero-shell {
+    padding-top: 136px;
+  }
+
+  .dpco-ribbon {
+    width: min(24vw,205px);
+    top: 53%;
+  }
+
+  .dpco-story-grid,
+  .dpco-cap-head,
+  .dpco-founder-grid,
+  .dpco-green-grid,
+  .dpco-blog-head,
+  .dpco-cta-container,
+  .dpco-footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .dpco-process-grid,
+  .dpco-cap-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .dpco-cta-actions {
+    justify-items: start;
+  }
+
+  .dpco-footer-links {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .dpco-footer p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 860px) {
+  .dpco-blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dpco-green-brands {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .dpco-header,
+  .dpco-hero-shell,
+  .dpco-container,
+  .dpco-cta-container,
+  .dpco-footer-container {
+    width: min(100% - 36px, 1420px);
+  }
+
+  .dpco-hero {
+    min-height: 840px;
+  }
+
+  .dpco-hero-title {
+    font-size: 42px;
+  }
+
+  .dpco-hero-proof,
+  .dpco-process-grid,
+  .dpco-cap-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dpco-hero-proof div {
+    border-right: 0;
+    border-bottom: 1px solid rgba(255,255,255,.13);
+  }
+
+  .dpco-ribbon {
+    width: min(30vw,145px);
+    top: 58%;
+    opacity: .86;
+  }
+
+  .dpco-story,
+  .dpco-capabilities,
+  .dpco-founder,
+  .dpco-green,
+  .dpco-process,
+  .dpco-blog,
+  .dpco-cta {
+    padding: 76px 0;
+  }
+
+  .dpco-founder-list div {
+    grid-template-columns: 1fr;
+  }
+
+  .dpco-cta-actions,
+  .dpco-cta-primary,
+  .dpco-cta-secondary {
+    width: 100%;
+  }
+
+  .dpco-footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* UNIVERSAL HERO RESPONSIVE SAFETY FIXES */
+.dpco-mobile-toggle {
+  flex-shrink: 0;
+}
+
+.dpco-mobile-menu {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+@media (max-width: 1120px) {
+  .dpco-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 22px;
+    width: min(100% - 48px, 1420px);
+  }
+
+  .dpco-nav,
+  .dpco-header-cta {
+    display: none;
+  }
+
+  .dpco-mobile-toggle {
+    display: flex;
+  }
+
+  .dpco-mobile-menu {
+    right: 0;
+    left: auto;
+    top: 72px;
+    transform: translateY(-10px);
+  }
+
+  .dpco-mobile-menu.is-open {
+    transform: translateY(0);
+  }
+
+  .dpco-hero-shell {
+    padding-top: 136px;
+  }
+}
+
+@media (max-width: 720px) {
+  .dpco-header,
+  .dpco-hero-shell {
+    width: min(100% - 36px, 1420px);
+  }
+
+  .dpco-mobile-menu {
+    width: min(420px, calc(100vw - 36px));
+    top: 66px;
+  }
+
+  .dpco-mobile-menu nav a {
+    min-height: 52px;
+    font-size: 17px;
+  }
+
+  .dpco-mobile-head strong {
+    font-size: 22px;
+  }
+
+  .dpco-hero {
+    min-height: 840px;
+  }
+
+  .dpco-hero-title {
+    font-size: clamp(38px, 10vw, 48px);
+    line-height: 1.08;
+  }
+
+  .dpco-hero-copy {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .dpco-hero-actions {
+    width: 100%;
+  }
+
+  .dpco-btn {
+    width: 100%;
+    min-height: 52px;
+  }
+
+  .dpco-hero-proof {
+    grid-template-columns: 1fr;
+  }
+
+  .dpco-hero-proof div {
+    border-right: 0;
+    border-bottom: 1px solid rgba(255,255,255,.13);
+  }
+
+  .dpco-hero-proof div:last-child {
+    border-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+/* =========================================================
+   HERO VIDEO VISIBILITY CONTROLS
+   =========================================================
+   Edit ONLY the variables inside .dpco-hero below.
+
+   More visible video:
+   - Increase --dpco-video-opacity
+   - Lower the overlay alpha values
+   - Lower --dpco-bg-color-alpha
+
+   Darker / more readable hero:
+   - Decrease --dpco-video-opacity
+   - Raise the overlay alpha values
+   - Raise --dpco-bg-color-alpha
+========================================================= */
+
+.dpco-hero {
+  /* Main video visibility */
+  --dpco-video-opacity: .62;
+
+  /* Video image tuning */
+  --dpco-video-saturate: .96;
+  --dpco-video-contrast: 1.06;
+  --dpco-video-brightness: 1.08;
+
+  /* Brand navy #0f172a as RGB values */
+  --dpco-hero-bg-red: 15;
+  --dpco-hero-bg-green: 23;
+  --dpco-hero-bg-blue: 42;
+
+  /* Transparent navy color wash over the video */
+  --dpco-bg-color-alpha: .10;
+
+  /* Main dark overlay from top to bottom */
+  --dpco-overlay-alpha-top: .42;
+  --dpco-overlay-alpha-mid: .42;
+  --dpco-overlay-alpha-bottom: .62;
+
+  /* Side overlay. Left is darker for text, right is lighter for video visibility. */
+  --dpco-side-overlay-left: .62;
+  --dpco-side-overlay-right: .18;
+
+  position: relative;
+  isolation: isolate;
+  background: rgb(var(--dpco-hero-bg-red), var(--dpco-hero-bg-green), var(--dpco-hero-bg-blue));
+}
+
+.dpco-hero-video-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: rgb(var(--dpco-hero-bg-red), var(--dpco-hero-bg-green), var(--dpco-hero-bg-blue));
+}
+
+.dpco-hero-bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: var(--dpco-video-opacity);
+  filter:
+    saturate(var(--dpco-video-saturate))
+    contrast(var(--dpco-video-contrast))
+    brightness(var(--dpco-video-brightness));
+}
+
+.dpco-hero-video-layer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(var(--dpco-hero-bg-red), var(--dpco-hero-bg-green), var(--dpco-hero-bg-blue), var(--dpco-overlay-alpha-top)) 0%,
+      rgba(var(--dpco-hero-bg-red), var(--dpco-hero-bg-green), var(--dpco-hero-bg-blue), var(--dpco-overlay-alpha-mid)) 48%,
+      rgba(var(--dpco-hero-bg-red), var(--dpco-hero-bg-green), var(--dpco-hero-bg-blue), var(--dpco-overlay-alpha-bottom)) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(var(--dpco-hero-bg-red), var(--dpco-hero-bg-green), var(--dpco-hero-bg-blue), var(--dpco-side-overlay-left)) 0%,
+      rgba(var(--dpco-hero-bg-red), var(--dpco-hero-bg-green), var(--dpco-hero-bg-blue), var(--dpco-side-overlay-right)) 100%
+    ),
+    rgba(var(--dpco-hero-bg-red), var(--dpco-hero-bg-green), var(--dpco-hero-bg-blue), var(--dpco-bg-color-alpha));
+}
+
+.dpco-hero::before { z-index: 1; }
+.dpco-ribbon { z-index: 2; }
+.dpco-header { z-index: 80; }
+.dpco-hero-shell { position: relative; z-index: 5; }
+.dpco-bottom-band { z-index: 2; }
+
+/* Mobile readability safety */
+@media (max-width: 720px) {
+  .dpco-hero {
+    --dpco-video-opacity: .52;
+    --dpco-overlay-alpha-top: .56;
+    --dpco-overlay-alpha-mid: .54;
+    --dpco-overlay-alpha-bottom: .74;
+    --dpco-side-overlay-left: .72;
+    --dpco-side-overlay-right: .38;
+    --dpco-bg-color-alpha: .14;
+  }
+}
+
+</style>
+<script>
+(function () {
+  var megaWraps = Array.prototype.slice.call(document.querySelectorAll('.dpco-mega-wrap'));
+  var closeTimers = new WeakMap();
+
+  function closeWrap(wrap) {
+    var trigger = wrap.querySelector('.dpco-mega-trigger');
+    wrap.classList.remove('is-open');
+    if (trigger) trigger.setAttribute('aria-expanded', 'false');
+  }
+
+  function closeOthers(activeWrap) {
+    megaWraps.forEach(function (wrap) {
+      if (wrap !== activeWrap) {
+        window.clearTimeout(closeTimers.get(wrap));
+        closeWrap(wrap);
+      }
+    });
+  }
+
+  function openWrap(wrap) {
+    var trigger = wrap.querySelector('.dpco-mega-trigger');
+    window.clearTimeout(closeTimers.get(wrap));
+    closeOthers(wrap);
+    wrap.classList.add('is-open');
+    if (trigger) trigger.setAttribute('aria-expanded', 'true');
+  }
+
+  function delayClose(wrap) {
+    window.clearTimeout(closeTimers.get(wrap));
+    closeTimers.set(wrap, window.setTimeout(function () {
+      closeWrap(wrap);
+    }, 120));
+  }
+
+  megaWraps.forEach(function (wrap) {
+    var trigger = wrap.querySelector('.dpco-mega-trigger');
+    if (!trigger) return;
+
+    wrap.addEventListener('mouseenter', function () { openWrap(wrap); });
+    wrap.addEventListener('mouseleave', function () { delayClose(wrap); });
+    wrap.addEventListener('focusin', function () { openWrap(wrap); });
+    wrap.addEventListener('focusout', function () {
+      window.setTimeout(function () {
+        if (!wrap.contains(document.activeElement)) delayClose(wrap);
+      }, 0);
+    });
+
+    trigger.addEventListener('click', function (event) {
+      event.preventDefault();
+      wrap.classList.contains('is-open') ? closeWrap(wrap) : openWrap(wrap);
+    });
+  });
+
+  var toggle = document.querySelector('.dpco-mobile-toggle');
+  var mobileMenu = document.querySelector('.dpco-mobile-menu');
+
+  function closeMobile() {
+    if (!toggle || !mobileMenu) return;
+    mobileMenu.classList.remove('is-open');
+    toggle.classList.remove('is-active');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+
+  if (toggle && mobileMenu) {
+    toggle.addEventListener('click', function () {
+      var isOpen = mobileMenu.classList.toggle('is-open');
+      toggle.classList.toggle('is-active', isOpen);
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMobile);
+    });
+  }
+
+  document.addEventListener('click', function (event) {
+    var inMega = megaWraps.some(function (wrap) { return wrap.contains(event.target); });
+    var inMobile = mobileMenu && mobileMenu.contains(event.target);
+    var inToggle = toggle && toggle.contains(event.target);
+
+    if (!inMega) megaWraps.forEach(closeWrap);
+    if (!inMobile && !inToggle) closeMobile();
+  });
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+      megaWraps.forEach(closeWrap);
+      closeMobile();
+    }
+  });
+
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > 1120) closeMobile();
+  });
+})();
+</script>
+<!-- DIVERSIFIED PLUS PINNED SERVICES / CoMinVi mechanism adapted from Details df046e1c5e5e44d198100b13aacf8481 -->
+<section aria-labelledby="dplus-services-title" class="dplus-services" data-dplus-services>
+  <div class="dplus-services__intro">
+    <p class="dplus-services__eyebrow">What we build</p>
+    <h2 id="dplus-services-title">See the structure behind every finished space.</h2>
+    <p>Four core services, shown from exposed construction through the final architectural finish.</p>
+  </div>
+  <div class="dplus-services__track">
+    <div class="dplus-services__sticky">
+      <div class="dplus-services__copy" aria-live="polite">
+        <div class="dplus-services__copy-top">
+          <span>Services</span>
+          <div aria-label="Service progress" class="dplus-services__steps">
+            <button class="is-active" data-service-control="0" type="button">01</button>
+            <button data-service-control="1" type="button">02</button>
+            <button data-service-control="2" type="button">03</button>
+            <button data-service-control="3" type="button">04</button>
+          </div>
+        </div>
+        <div class="dplus-services__titles">
+          <h3 class="is-active">Additions &amp; Remodeling</h3>
+          <h3>Kitchen Renovations</h3>
+          <h3>Bathroom Renovations</h3>
+          <h3>Decks &amp; Outdoor Living</h3>
+        </div>
+        <div class="dplus-services__details">
+          <div class="dplus-services__detail is-active">
+            <p>Expand the home without losing what makes it feel established. Structure, envelope, systems, and finish work stay under one coordinated plan.</p>
+            <a href="additions-renovations.html">Explore additions <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="dplus-services__detail">
+            <p>Rework the heart of the home from framing and mechanical routing through tailored cabinetry, lighting, and durable surfaces.</p>
+            <a href="kitchen-services.html">Explore kitchens <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="dplus-services__detail">
+            <p>Build comfort from the substrate out, with disciplined waterproofing, ventilation, plumbing, tile, fixtures, and millwork.</p>
+            <a href="bathroom-services.html">Explore bathrooms <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="dplus-services__detail">
+            <p>Create an outdoor room with the same standards as the home: engineered footings, precise framing, resilient finishes, and considered lighting.</p>
+            <a href="outdoor-living.html">Explore outdoor living <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="dplus-services__media">
+        <figure class="dplus-services__figure is-active"><img alt="Home addition progressing from exposed framing to a finished living room" decoding="async" loading="lazy" src="assets/services/additions.jpg"></figure>
+        <figure class="dplus-services__figure"><img alt="Kitchen renovation progressing from framing and rough-ins to a finished kitchen" decoding="async" loading="lazy" src="assets/services/kitchens.jpg"></figure>
+        <figure class="dplus-services__figure"><img alt="Bathroom renovation progressing from plumbing and waterproofing to a finished bathroom" decoding="async" loading="lazy" src="assets/services/bathrooms.jpg"></figure>
+        <figure class="dplus-services__figure"><img alt="Outdoor living build progressing from structural framing to a finished deck" decoding="async" loading="lazy" src="assets/services/outdoor-living.jpg"></figure>
+        <div aria-hidden="true" class="dplus-services__media-meta"><span>Structure to finish</span><span data-service-count>01 / 04</span></div>
+      </div>
+    </div>
+    <div aria-hidden="true" class="dplus-services__scenes">
+      <span data-service-scene="0"></span><span data-service-scene="1"></span><span data-service-scene="2"></span><span data-service-scene="3"></span>
+    </div>
+  </div>
+</section>
+<style>
+.dplus-services,.dplus-services *{box-sizing:border-box}.dplus-services{--navy:#0f172a;--grey:#68717d;--grey-light:#d9dde2;--paper:#f4f2ee;background:var(--navy);color:#fff;font-family:'Plus Jakarta Sans',sans-serif;padding:7rem 2rem 2rem}.dplus-services__intro{display:grid;grid-template-columns:minmax(8rem,.6fr) minmax(18rem,1.7fr) minmax(16rem,.8fr);gap:2rem;max-width:96rem;margin:0 auto 6rem;align-items:start}.dplus-services__eyebrow,.dplus-services__intro>p{margin:0}.dplus-services__eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.75rem;font-weight:600;color:#c4cad1}.dplus-services__intro h2{font-size:clamp(2.7rem,5.2vw,5.75rem);font-weight:400;line-height:.98;letter-spacing:-.05em;margin:0;max-width:13ch}.dplus-services__intro>p:last-child{color:#c4cad1;line-height:1.65;max-width:30rem}.dplus-services__track{position:relative;max-width:96rem;margin:0 auto}.dplus-services__sticky{position:sticky;top:1.25rem;height:calc(100vh - 2.5rem);min-height:42rem;display:grid;grid-template-columns:minmax(21rem,.72fr) minmax(0,1.45fr);gap:1rem}.dplus-services__copy{position:relative;background:var(--grey-light);color:var(--navy);padding:1.25rem;display:flex;flex-direction:column;overflow:hidden}.dplus-services__copy-top{display:flex;align-items:center;justify-content:space-between;text-transform:uppercase;letter-spacing:.12em;font-size:.69rem;font-weight:600}.dplus-services__steps{display:flex;gap:.25rem}.dplus-services__steps button{border:1px solid rgba(15,23,42,.18);background:transparent;color:var(--navy);font:inherit;letter-spacing:.05em;min-width:2.25rem;height:2.25rem;cursor:pointer;transition:background .35s,color .35s,border-color .35s}.dplus-services__steps button.is-active{background:var(--navy);border-color:var(--navy);color:#fff}.dplus-services__titles{position:relative;flex:1;display:grid;place-items:center}.dplus-services__titles h3{position:absolute;margin:0;width:min(100%,12ch);font-size:clamp(3rem,5vw,6.5rem);line-height:.88;letter-spacing:-.055em;font-weight:400;text-align:center;opacity:0;transform:translateY(1.5rem);transition:opacity .55s,transform .75s cubic-bezier(.22,1,.36,1)}.dplus-services__titles h3.is-active{opacity:1;transform:none}.dplus-services__details{position:relative;min-height:9.5rem}.dplus-services__detail{position:absolute;inset:auto 0 0;opacity:0;transform:translateY(1rem);pointer-events:none;transition:opacity .45s,transform .65s cubic-bezier(.22,1,.36,1)}.dplus-services__detail.is-active{opacity:1;transform:none;pointer-events:auto}.dplus-services__detail p{line-height:1.55;max-width:34rem;margin:0 0 1.25rem;color:#3f4855}.dplus-services__detail a{color:var(--navy);font-size:.78rem;font-weight:600;text-decoration:none;text-transform:uppercase;letter-spacing:.1em}.dplus-services__media{position:relative;overflow:hidden;background:#252d3b}.dplus-services__figure{position:absolute;inset:0;margin:0;opacity:0;transform:translateY(8%);transition:opacity .65s,transform .9s cubic-bezier(.22,1,.36,1)}.dplus-services__figure.is-active{opacity:1;transform:none;z-index:1}.dplus-services__figure.was-active{transform:translateY(-8%)}.dplus-services__figure img{width:100%;height:100%;object-fit:cover;display:block}.dplus-services__media:after{content:'';position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(180deg,rgba(15,23,42,.06),transparent 45%,rgba(15,23,42,.35))}.dplus-services__media-meta{position:absolute;z-index:3;left:1.25rem;right:1.25rem;bottom:1.25rem;display:flex;justify-content:space-between;text-transform:uppercase;letter-spacing:.12em;font-size:.69rem}.dplus-services__scenes{height:400vh;display:grid;grid-template-rows:repeat(4,1fr)}.dplus-services__scenes span{display:block}.dplus-services__scenes span:first-child{margin-top:-100vh}.dplus-services__scenes span:last-child{margin-bottom:100vh}
+@media(max-width:991px){.dplus-services{padding:5rem 1rem 1rem}.dplus-services__intro{grid-template-columns:1fr;margin-bottom:3rem}.dplus-services__intro h2{font-size:clamp(2.6rem,10vw,4.8rem)}.dplus-services__sticky{position:relative;top:auto;height:auto;min-height:0;display:block}.dplus-services__copy{min-height:34rem}.dplus-services__media{height:min(68vw,34rem);margin-top:1rem}.dplus-services__scenes{display:none}.dplus-services__steps button{min-width:2.7rem;height:2.7rem}.dplus-services__titles h3{font-size:clamp(2.7rem,11vw,5rem)}}
+@media(max-width:540px){.dplus-services__copy{padding:1rem;min-height:32rem}.dplus-services__copy-top{align-items:flex-start;gap:1rem;flex-direction:column}.dplus-services__details{min-height:11rem}.dplus-services__media{height:72vw}.dplus-services__steps{width:100%}.dplus-services__steps button{flex:1}}
+@media(prefers-reduced-motion:reduce){.dplus-services__figure,.dplus-services__titles h3,.dplus-services__detail{transition:none}}
+</style>
+<!-- BUILDCO BRANDED PORTFOLIO FILTER SECTION -->
+<!-- Paste-safe: unique classes, no :root, no body styling, scoped JS, no corner radius. -->
+<!-- Brand: dark navy #0f172a, navy #0f172a, cream #f4f2ee, Plus Jakarta Sans. -->
+<section aria-labelledby="bcx-ptfwork-title" class="bcx-ptfwork-section" data-bcx-ptfwork-current="all">
+<div aria-hidden="true" class="bcx-ptfwork-texture"></div>
+<div class="bcx-ptfwork-container">
+<div class="bcx-ptfwork-header">
+<div class="bcx-ptfwork-graphic">
+<p class="bcx-ptfwork-sidebar">
+          A portfolio built on trust, craft, and the pursuit of exceptional spaces — from private homes to public infrastructure.
+        </p>
+<div aria-hidden="true" class="bcx-ptfwork-mark">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div class="bcx-ptfwork-copy">
+<div class="bcx-ptfwork-eyebrow">Our Work</div>
+<h2 class="bcx-ptfwork-heading" id="bcx-ptfwork-title">
+          Every project tells a story of vision, precision, and partnership —
+          <span>crafted to exceed expectations at every scale.</span>
+</h2>
+<p class="bcx-ptfwork-subtext">
+          From intimate home renovations to landmark commercial developments, our portfolio reflects a consistent commitment to quality, transparency, and lasting client relationships.
+        </p>
+</div>
+</div>
+<div class="bcx-ptfwork-tabs-wrap">
+<div aria-label="Portfolio categories" class="bcx-ptfwork-tabs" role="tablist">
+<button aria-selected="true" class="bcx-ptfwork-tab is-active" data-bcx-ptfwork-filter="all" role="tab" type="button">
+<span></span>All Projects
+        </button>
+<button aria-selected="false" class="bcx-ptfwork-tab" data-bcx-ptfwork-filter="residential" role="tab" type="button">
+<span></span>Residential
+        </button>
+<button aria-selected="false" class="bcx-ptfwork-tab" data-bcx-ptfwork-filter="commercial" role="tab" type="button">
+<span></span>Commercial
+        </button>
+<button aria-selected="false" class="bcx-ptfwork-tab" data-bcx-ptfwork-filter="renovation" role="tab" type="button">
+<span></span>Renovation
+        </button>
+<button aria-selected="false" class="bcx-ptfwork-tab" data-bcx-ptfwork-filter="civil" role="tab" type="button">
+<span></span>Civil &amp; Infrastructure
+        </button>
+</div>
+<a class="bcx-ptfwork-view-all" href="Projects.html">
+        View all projects
+        <svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="5" x2="19" y1="12" y2="12"></line>
+<polyline points="12 5 19 12 12 19"></polyline>
+</svg>
+</a>
+</div>
+<div class="bcx-ptfwork-grid" data-bcx-ptfwork-grid="">
+<article class="bcx-ptfwork-card bcx-ptfwork-card-hero" data-bcx-ptfwork-category="residential" data-bcx-ptfwork-item="">
+<a aria-label="View The Harrington Estate project" class="bcx-ptfwork-card-link" href="project-casestudy.html">
+<div class="bcx-ptfwork-card-img" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&amp;q=85')"></div>
+<div class="bcx-ptfwork-card-overlay"></div>
+<div class="bcx-ptfwork-card-arrow">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="7" x2="17" y1="17" y2="7"></line>
+<polyline points="7 7 17 7 17 17"></polyline>
+</svg>
+</div>
+<div class="bcx-ptfwork-card-body">
+<span class="bcx-ptfwork-card-tag">Residential</span>
+<h3>The Harrington Estate</h3>
+<p>Greenwich, CT <span></span> 2024 <span></span> 8,400 sq ft</p>
+</div>
+</a>
+</article>
+<article class="bcx-ptfwork-card bcx-ptfwork-card-tall" data-bcx-ptfwork-category="commercial" data-bcx-ptfwork-item="">
+<a aria-label="View One Harbor Tower project" class="bcx-ptfwork-card-link" href="project-casestudy.html">
+<div class="bcx-ptfwork-card-img" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&amp;q=85')"></div>
+<div class="bcx-ptfwork-card-overlay"></div>
+<div class="bcx-ptfwork-card-arrow">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="7" x2="17" y1="17" y2="7"></line>
+<polyline points="7 7 17 7 17 17"></polyline>
+</svg>
+</div>
+<div class="bcx-ptfwork-card-body">
+<span class="bcx-ptfwork-card-tag">Commercial</span>
+<h3>One Harbor Tower</h3>
+<p>Stamford, CT <span></span> 22 Floors</p>
+</div>
+</a>
+</article>
+<article class="bcx-ptfwork-card bcx-ptfwork-card-wide" data-bcx-ptfwork-category="renovation" data-bcx-ptfwork-item="">
+<a aria-label="View Westport Kitchen and Living Transformation project" class="bcx-ptfwork-card-link" href="kitchen-services.html">
+<div class="bcx-ptfwork-card-img" style="background-image:url('https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=900&amp;q=85')"></div>
+<div class="bcx-ptfwork-card-overlay"></div>
+<div class="bcx-ptfwork-card-arrow">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="7" x2="17" y1="17" y2="7"></line>
+<polyline points="7 7 17 7 17 17"></polyline>
+</svg>
+</div>
+<div class="bcx-ptfwork-card-body">
+<span class="bcx-ptfwork-card-tag">Renovation</span>
+<h3>Westport Kitchen &amp; Living Transformation</h3>
+<p>Westport, CT <span></span> 2024</p>
+</div>
+</a>
+</article>
+<article class="bcx-ptfwork-card bcx-ptfwork-card-mid" data-bcx-ptfwork-category="residential" data-bcx-ptfwork-item="">
+<a aria-label="View Darien Waterfront Villa project" class="bcx-ptfwork-card-link" href="project-casestudy.html">
+<div class="bcx-ptfwork-card-img" style="background-image:url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&amp;q=85')"></div>
+<div class="bcx-ptfwork-card-overlay"></div>
+<div class="bcx-ptfwork-card-arrow">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="7" x2="17" y1="17" y2="7"></line>
+<polyline points="7 7 17 7 17 17"></polyline>
+</svg>
+</div>
+<div class="bcx-ptfwork-card-body">
+<span class="bcx-ptfwork-card-tag">Residential</span>
+<h3>Darien Waterfront Villa</h3>
+<p>Darien, CT <span></span> 5,200 sq ft</p>
+</div>
+</a>
+</article>
+<article class="bcx-ptfwork-card bcx-ptfwork-card-sm" data-bcx-ptfwork-category="civil" data-bcx-ptfwork-extra="true" data-bcx-ptfwork-item="">
+<a aria-label="View Route 1 Bridge Corridor Upgrade project" class="bcx-ptfwork-card-link" href="project-casestudy.html">
+<div class="bcx-ptfwork-card-img" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&amp;q=85')"></div>
+<div class="bcx-ptfwork-card-overlay"></div>
+<div class="bcx-ptfwork-card-arrow">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="7" x2="17" y1="17" y2="7"></line>
+<polyline points="7 7 17 7 17 17"></polyline>
+</svg>
+</div>
+<div class="bcx-ptfwork-card-body">
+<span class="bcx-ptfwork-card-tag">Civil</span>
+<h3>Route 1 Bridge Corridor Upgrade</h3>
+<p>Norwalk, CT <span></span> $42M Project</p>
+</div>
+</a>
+</article>
+<article class="bcx-ptfwork-card bcx-ptfwork-card-wide" data-bcx-ptfwork-category="commercial" data-bcx-ptfwork-extra="true" data-bcx-ptfwork-item="">
+<a aria-label="View Meridian Office Campus project" class="bcx-ptfwork-card-link" href="project-casestudy.html">
+<div class="bcx-ptfwork-card-img" style="background-image:url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&amp;q=85')"></div>
+<div class="bcx-ptfwork-card-overlay"></div>
+<div class="bcx-ptfwork-card-arrow">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="7" x2="17" y1="17" y2="7"></line>
+<polyline points="7 7 17 7 17 17"></polyline>
+</svg>
+</div>
+<div class="bcx-ptfwork-card-body">
+<span class="bcx-ptfwork-card-tag">Commercial</span>
+<h3>Meridian Office Campus</h3>
+<p>Hartford, CT <span></span> 2022</p>
+</div>
+</a>
+</article>
+<article class="bcx-ptfwork-card bcx-ptfwork-card-mid" data-bcx-ptfwork-category="renovation" data-bcx-ptfwork-extra="true" data-bcx-ptfwork-item="">
+<a aria-label="View Greenwich Master Suite Addition project" class="bcx-ptfwork-card-link" href="additions-renovations.html">
+<div class="bcx-ptfwork-card-img" style="background-image:url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&amp;q=85')"></div>
+<div class="bcx-ptfwork-card-overlay"></div>
+<div class="bcx-ptfwork-card-arrow">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="7" x2="17" y1="17" y2="7"></line>
+<polyline points="7 7 17 7 17 17"></polyline>
+</svg>
+</div>
+<div class="bcx-ptfwork-card-body">
+<span class="bcx-ptfwork-card-tag">Renovation</span>
+<h3>Greenwich Master Suite Addition</h3>
+<p>Greenwich, CT <span></span> 2024</p>
+</div>
+</a>
+</article>
+<article class="bcx-ptfwork-card bcx-ptfwork-card-sm" data-bcx-ptfwork-category="civil" data-bcx-ptfwork-extra="true" data-bcx-ptfwork-item="">
+<a aria-label="View Harbor District Waterfront Works project" class="bcx-ptfwork-card-link" href="project-casestudy.html">
+<div class="bcx-ptfwork-card-img" style="background-image:url('https://images.unsplash.com/photo-1581094651181-35942459ef62?w=800&amp;q=85')"></div>
+<div class="bcx-ptfwork-card-overlay"></div>
+<div class="bcx-ptfwork-card-arrow">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="7" x2="17" y1="17" y2="7"></line>
+<polyline points="7 7 17 7 17 17"></polyline>
+</svg>
+</div>
+<div class="bcx-ptfwork-card-body">
+<span class="bcx-ptfwork-card-tag">Civil</span>
+<h3>Harbor District Waterfront Works</h3>
+<p>Bridgeport, CT <span></span> 2023</p>
+</div>
+</a>
+</article>
+</div>
+<div class="bcx-ptfwork-bottom">
+<span class="bcx-ptfwork-count" data-bcx-ptfwork-count="">Showing <strong>8</strong> of <strong>500+</strong> completed projects</span>
+<a class="bcx-ptfwork-cta" href="Projects.html">
+        View Full Portfolio
+        <svg aria-hidden="true" viewbox="0 0 24 24">
+<line x1="5" x2="19" y1="12" y2="12"></line>
+<polyline points="12 5 19 12 12 19"></polyline>
+</svg>
+</a>
+</div>
+</div>
+</section>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+
+.bcx-ptfwork-section,
+.bcx-ptfwork-section *,
+.bcx-ptfwork-section *::before,
+.bcx-ptfwork-section *::after {
+  box-sizing: border-box;
+}
+
+.bcx-ptfwork-section {
+  position: relative;
+  overflow: hidden;
+  background: #0f172a;
+  padding: 100px 0;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.bcx-ptfwork-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,.026) 1px, transparent 1px);
+  background-size: 80px 80px;
+  opacity: .6;
+  pointer-events: none;
+}
+
+.bcx-ptfwork-section::after {
+  content: '';
+  position: absolute;
+  right: -160px;
+  top: 82px;
+  width: 620px;
+  height: 190px;
+  background: rgba(15,23,42,.08);
+  transform: skewY(25deg);
+  pointer-events: none;
+}
+
+.bcx-ptfwork-texture {
+  position: absolute;
+  inset: 0;
+  opacity: .035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='bcxptfnoise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23bcxptfnoise)'/%3E%3C/svg%3E");
+  background-size: 240px;
+  pointer-events: none;
+}
+
+.bcx-ptfwork-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.bcx-ptfwork-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  align-items: end;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.bcx-ptfwork-sidebar {
+  margin: 0 0 40px;
+  max-width: 230px;
+  font-size: 13px;
+  line-height: 1.55;
+  font-weight: 500;
+  color: rgba(255,255,255,.62);
+}
+
+.bcx-ptfwork-mark {
+  transform: translateX(-74px);
+}
+
+.bcx-ptfwork-mark span {
+  display: block;
+  width: 300px;
+  height: 45px;
+  margin-bottom: 15px;
+  transform: skewY(25deg);
+  background: #ffffff;
+}
+
+.bcx-ptfwork-mark span:nth-child(3) {
+  background: #0f172a;
+}
+
+.bcx-ptfwork-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 18px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: #0f172a;
+}
+
+.bcx-ptfwork-eyebrow::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  display: block;
+  background: #0f172a;
+}
+
+.bcx-ptfwork-heading {
+  max-width: 890px;
+  margin: 0 0 18px;
+  color: #ffffff;
+  font-size: clamp(28px, 3.9vw, 46px);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -.02em;
+}
+
+.bcx-ptfwork-heading span {
+  color: #0f172a;
+}
+
+.bcx-ptfwork-subtext {
+  margin: 0;
+  max-width: 620px;
+  color: rgba(255,255,255,.62);
+  font-size: 15px;
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+.bcx-ptfwork-tabs-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  flex-wrap: wrap;
+  padding: 36px 0 40px;
+}
+
+.bcx-ptfwork-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.bcx-ptfwork-tab {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 18px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: rgba(255,255,255,.62);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .01em;
+  cursor: pointer;
+  transition: color .22s ease, background .22s ease, border-color .22s ease, transform .18s ease;
+}
+
+.bcx-ptfwork-tab span {
+  width: 6px;
+  height: 6px;
+  background: rgba(255,255,255,.26);
+  display: block;
+  transition: background .22s ease;
+}
+
+.bcx-ptfwork-tab:hover,
+.bcx-ptfwork-tab:focus-visible,
+.bcx-ptfwork-tab.is-active {
+  color: #ffffff;
+  background: rgba(255,255,255,.07);
+  border-color: rgba(255,255,255,.12);
+  outline: none;
+}
+
+.bcx-ptfwork-tab.is-active span {
+  background: #0f172a;
+}
+
+.bcx-ptfwork-view-all,
+.bcx-ptfwork-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: #0f172a;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .02em;
+  transition: gap .2s ease, transform .18s ease;
+}
+
+.bcx-ptfwork-view-all:hover,
+.bcx-ptfwork-view-all:focus-visible {
+  gap: 13px;
+  outline: none;
+}
+
+.bcx-ptfwork-view-all svg,
+.bcx-ptfwork-cta svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bcx-ptfwork-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  /* Desktop layout: 2 equal cards per row, shown as a larger 2x2 portfolio grid. */
+  transition: opacity .28s ease, transform .28s ease;
+}
+
+.bcx-ptfwork-grid.is-filtering {
+  opacity: .35;
+  transform: translateY(6px);
+}
+
+.bcx-ptfwork-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 360px;
+  background: rgba(255,255,255,.04);
+  transition: transform .3s ease, box-shadow .3s ease, opacity .25s ease;
+}
+
+.bcx-ptfwork-card.is-hidden {
+  display: none;
+}
+
+.bcx-ptfwork-section[data-bcx-ptfwork-current="all"] [data-bcx-ptfwork-extra="true"] {
+  display: none;
+}
+
+.bcx-ptfwork-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 60px rgba(0,0,0,.45);
+}
+
+.bcx-ptfwork-card-link {
+  position: absolute;
+  inset: 0;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.bcx-ptfwork-card-img {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform .55s ease;
+}
+
+.bcx-ptfwork-card:hover .bcx-ptfwork-card-img {
+  transform: scale(1.055);
+}
+
+.bcx-ptfwork-card-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, rgba(15,23,42,.96) 0%, rgba(15,23,42,.38) 56%, rgba(15,23,42,.05) 100%);
+}
+
+.bcx-ptfwork-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: #0f172a;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .35s ease;
+  z-index: 4;
+}
+
+.bcx-ptfwork-card:hover::after {
+  transform: scaleX(1);
+}
+
+.bcx-ptfwork-card-body {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+}
+
+.bcx-ptfwork-card-tag {
+  align-self: flex-start;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.bcx-ptfwork-card h3 {
+  margin: 0 0 7px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.22;
+  letter-spacing: -.015em;
+}
+
+.bcx-ptfwork-card p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  color: rgba(255,255,255,.58);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.bcx-ptfwork-card p span {
+  width: 3px;
+  height: 3px;
+  background: #0f172a;
+  display: inline-block;
+}
+
+.bcx-ptfwork-card-arrow {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  width: 38px;
+  height: 38px;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(.82);
+  transition: opacity .25s ease, transform .25s ease, background .2s ease, border-color .2s ease;
+}
+
+.bcx-ptfwork-card:hover .bcx-ptfwork-card-arrow {
+  opacity: 1;
+  transform: scale(1) rotate(-45deg);
+  background: #0f172a;
+  border-color: #0f172a;
+}
+
+.bcx-ptfwork-card-arrow svg {
+  width: 14px;
+  height: 14px;
+  stroke: #ffffff;
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bcx-ptfwork-card-hero,
+.bcx-ptfwork-card-tall,
+.bcx-ptfwork-card-wide,
+.bcx-ptfwork-card-mid,
+.bcx-ptfwork-card-sm {
+  grid-column: span 6;
+  min-height: 430px;
+}
+
+.bcx-ptfwork-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  flex-wrap: wrap;
+  margin-top: 42px;
+  padding-top: 48px;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.bcx-ptfwork-count {
+  color: rgba(255,255,255,.62);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.bcx-ptfwork-count strong {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.bcx-ptfwork-cta {
+  padding: 14px 28px;
+  background: #0f172a;
+  color: #ffffff;
+  box-shadow: 0 8px 28px rgba(15,23,42,.30);
+}
+
+.bcx-ptfwork-cta:hover,
+.bcx-ptfwork-cta:focus-visible {
+  transform: translateY(-2px);
+  background: #0f172a;
+  box-shadow: 0 14px 40px rgba(15,23,42,.44);
+  outline: none;
+}
+
+@media (max-width: 1024px) {
+  .bcx-ptfwork-header {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding-bottom: 46px;
+  }
+
+  .bcx-ptfwork-mark {
+    display: none;
+  }
+
+  .bcx-ptfwork-sidebar {
+    margin-bottom: 0;
+  }
+
+  .bcx-ptfwork-card-hero,
+  .bcx-ptfwork-card-tall,
+  .bcx-ptfwork-card-wide,
+  .bcx-ptfwork-card-mid,
+  .bcx-ptfwork-card-sm {
+    grid-column: span 6;
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 640px) {
+  .bcx-ptfwork-section {
+    padding: 80px 0;
+  }
+
+  .bcx-ptfwork-container {
+    padding: 0 20px;
+  }
+
+  .bcx-ptfwork-heading {
+    font-size: 30px;
+  }
+
+  .bcx-ptfwork-tabs-wrap {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .bcx-ptfwork-tabs {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .bcx-ptfwork-tab {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .bcx-ptfwork-view-all,
+  .bcx-ptfwork-cta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .bcx-ptfwork-card-hero,
+  .bcx-ptfwork-card-tall,
+  .bcx-ptfwork-card-wide,
+  .bcx-ptfwork-card-mid,
+  .bcx-ptfwork-card-sm {
+    grid-column: span 12;
+    min-height: 300px;
+  }
+
+  .bcx-ptfwork-bottom {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+</style>
+<script>
+(function () {
+  const sections = document.querySelectorAll('.bcx-ptfwork-section');
+
+  sections.forEach(function (section) {
+    const tabs = Array.from(section.querySelectorAll('[data-bcx-ptfwork-filter]'));
+    const items = Array.from(section.querySelectorAll('[data-bcx-ptfwork-item]'));
+    const grid = section.querySelector('[data-bcx-ptfwork-grid]');
+    const count = section.querySelector('[data-bcx-ptfwork-count]');
+
+    if (!tabs.length || !items.length || !grid) return;
+
+    function updateCount(visibleCount) {
+      if (!count) return;
+      count.innerHTML = 'Showing <strong>' + visibleCount + '</strong> of <strong>500+</strong> completed projects';
+    }
+
+    function filterProjects(filter) {
+      grid.classList.add('is-filtering');
+      section.setAttribute('data-bcx-ptfwork-current', filter);
+
+      window.setTimeout(function () {
+        let visibleCount = 0;
+
+        items.forEach(function (item) {
+          const category = item.getAttribute('data-bcx-ptfwork-category');
+          const isExtra = item.getAttribute('data-bcx-ptfwork-extra') === 'true';
+          const shouldShow = filter === 'all' ? !isExtra : category === filter;
+          item.classList.toggle('is-hidden', !shouldShow);
+          if (shouldShow) visibleCount += 1;
+        });
+
+        updateCount(visibleCount);
+        grid.classList.remove('is-filtering');
+      }, 180);
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        const filter = tab.getAttribute('data-bcx-ptfwork-filter');
+
+        tabs.forEach(function (button) {
+          const isActive = button === tab;
+          button.classList.toggle('is-active', isActive);
+          button.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        });
+
+        filterProjects(filter || 'all');
+      });
+    });
+
+    filterProjects('all');
+  });
+})();
+</script>
+<!-- BUILDCO TESTIMONIAL + FUNCTIONAL BLOG CAROUSEL SECTION -->
+<!-- Notes: Unique classes, no :root, no body styling, no corner radius, dark navy #0f172a, navy #0f172a. -->
+<section aria-label="Client testimonials and construction insights" class="bcx-tbc-wrap">
+<!-- TESTIMONIALS -->
+<section aria-labelledby="bcx-tbc-testimonials-title" class="bcx-tbc-testimonials">
+<div class="bcx-tbc-container">
+<div class="bcx-tbc-testimonial-header">
+<div class="bcx-tbc-graphic-col">
+<div aria-hidden="true" class="bcx-tbc-logo-mark">
+<div class="bcx-tbc-bar"></div>
+<div class="bcx-tbc-bar"></div>
+<div class="bcx-tbc-bar"></div>
+</div>
+<p class="bcx-tbc-sidebar-text">
+            Real words from real clients — the relationships we build last as long as the spaces we create.
+          </p>
+<div aria-label="Rated 4.9 out of 5 from over 200 reviews" class="bcx-tbc-rating-row">
+<div aria-hidden="true" class="bcx-tbc-stars">
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+</div>
+<span class="bcx-tbc-rating-text"><strong>4.9 / 5.0</strong> from 200+ reviews</span>
+</div>
+</div>
+<div class="bcx-tbc-header-copy">
+<div class="bcx-tbc-eyebrow">Client Stories</div>
+<h2 class="bcx-tbc-heading" id="bcx-tbc-testimonials-title">
+            The trust of our clients is our greatest
+            <span>measure of success.</span>
+</h2>
+<p class="bcx-tbc-subtext">
+            Over 26 years, we have transformed homes, commercial properties, and community spaces through disciplined planning, clear communication, and work that holds up long after handover.
+          </p>
+</div>
+</div>
+<div class="bcx-tbc-testimonial-grid">
+<article class="bcx-tbc-testimonial-card bcx-tbc-testimonial-card-featured">
+<span aria-hidden="true" class="bcx-tbc-quote-mark">"</span>
+<div aria-hidden="true" class="bcx-tbc-card-stars">
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+</div>
+<p class="bcx-tbc-testimonial-text">
+            Diversified Plus did not just construct our home — they listened to every detail, challenged us to think bigger, and delivered something truly extraordinary. The craftsmanship is unmatched and the team’s transparency gave us complete peace of mind.
+          </p>
+<div class="bcx-tbc-author">
+<div class="bcx-tbc-avatar">JM</div>
+<div>
+<h3 class="bcx-tbc-author-name">James &amp; Rachel Mitchell</h3>
+<p class="bcx-tbc-author-role">Custom Home — Greenwich, CT · 2024</p>
+</div>
+</div>
+</article>
+<article class="bcx-tbc-testimonial-card">
+<div aria-hidden="true" class="bcx-tbc-card-stars">
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+</div>
+<p class="bcx-tbc-testimonial-text">
+            From the first meeting to the ribbon cutting of our new office tower, the Diversified Plus team were exceptional partners. On time, on budget, and beyond our expectations.
+          </p>
+<div class="bcx-tbc-author">
+<div class="bcx-tbc-avatar">DH</div>
+<div>
+<h3 class="bcx-tbc-author-name">Diana Hargrove</h3>
+<p class="bcx-tbc-author-role">CEO, Hargrove Capital · Stamford, CT</p>
+</div>
+</div>
+</article>
+<article class="bcx-tbc-testimonial-card">
+<div aria-hidden="true" class="bcx-tbc-card-stars">
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+<svg viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+</div>
+<p class="bcx-tbc-testimonial-text">
+            Every tradesperson who came through our home was professional, respectful, and clearly took pride in the work. The result is stunning — we are still in disbelief.
+          </p>
+<div class="bcx-tbc-author">
+<div class="bcx-tbc-avatar">SP</div>
+<div>
+<h3 class="bcx-tbc-author-name">Sarah &amp; Tom Park</h3>
+<p class="bcx-tbc-author-role">Kitchen Renovation · Westport, CT</p>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- BLOG CAROUSEL -->
+<section aria-labelledby="bcx-tbc-blog-title" class="bcx-tbc-blog">
+<div aria-hidden="true" class="bcx-tbc-blog-deco">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div class="bcx-tbc-container">
+<div class="bcx-tbc-blog-header">
+<div class="bcx-tbc-blog-kicker-col">
+<div aria-hidden="true" class="bcx-tbc-logo-mark bcx-tbc-logo-mark-light">
+<div class="bcx-tbc-bar"></div>
+<div class="bcx-tbc-bar"></div>
+<div class="bcx-tbc-bar"></div>
+</div>
+<p class="bcx-tbc-blog-sidebar-text">
+            Field notes, project planning advice, and construction insights written for owners who care about the details.
+          </p>
+</div>
+<div class="bcx-tbc-blog-copy">
+<div class="bcx-tbc-eyebrow bcx-tbc-eyebrow-light">Diversified Plus Journal</div>
+<h2 class="bcx-tbc-blog-heading" id="bcx-tbc-blog-title">
+            Practical insight for projects that need to be
+            <span>planned, built, and delivered right.</span>
+</h2>
+<p class="bcx-tbc-blog-subtext">
+            Explore the latest thinking from our project managers, site leads, and design partners — from pre-construction strategy to the small finish details that change how a space feels.
+          </p>
+</div>
+<div aria-label="Blog carousel controls" class="bcx-tbc-carousel-controls">
+<button aria-label="Previous blog article" class="bcx-tbc-carousel-btn" data-bcx-tbc-prev="" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><line x1="19" x2="5" y1="12" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+</button>
+<button aria-label="Next blog article" class="bcx-tbc-carousel-btn" data-bcx-tbc-next="" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+</button>
+</div>
+</div>
+<div class="bcx-tbc-carousel-shell" data-bcx-tbc-carousel="">
+<div class="bcx-tbc-carousel-track" data-bcx-tbc-track="">
+<article class="bcx-tbc-blog-card" data-bcx-tbc-slide="">
+<a aria-label="Read Pre-construction planning article" class="bcx-tbc-blog-image" href="k-blogpost.html" style="background-image:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&amp;q=80');">
+<span class="bcx-tbc-blog-category">Planning</span>
+</a>
+<div class="bcx-tbc-blog-body">
+<div class="bcx-tbc-blog-meta">March 18, 2026 · 6 min read</div>
+<h3 class="bcx-tbc-blog-card-title"><a href="how to define renovation scope before pricing pressure starts.html">The pre-construction decisions that protect your budget before work begins</a></h3>
+<p class="bcx-tbc-blog-excerpt">A strong build starts before the first crew arrives. Here is how scope, material lead times, site access, and approvals shape the final result.</p>
+<a class="bcx-tbc-blog-link" href="k-blogpost.html">Read Insight <span aria-hidden="true">→</span></a>
+</div>
+</article>
+<article class="bcx-tbc-blog-card" data-bcx-tbc-slide="">
+<a aria-label="Read Commercial renovation article" class="bcx-tbc-blog-image" href="#" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&amp;q=80');">
+<span class="bcx-tbc-blog-category">Commercial</span>
+</a>
+<div class="bcx-tbc-blog-body">
+<div class="bcx-tbc-blog-meta">February 27, 2026 · 5 min read</div>
+<h3 class="bcx-tbc-blog-card-title"><a href="blog-post.html">How to renovate an active commercial space without disrupting operations</a></h3>
+<p class="bcx-tbc-blog-excerpt">Phasing, night work, temporary access plans, and clean communication can keep tenants, teams, and customers moving while construction continues.</p>
+<a class="bcx-tbc-blog-link" href="#">Read Insight <span aria-hidden="true">→</span></a>
+</div>
+</article>
+<article class="bcx-tbc-blog-card" data-bcx-tbc-slide="">
+<a aria-label="Read Finish details article" class="bcx-tbc-blog-image" href="#" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&amp;q=80');">
+<span class="bcx-tbc-blog-category">Craft</span>
+</a>
+<div class="bcx-tbc-blog-body">
+<div class="bcx-tbc-blog-meta">January 14, 2026 · 4 min read</div>
+<h3 class="bcx-tbc-blog-card-title"><a href="k-blogpost.html">The quiet finish details that make a finished space feel expensive</a></h3>
+<p class="bcx-tbc-blog-excerpt">Reveal lines, lighting temperature, hardware alignment, trim transitions, and material restraint are the details clients notice without knowing why.</p>
+<a class="bcx-tbc-blog-link" href="#">Read Insight <span aria-hidden="true">→</span></a>
+</div>
+</article>
+</div>
+</div>
+<div aria-label="Blog carousel pagination" class="bcx-tbc-carousel-dots" data-bcx-tbc-dots=""></div>
+</div>
+</section>
+<!-- CTA BAND -->
+<section aria-labelledby="bcx-tbc-cta-title" class="bcx-tbc-cta">
+<div aria-hidden="true" class="bcx-tbc-cta-deco">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div class="bcx-tbc-container bcx-tbc-cta-container">
+<div class="bcx-tbc-cta-copy">
+<div class="bcx-tbc-cta-eyebrow">Ready to Build?</div>
+<h2 class="bcx-tbc-cta-heading" id="bcx-tbc-cta-title">
+          Let’s turn the first conversation into a project you’ll be proud of for decades.
+        </h2>
+<p class="bcx-tbc-cta-subtext">
+          Bring us your plans, your rough idea, or the problem you need solved. We’ll help clarify scope, pricing, schedule, materials, and the smartest path forward — without pressure.
+        </p>
+</div>
+<div aria-label="Call to action links" class="bcx-tbc-cta-actions">
+<a class="bcx-tbc-cta-primary" href="contact.html">
+          Schedule a Consultation
+          <svg aria-hidden="true" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+</a>
+<a class="bcx-tbc-cta-secondary" href="tel:9148790442">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.84a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"></path></svg>
+          914.879.0442
+        </a>
+<p class="bcx-tbc-cta-note">No obligation · Clear next steps · Response within 24 hours</p>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer aria-label="Diversified Plus footer" class="bcx-tbc-footer">
+<div class="bcx-tbc-container">
+<div class="bcx-tbc-footer-top">
+<div class="bcx-tbc-footer-brand">
+<a aria-label="Diversified Plus home" class="bcx-tbc-footer-logo" href="home.html">
+<span aria-hidden="true" class="bcx-tbc-footer-logo-mark">
+<span></span>
+<span></span>
+<span></span>
+</span>
+<span class="bcx-tbc-footer-logo-text">Diversified Plus</span>
+</a>
+<p class="bcx-tbc-footer-copy">
+            Premium residential, commercial, and civil construction across Connecticut — built with discipline, transparent communication, and a standard that never gets watered down.
+          </p>
+<div aria-label="Company highlights" class="bcx-tbc-footer-badges">
+<span>Est. 1998</span>
+<span>500+ Projects</span>
+<span>Connecticut Built</span>
+</div>
+</div>
+<nav aria-label="Footer navigation" class="bcx-tbc-footer-nav">
+<div class="bcx-tbc-footer-col">
+<h3>Company</h3>
+<a href="company.html">About</a>
+<a href="company.html">Leadership</a>
+<a href="careers.html">Careers</a>
+<a href="dpgoesgreen.html">Goes Green</a>
+</div>
+<div class="bcx-tbc-footer-col">
+<h3>Services</h3>
+<a href="kitchen-services.html">Kitchen Renovations</a>
+<a href="bathroom-services.html">Bathroom Renovations</a>
+<a href="additions-renovations.html">Additions</a>
+<a href="outdoor-living.html">Decking</a>
+<a href="full-renovation.html">Full Renovations</a>
+<a href="outdoor-living.html">Outdoor Living</a>
+<a href="sididng.html">Siding</a>
+</div>
+<div class="bcx-tbc-footer-col">
+<h3>Resources</h3>
+<a href="Projects.html">Portfolio</a>
+<a href="project-casestudy.html">Case Study</a>
+<a href="news.html">Journal</a>
+<a href="how to define renovation scope before pricing pressure starts.html">Planning Guide</a>
+<a href="curb-appeal.html">Curb Appeal</a>
+<a href="outdoor-living.html">Deck Planning</a>
+</div>
+<div class="bcx-tbc-footer-col bcx-tbc-footer-contact">
+<h3>Contact</h3>
+<a href="tel:9148790442">914.879.0442</a>
+<a href="mailto:info@diversifiedplus.com">info@diversifiedplus.com</a>
+<p>Westchester, Putnam &amp; Southern CT<br/>Serving residential renovation clients across the region</p>
+</div>
+</nav>
+</div>
+<div class="bcx-tbc-footer-bottom">
+<p>© 2026 Diversified Plus. All rights reserved.</p>
+<div class="bcx-tbc-footer-legal">
+<a href="#">Privacy Policy</a>
+<a href="#">Terms</a>
+<a href="#">Licensing</a>
+</div>
+</div>
+</div>
+</footer>
+</section>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+
+.bcx-tbc-wrap,
+.bcx-tbc-wrap * ,
+.bcx-tbc-wrap *::before,
+.bcx-tbc-wrap *::after {
+  box-sizing: border-box;
+}
+
+.bcx-tbc-wrap {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+.bcx-tbc-testimonials {
+  background: #f4f2ee;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.bcx-tbc-testimonials::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%230f172a' fill-opacity='0.035'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.bcx-tbc-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.bcx-tbc-testimonial-header,
+.bcx-tbc-blog-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  gap: 80px;
+  align-items: end;
+  margin-bottom: 60px;
+}
+
+.bcx-tbc-testimonial-header {
+  grid-template-columns: 1fr 2fr;
+}
+
+.bcx-tbc-logo-mark {
+  margin-bottom: 28px;
+}
+
+.bcx-tbc-bar {
+  height: 5px;
+  margin-bottom: 6px;
+  transform: skewX(-16deg);
+}
+
+.bcx-tbc-bar:nth-child(1) {
+  width: 48px;
+  background: #0f172a;
+}
+
+.bcx-tbc-bar:nth-child(2) {
+  width: 36px;
+  background: #0f172a;
+}
+
+.bcx-tbc-bar:nth-child(3) {
+  width: 22px;
+  background: #0f172a;
+}
+
+.bcx-tbc-logo-mark-light .bcx-tbc-bar:nth-child(1),
+.bcx-tbc-logo-mark-light .bcx-tbc-bar:nth-child(2) {
+  background: rgba(255,255,255,.28);
+}
+
+.bcx-tbc-sidebar-text,
+.bcx-tbc-blog-sidebar-text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+  max-width: 220px;
+}
+
+.bcx-tbc-sidebar-text {
+  color: rgba(15,23,42,.68);
+}
+
+.bcx-tbc-blog-sidebar-text {
+  color: rgba(255,255,255,.62);
+}
+
+.bcx-tbc-rating-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.bcx-tbc-stars,
+.bcx-tbc-card-stars {
+  display: flex;
+  gap: 3px;
+}
+
+.bcx-tbc-stars svg {
+  width: 16px;
+  height: 16px;
+  fill: #0f172a;
+}
+
+.bcx-tbc-card-stars svg {
+  width: 13px;
+  height: 13px;
+  fill: #0f172a;
+}
+
+.bcx-tbc-rating-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(15,23,42,.68);
+}
+
+.bcx-tbc-rating-text strong {
+  color: #0f172a;
+}
+
+.bcx-tbc-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: #0f172a;
+  margin-bottom: 18px;
+}
+
+.bcx-tbc-eyebrow::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: #0f172a;
+  display: block;
+}
+
+.bcx-tbc-heading,
+.bcx-tbc-blog-heading {
+  margin: 0 0 16px;
+  font-size: clamp(26px, 3.8vw, 42px);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -.02em;
+}
+
+.bcx-tbc-heading {
+  color: #0f172a;
+}
+
+.bcx-tbc-blog-heading {
+  color: #ffffff;
+}
+
+.bcx-tbc-heading span,
+.bcx-tbc-blog-heading span {
+  color: #0f172a;
+}
+
+.bcx-tbc-subtext,
+.bcx-tbc-blog-subtext {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.65;
+  max-width: 620px;
+  font-weight: 400;
+}
+
+.bcx-tbc-subtext {
+  color: rgba(15,23,42,.62);
+}
+
+.bcx-tbc-blog-subtext {
+  color: rgba(255,255,255,.62);
+}
+
+.bcx-tbc-testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.bcx-tbc-testimonial-card {
+  background: #ffffff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid rgba(15,23,42,.08);
+  box-shadow: 0 2px 20px rgba(15,23,42,.06);
+  transition: transform .25s ease, box-shadow .25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.bcx-tbc-testimonial-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: transparent;
+  transition: background .25s ease;
+}
+
+.bcx-tbc-testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 50px rgba(15,23,42,.14);
+}
+
+.bcx-tbc-testimonial-card:hover::before,
+.bcx-tbc-testimonial-card-featured::before {
+  background: #0f172a;
+}
+
+.bcx-tbc-testimonial-card-featured {
+  background: #0f172a;
+  border-color: rgba(255,255,255,.08);
+}
+
+.bcx-tbc-quote-mark {
+  font-size: 48px;
+  line-height: 1;
+  color: #0f172a;
+  font-family: Georgia, serif;
+  opacity: .35;
+  position: absolute;
+  top: 20px;
+  right: 24px;
+}
+
+.bcx-tbc-testimonial-text {
+  margin: 0;
+  font-size: 14.5px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(15,23,42,.76);
+  flex: 1;
+}
+
+.bcx-tbc-testimonial-card-featured .bcx-tbc-testimonial-text {
+  color: rgba(255,255,255,.64);
+}
+
+.bcx-tbc-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(15,23,42,.08);
+}
+
+.bcx-tbc-testimonial-card-featured .bcx-tbc-author {
+  border-top-color: rgba(255,255,255,.08);
+}
+
+.bcx-tbc-avatar {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 800;
+  color: #ffffff;
+  flex-shrink: 0;
+  background: #0f172a;
+  border: 2px solid rgba(15,23,42,.35);
+}
+
+.bcx-tbc-testimonial-card-featured .bcx-tbc-avatar {
+  background: rgba(15,23,42,.12);
+  border-color: #0f172a;
+}
+
+.bcx-tbc-author-name {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.2;
+}
+
+.bcx-tbc-testimonial-card-featured .bcx-tbc-author-name {
+  color: #ffffff;
+}
+
+.bcx-tbc-author-role {
+  margin: 2px 0 0;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: rgba(15,23,42,.52);
+}
+
+.bcx-tbc-testimonial-card-featured .bcx-tbc-author-role {
+  color: rgba(255,255,255,.62);
+}
+
+.bcx-tbc-blog {
+  background: #0f172a;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.bcx-tbc-blog::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,.028) 1px, transparent 1px);
+  background-size: 80px 80px;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,.25));
+  pointer-events: none;
+}
+
+.bcx-tbc-blog-deco {
+  position: absolute;
+  right: -140px;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  opacity: .08;
+  pointer-events: none;
+}
+
+.bcx-tbc-blog-deco div {
+  height: 60px;
+  transform: skewY(25deg);
+  background: #ffffff;
+}
+
+.bcx-tbc-blog-deco div:nth-child(1) {
+  width: 580px;
+}
+
+.bcx-tbc-blog-deco div:nth-child(2) {
+  width: 460px;
+}
+
+.bcx-tbc-blog-deco div:nth-child(3) {
+  width: 340px;
+  background: #0f172a;
+}
+
+.bcx-tbc-carousel-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.bcx-tbc-carousel-btn {
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.05);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .2s ease, border-color .2s ease, transform .18s ease;
+}
+
+.bcx-tbc-carousel-btn:hover,
+.bcx-tbc-carousel-btn:focus-visible {
+  background: #0f172a;
+  border-color: #0f172a;
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.bcx-tbc-carousel-btn svg {
+  width: 17px;
+  height: 17px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bcx-tbc-carousel-shell {
+  overflow: hidden;
+  width: 100%;
+}
+
+.bcx-tbc-carousel-track {
+  display: flex;
+  gap: 16px;
+  transition: transform .45s cubic-bezier(.2,.7,.2,1);
+  will-change: transform;
+}
+
+.bcx-tbc-blog-card {
+  flex: 0 0 calc((100% - 32px) / 3);
+  min-width: 0;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.08);
+  overflow: hidden;
+  transition: transform .25s ease, border-color .25s ease, background .25s ease;
+}
+
+.bcx-tbc-blog-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(15,23,42,.45);
+  background: rgba(255,255,255,.06);
+}
+
+.bcx-tbc-blog-image {
+  min-height: 260px;
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bcx-tbc-blog-image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15,23,42,.78), rgba(15,23,42,.18));
+  transition: opacity .3s ease;
+}
+
+.bcx-tbc-blog-card:hover .bcx-tbc-blog-image::before {
+  opacity: .82;
+}
+
+.bcx-tbc-blog-category {
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
+  z-index: 1;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #0f172a;
+  padding: 7px 10px;
+}
+
+.bcx-tbc-blog-body {
+  padding: 28px;
+}
+
+.bcx-tbc-blog-meta {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.42);
+  margin-bottom: 12px;
+}
+
+.bcx-tbc-blog-card-title {
+  margin: 0 0 14px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -.025em;
+  line-height: 1.22;
+  color: #ffffff;
+}
+
+.bcx-tbc-blog-card-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bcx-tbc-blog-card-title a:hover {
+  color: #0f172a;
+}
+
+.bcx-tbc-blog-excerpt {
+  margin: 0 0 22px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: rgba(255,255,255,.62);
+}
+
+.bcx-tbc-blog-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #0f172a;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .02em;
+}
+
+.bcx-tbc-blog-link span {
+  transition: transform .2s ease;
+}
+
+.bcx-tbc-blog-link:hover span {
+  transform: translateX(3px);
+}
+
+.bcx-tbc-carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 28px;
+}
+
+.bcx-tbc-carousel-dot {
+  width: 24px;
+  height: 3px;
+  border: 0;
+  background: rgba(255,255,255,.18);
+  cursor: pointer;
+  transition: background .2s ease, width .2s ease;
+}
+
+.bcx-tbc-carousel-dot[aria-current="true"] {
+  width: 42px;
+  background: #0f172a;
+}
+
+
+.bcx-tbc-cta {
+  background: #0f172a;
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.bcx-tbc-cta::before {
+  content: '';
+  position: absolute;
+  right: -80px;
+  top: 50%;
+  width: 520px;
+  height: 520px;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,.07);
+  pointer-events: none;
+}
+
+.bcx-tbc-cta-deco {
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  opacity: .12;
+  pointer-events: none;
+}
+
+.bcx-tbc-cta-deco div {
+  height: 42px;
+  transform: skewY(25deg);
+  background: #ffffff;
+}
+
+.bcx-tbc-cta-deco div:nth-child(1) {
+  width: 280px;
+}
+
+.bcx-tbc-cta-deco div:nth-child(2) {
+  width: 210px;
+}
+
+.bcx-tbc-cta-deco div:nth-child(3) {
+  width: 150px;
+  background: rgba(15,23,42,.55);
+}
+
+.bcx-tbc-cta-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 60px;
+  align-items: center;
+}
+
+.bcx-tbc-cta-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.74);
+  margin-bottom: 14px;
+}
+
+.bcx-tbc-cta-eyebrow::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: rgba(255,255,255,.42);
+  display: block;
+}
+
+.bcx-tbc-cta-heading {
+  margin: 0 0 16px;
+  max-width: 820px;
+  font-size: clamp(28px, 4.2vw, 52px);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -.03em;
+  color: #ffffff;
+}
+
+.bcx-tbc-cta-subtext {
+  margin: 0;
+  max-width: 620px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(255,255,255,.82);
+}
+
+.bcx-tbc-cta-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  min-width: 260px;
+}
+
+.bcx-tbc-cta-primary,
+.bcx-tbc-cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  white-space: nowrap;
+  transition: background .2s ease, border-color .2s ease, transform .18s ease, box-shadow .2s ease;
+}
+
+.bcx-tbc-cta-primary {
+  padding: 16px 34px;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .02em;
+  box-shadow: 0 8px 32px rgba(15,23,42,.36);
+}
+
+.bcx-tbc-cta-primary:hover,
+.bcx-tbc-cta-primary:focus-visible {
+  background: #111c35;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 42px rgba(15,23,42,.44);
+  outline: none;
+}
+
+.bcx-tbc-cta-secondary {
+  padding: 16px 28px;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.30);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bcx-tbc-cta-secondary:hover,
+.bcx-tbc-cta-secondary:focus-visible {
+  background: rgba(255,255,255,.20);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.bcx-tbc-cta-primary svg,
+.bcx-tbc-cta-secondary svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bcx-tbc-cta-primary svg {
+  transition: transform .2s ease;
+}
+
+.bcx-tbc-cta-primary:hover svg {
+  transform: translateX(3px);
+}
+
+.bcx-tbc-cta-note {
+  margin: 0;
+  max-width: 250px;
+  text-align: right;
+  font-size: 11.5px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(255,255,255,.56);
+}
+
+.bcx-tbc-footer {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 76px 0 28px;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.bcx-tbc-footer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(15,23,42,.12), transparent 28%),
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,.025) 1px, transparent 1px);
+  background-size: auto, 92px 92px, 92px 92px;
+  pointer-events: none;
+}
+
+.bcx-tbc-footer-top {
+  display: grid;
+  grid-template-columns: minmax(260px, 420px) 1fr;
+  gap: 84px;
+  padding-bottom: 52px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.bcx-tbc-footer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.bcx-tbc-footer-logo-mark {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 38px;
+}
+
+.bcx-tbc-footer-logo-mark span {
+  display: block;
+  height: 5px;
+  transform: skewX(-16deg);
+}
+
+.bcx-tbc-footer-logo-mark span:nth-child(1) {
+  width: 38px;
+  background: rgba(255,255,255,.86);
+}
+
+.bcx-tbc-footer-logo-mark span:nth-child(2) {
+  width: 30px;
+  background: rgba(255,255,255,.86);
+}
+
+.bcx-tbc-footer-logo-mark span:nth-child(3) {
+  width: 20px;
+  background: #0f172a;
+}
+
+.bcx-tbc-footer-logo-text {
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -.03em;
+  text-transform: uppercase;
+}
+
+.bcx-tbc-footer-copy {
+  margin: 0;
+  max-width: 390px;
+  font-size: 14px;
+  line-height: 1.72;
+  color: rgba(255,255,255,.62);
+}
+
+.bcx-tbc-footer-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 28px;
+}
+
+.bcx-tbc-footer-badges span {
+  display: inline-flex;
+  padding: 8px 10px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.04);
+  color: rgba(255,255,255,.74);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.bcx-tbc-footer-nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+.bcx-tbc-footer-col h3 {
+  margin: 0 0 18px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #0f172a;
+}
+
+.bcx-tbc-footer-col a,
+.bcx-tbc-footer-col p {
+  display: block;
+  margin: 0 0 11px;
+  color: rgba(255,255,255,.62);
+  font-size: 13px;
+  line-height: 1.55;
+  text-decoration: none;
+  transition: color .2s ease, transform .18s ease;
+}
+
+.bcx-tbc-footer-col a:hover,
+.bcx-tbc-footer-col a:focus-visible {
+  color: #ffffff;
+  transform: translateX(3px);
+  outline: none;
+}
+
+.bcx-tbc-footer-contact a:first-of-type {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.bcx-tbc-footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding-top: 26px;
+}
+
+.bcx-tbc-footer-bottom p {
+  margin: 0;
+  color: rgba(255,255,255,.42);
+  font-size: 12px;
+}
+
+.bcx-tbc-footer-legal {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.bcx-tbc-footer-legal a {
+  color: rgba(255,255,255,.42);
+  font-size: 12px;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.bcx-tbc-footer-legal a:hover,
+.bcx-tbc-footer-legal a:focus-visible {
+  color: #0f172a;
+  outline: none;
+}
+
+@media (max-width: 1100px) {
+  .bcx-tbc-testimonial-header,
+  .bcx-tbc-blog-header {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .bcx-tbc-testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bcx-tbc-carousel-controls {
+    justify-content: flex-start;
+  }
+
+  .bcx-tbc-blog-card {
+    flex-basis: calc((100% - 16px) / 2);
+  }
+
+  .bcx-tbc-blog-deco {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .bcx-tbc-container {
+    padding: 0 20px;
+  }
+
+  .bcx-tbc-testimonials,
+  .bcx-tbc-blog {
+    padding: 80px 0;
+  }
+
+  .bcx-tbc-rating-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .bcx-tbc-testimonial-card,
+  .bcx-tbc-blog-body {
+    padding: 24px;
+  }
+
+  .bcx-tbc-blog-card {
+    flex-basis: 100%;
+  }
+
+  .bcx-tbc-blog-image {
+    min-height: 230px;
+  }
+
+  .bcx-tbc-carousel-controls {
+    width: 100%;
+  }
+
+  .bcx-tbc-carousel-btn {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .bcx-tbc-cta-container,
+  .bcx-tbc-footer-top {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .bcx-tbc-cta-actions {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .bcx-tbc-cta-note {
+    text-align: left;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .bcx-tbc-cta-deco {
+    display: none;
+  }
+
+  .bcx-tbc-footer-nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .bcx-tbc-cta {
+    padding: 80px 0;
+  }
+
+  .bcx-tbc-cta-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bcx-tbc-cta-primary,
+  .bcx-tbc-cta-secondary {
+    width: 100%;
+  }
+
+  .bcx-tbc-footer {
+    padding: 64px 0 26px;
+  }
+
+  .bcx-tbc-footer-nav {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .bcx-tbc-footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+</style>
+<script>
+(function () {
+  const roots = document.querySelectorAll('[data-bcx-tbc-carousel]');
+
+  roots.forEach(function (carousel) {
+    const track = carousel.querySelector('[data-bcx-tbc-track]');
+    const slides = Array.from(carousel.querySelectorAll('[data-bcx-tbc-slide]'));
+    const section = carousel.closest('.bcx-tbc-blog');
+    const prev = section ? section.querySelector('[data-bcx-tbc-prev]') : null;
+    const next = section ? section.querySelector('[data-bcx-tbc-next]') : null;
+    const dotsWrap = section ? section.querySelector('[data-bcx-tbc-dots]') : null;
+
+    if (!track || !slides.length || !prev || !next || !dotsWrap) return;
+
+    let index = 0;
+    let visible = getVisibleCount();
+    let maxIndex = Math.max(0, slides.length - visible);
+    let dots = [];
+
+    function getVisibleCount() {
+      if (window.matchMedia('(max-width: 640px)').matches) return 1;
+      if (window.matchMedia('(max-width: 1100px)').matches) return 2;
+      return 3;
+    }
+
+    function getStep() {
+      const firstSlide = slides[0];
+      const gap = parseFloat(window.getComputedStyle(track).columnGap || window.getComputedStyle(track).gap || 0);
+      return firstSlide.getBoundingClientRect().width + gap;
+    }
+
+    function buildDots() {
+      dotsWrap.innerHTML = '';
+      dots = [];
+      const count = maxIndex + 1;
+
+      for (let i = 0; i < count; i += 1) {
+        const dot = document.createElement('button');
+        dot.type = 'button';
+        dot.className = 'bcx-tbc-carousel-dot';
+        dot.setAttribute('aria-label', 'Show blog slide ' + (i + 1));
+        dot.addEventListener('click', function () {
+          index = i;
+          update();
+        });
+        dotsWrap.appendChild(dot);
+        dots.push(dot);
+      }
+    }
+
+    function update() {
+      visible = getVisibleCount();
+      maxIndex = Math.max(0, slides.length - visible);
+      if (index > maxIndex) index = maxIndex;
+      if (index < 0) index = 0;
+
+      track.style.transform = 'translateX(' + (-index * getStep()) + 'px)';
+
+      prev.disabled = index === 0;
+      next.disabled = index === maxIndex;
+      prev.style.opacity = prev.disabled ? '.45' : '1';
+      next.style.opacity = next.disabled ? '.45' : '1';
+
+      if (dots.length !== maxIndex + 1) buildDots();
+      dots.forEach(function (dot, dotIndex) {
+        dot.setAttribute('aria-current', dotIndex === index ? 'true' : 'false');
+      });
+    }
+
+    prev.addEventListener('click', function () {
+      index -= 1;
+      update();
+    });
+
+    next.addEventListener('click', function () {
+      index += 1;
+      update();
+    });
+
+    window.addEventListener('resize', function () {
+      update();
+    });
+
+    buildDots();
+    update();
+  });
+})();
+</script>
+<link rel="stylesheet" href="dplus-motion.css">
+<script src="dplus-motion.js" defer></script>

@@ -1,0 +1,98 @@
+DIVERSIFIED PLUS — UPDATED BRAND GUIDELINES
+Universal Footer Stack Addendum
+
+Purpose
+This update adds the universal testimonial, blog carousel, CTA, and footer stack to the Diversified Plus brand guidelines. This stack should now be treated as the standard reusable footer system for future Diversified Plus pages.
+
+Universal Footer Stack Source
+- File reference: diversified_plus_universal_testimonial_blog_cta_footer.txt
+- Primary class prefix: bcx-tbc-
+- Intended use: reusable page-ending system for testimonial, blog/news, CTA, and footer sections
+- Implementation style: paste-safe, self-contained, no :root variables, no body/html styling, no corner radius
+
+Core Brand Colors From Universal Footer
+- Dark navy: #0f172a
+- Navy accent: #0f172a
+- White: #ffffff
+- Cream / warm contrast: #f4f2ee
+- Soft navy text overlays: rgba(15,23,42,.60–.80)
+- Soft white text overlays: rgba(255,255,255,.55–.85)
+
+Universal Footer Brand Rules
+1. The testimonial + blog + CTA + footer stack should use the bcx-tbc- prefix to avoid conflicts with page-specific sections.
+2. This footer stack is the default page-ending system for Diversified Plus pages.
+3. Keep the design clean, premium, construction-focused, and simple.
+4. Avoid rounded corners. Components should remain square-edged and architectural.
+5. Keep the brand contrast system consistent:
+   - Dark navy sections use white copy and navy accents.
+   - Cream/light sections use navy copy with navy accents.
+   - CTA sections can use navy as the dominant conversion color.
+6. Maintain the slim, refined typography style used across the stack.
+7. Avoid overly grand card treatments in universal footer areas. Use clean hierarchy, image cards, restrained motion, and strong spacing.
+8. Keep the footer self-contained so it can be pasted under any page without breaking the layout.
+
+Typography Rules
+- Primary font: Plus Jakarta Sans.
+- Headings should feel slim, refined, and editorial.
+- Heading weights should generally stay between 400–600 unless a small label or CTA requires stronger emphasis.
+- Large section headings should use tight negative letter-spacing.
+- Eyebrows / labels should be uppercase, compact, navy, and widely letter-spaced.
+- Body copy should be readable, light-to-medium weight, and never cramped.
+- Footer links and small labels should be uppercase with strong letter-spacing.
+
+Section Rhythm
+- Use generous vertical padding around testimonial, blog, CTA, and footer areas.
+- Keep the layout spacious but not oversized.
+- Use contrast transitions between light and dark sections to create page rhythm.
+- Footer stack should feel like one continuous system, not disconnected blocks.
+
+Testimonial Section Rules
+- Testimonials should feel editorial and credible, not decorative.
+- Use dark navy and navy accents for authority.
+- Keep testimonial typography elegant, with strong hierarchy between quote, client, and context.
+- If testimonial cards are used, maintain clean spacing and no corner radius.
+- Avoid heavy borders; use subtle divider lines or soft tonal contrast instead.
+
+Blog Carousel Rules
+- Blog carousel is part of the universal footer system.
+- Blog cards should use relevant construction, renovation, kitchen, exterior, or home imagery.
+- Cards should be simple, image-led, and easy to scan.
+- Use navy labels for category/eyebrow text.
+- Keep carousel controls minimal and brand-aligned.
+- Blog content should relate to renovation planning, kitchens, exteriors, outdoor living, company news, or green building.
+
+CTA Rules
+- CTA should be conversion-focused and clear.
+- Navy can be used as the dominant CTA background.
+- Dark navy buttons work well inside navy CTA sections.
+- CTA copy should be direct, professional, and homeowner-focused.
+- Preferred CTA language:
+  - Start Your Project
+  - Call 914.879.0442
+  - Email The Team
+  - Plan a Similar Project
+  - Discuss Your Renovation
+
+Footer Rules
+- Footer background should default to dark navy #0f172a.
+- Footer brand mark should use white bars with an navy accent bar.
+- Footer links should be uppercase, compact, and lightly spaced.
+- Footer copy should be understated, using subdued white opacity.
+- Footer should include key navigation such as Services, Projects, News, Company, and Contact where appropriate.
+- Keep footer layout clean and grid-based.
+
+Interaction Rules
+- Any carousel or footer-stack JavaScript should remain scoped to the bcx-tbc- system.
+- Avoid global event listeners unless they are guarded and scoped.
+- Controls should be accessible with buttons, aria labels where relevant, and keyboard-safe behavior.
+- Hover effects should be subtle: slight lift, opacity, or color change.
+
+Universal Footer Integration Rules
+- When building a new Diversified Plus page, place this universal footer stack after the final content section.
+- Do not mix unrelated footer styles with the bcx-tbc- footer system.
+- If a page already has a CTA, decide whether to replace it with the universal CTA or remove duplicate CTAs.
+- Do not rename bcx-tbc- classes unless creating a separate variation.
+- Do not introduce global resets, :root variables, or body/html styles.
+
+Brand Alignment Summary
+The universal footer stack should be treated as the canonical Diversified Plus page-ending pattern. Future pages should use this stack’s testimonial, blog carousel, CTA, and footer styling as the default reference for typography, color, spacing, image treatment, section contrast, and conversion flow.
